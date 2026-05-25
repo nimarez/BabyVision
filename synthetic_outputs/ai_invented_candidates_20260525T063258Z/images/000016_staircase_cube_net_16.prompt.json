@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-05-25T06:58:00.379616+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_candidates_20260525T063258Z/images/000016_staircase_cube_net_16.png",
+  "case": {
+    "slug": "staircase_cube_net_16",
+    "type": "Spatial Perception",
+    "subtype": "Spatial transform or 3D reasoning",
+    "answer": "5",
+    "question": "If this 2D net is folded into a solid 3D cube, which number will be on the face exactly opposite to face 2?",
+    "rubric": "When the staircase net is folded into a cube, if face 3 is the front face, face 4 folds to the right side, face 2 folds to the top, and face 5 folds under face 4 to become the bottom, making faces 2 and 5 opposites.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Spatial Perception",
+      "subtype": "Spatial transform or 3D reasoning",
+      "weakness": "reasoning about folding, unfolding, hidden structure, orientation, or spatial adjacency"
+    },
+    "planner_response": "```json\n{\n  \"slug\": \"staircase_cube_net_16\",\n  \"type\": \"Spatial Perception\",\n  \"subtype\": \"Spatial transform or 3D reasoning\",\n  \"question\": \"If this 2D net is folded into a solid 3D cube, which number will be on the face exactly opposite to face 2?\",\n  \"answer\": \"5\",\n  \"image_prompt\": \"A clean, black and white printed worksheet puzzle with no photorealism and no watermark. The image shows a 2D net of a cube made of 6 identical square faces arranged in a descending staircase pattern. The squares are cleanly outlined with crisp black lines on a solid white background. Top row: two adjacent squares side-by-side labeled '1' (left) and '2' (right). Middle row: two adjacent squares side-by-side labeled '3' (left) and '4' (right), positioned so that '3' is sharing its top edge with the bottom edge of '2'. Bottom row: two adjacent squares side-by-side labeled '5' (left) and '6' (right), positioned so that '5' is sharing its top edge with the bottom edge of '4'. All numbers are large, bold, black, and centered inside their respective squares. There is no other text.\",\n  \"rubric\": \"When the staircase net is folded into a cube, if face 3 is the front face, face 4 folds to the right side, face 2 folds to the top, and face 5 folds under face 4 to become the bottom, making faces 2 and 5 opposites.\"\n}\n```",
+    "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, black and white printed worksheet puzzle with no photorealism and no watermark. The image shows a 2D net of a cube made of 6 identical square faces arranged in a descending staircase pattern. The squares are cleanly outlined with crisp black lines on a solid white background. Top row: two adjacent squares side-by-side labeled '1' (left) and '2' (right). Middle row: two adjacent squares side-by-side labeled '3' (left) and '4' (right), positioned so that '3' is sharing its top edge with the bottom edge of '2'. Bottom row: two adjacent squares side-by-side labeled '5' (left) and '6' (right), positioned so that '5' is sharing its top edge with the bottom edge of '4'. All numbers are large, bold, black, and centered inside their respective squares. There is no other text."
+  },
+  "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, black and white printed worksheet puzzle with no photorealism and no watermark. The image shows a 2D net of a cube made of 6 identical square faces arranged in a descending staircase pattern. The squares are cleanly outlined with crisp black lines on a solid white background. Top row: two adjacent squares side-by-side labeled '1' (left) and '2' (right). Middle row: two adjacent squares side-by-side labeled '3' (left) and '4' (right), positioned so that '3' is sharing its top edge with the bottom edge of '2'. Bottom row: two adjacent squares side-by-side labeled '5' (left) and '6' (right), positioned so that '5' is sharing its top edge with the bottom edge of '4'. All numbers are large, bold, black, and centered inside their respective squares. There is no other text.",
+  "response_text": [
+    "**Designing Visual Puzzle**\n\nI'm focusing on creating a clean, black and white visual puzzle. My current direction is a 2D net of a cube presented in a printed worksheet style, avoiding photorealism. This will be accompanied by a descending staircase element.\n\n",
+    "**Developing Puzzle Composition**\n\nMy focus is on a stark, black-and-white visual. I am arranging a 2D cube net within a worksheet aesthetic. This will incorporate a three-tiered descending staircase, with each square clearly numbered one through six, presented in bold black ink.\n\n",
+    "**Confirming Details**\n\nI'm currently cross-referencing the latest output with the initial user specifications. My focus is on ensuring the visual puzzle elements, particularly the arrangement and numbering of the squares, align precisely with the established criteria.\n\n",
+    "**Verifying Puzzle Alignment**\n\nI am confirming that the visual puzzle elements, specifically the descending staircase layout and square numbering, precisely align with the initial specifications. The outcome reflects the requested clean, black and white worksheet style.\n\n"
+  ]
+}

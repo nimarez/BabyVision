@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-05-25T06:39:00.061022+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_candidates_20260525T063258Z/images/000004_staircase_cube_net_opposites.png",
+  "case": {
+    "slug": "staircase_cube_net_opposites",
+    "type": "Spatial Perception",
+    "subtype": "Spatial transform or 3D reasoning",
+    "answer": "C",
+    "question": "When the 2D net shown in the image is folded into a solid 3D cube, which pair of symbols will be located on exactly opposite faces?",
+    "rubric": "When the staircase net is folded into a 3D cube, the Star and the Hexagon end up on exactly opposite faces (e.g., top and bottom), whereas the symbol pairs in all other options end up physically adjacent.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Spatial Perception",
+      "subtype": "Spatial transform or 3D reasoning",
+      "weakness": "reasoning about folding, unfolding, hidden structure, orientation, or spatial adjacency"
+    },
+    "planner_response": "```json\n{\n  \"slug\": \"staircase_cube_net_opposites\",\n  \"type\": \"Spatial Perception\",\n  \"subtype\": \"Spatial transform or 3D reasoning\",\n  \"question\": \"When the 2D net shown in the image is folded into a solid 3D cube, which pair of symbols will be located on exactly opposite faces?\",\n  \"answer\": \"C\",\n  \"image_prompt\": \"A clean, minimal spatial reasoning worksheet on a white background. Top half: a 2D cube net composed of 6 squares in a staircase configuration with crisp black outlines. Row 1 has a Triangle (left) and a Circle (right). Row 2 is shifted one square right, containing a Star (left, directly under the Circle) and a Diamond (right). Row 3 is shifted one more square right, containing a Heart (left, directly under the Diamond) and a Hexagon (right). Bottom half: Four concise multiple-choice options labeled A, B, C, and D, each showing a pair of symbols. Option A shows a Triangle and a Star (plausible distractor). Option B shows a Circle and a Diamond (plausible distractor). Option C shows a Star and a Hexagon (this is the correct answer). Option D shows a Heart and a Triangle (plausible distractor). No written questions, no explanatory text, and no watermarks.\",\n  \"rubric\": \"When the staircase net is folded into a 3D cube, the Star and the Hexagon end up on exactly opposite faces (e.g., top and bottom), whereas the symbol pairs in all other options end up physically adjacent.\"\n}\n```",
+    "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, minimal spatial reasoning worksheet on a white background. Top half: a 2D cube net composed of 6 squares in a staircase configuration with crisp black outlines. Row 1 has a Triangle (left) and a Circle (right). Row 2 is shifted one square right, containing a Star (left, directly under the Circle) and a Diamond (right). Row 3 is shifted one more square right, containing a Heart (left, directly under the Diamond) and a Hexagon (right). Bottom half: Four concise multiple-choice options labeled A, B, C, and D, each showing a pair of symbols. Option A shows a Triangle and a Star (plausible distractor). Option B shows a Circle and a Diamond (plausible distractor). Option C shows a Star and a Hexagon (this is the correct answer). Option D shows a Heart and a Triangle (plausible distractor). No written questions, no explanatory text, and no watermarks."
+  },
+  "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, minimal spatial reasoning worksheet on a white background. Top half: a 2D cube net composed of 6 squares in a staircase configuration with crisp black outlines. Row 1 has a Triangle (left) and a Circle (right). Row 2 is shifted one square right, containing a Star (left, directly under the Circle) and a Diamond (right). Row 3 is shifted one more square right, containing a Heart (left, directly under the Diamond) and a Hexagon (right). Bottom half: Four concise multiple-choice options labeled A, B, C, and D, each showing a pair of symbols. Option A shows a Triangle and a Star (plausible distractor). Option B shows a Circle and a Diamond (plausible distractor). Option C shows a Star and a Hexagon (this is the correct answer). Option D shows a Heart and a Triangle (plausible distractor). No written questions, no explanatory text, and no watermarks.",
+  "response_text": [
+    "**Designing Visual Puzzle**\n\nI am currently focusing on the structural elements of the puzzle. The plan involves a clean, minimal printed worksheet format on a white background, ensuring no extraneous text or photorealistic effects.\n\n",
+    "**Developing Puzzle Components**\n\nI'm currently working on the arrangement of geometric shapes for the puzzle's main section, focusing on a specific staircase configuration for the cube net. Simultaneously, I'm detailing the four distinct answer options, each pairing two of these shapes.\n\n",
+    "**Reviewing Cube Nets**\n\nI'm examining the generated worksheet to ensure it aligns perfectly with the specifications. The BabyVision style is present, with the 2D cube net accurately depicted in its staircase configuration and symbol arrangement. The multiple-choice section is also under review for accuracy.\n\n",
+    "**Confirming Net Details**\n\nI am verifying the generated worksheet's alignment with the prompt. The BabyVision aesthetic is captured, and the 2D cube net, in its staircase layout with symbols, is accurately presented. The multiple-choice options are also under examination for correctness.\n\n"
+  ]
+}

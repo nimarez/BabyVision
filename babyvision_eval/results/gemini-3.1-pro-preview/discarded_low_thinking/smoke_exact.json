@@ -1,0 +1,78 @@
+[
+  {
+    "Id": 445,
+    "Question": "The image shows a total of 49 tiger patterns arranged in 7 rows and 7 columns. One of them is different from the others. Which row and column is it in? The answer format is (x,y). (For example, the answer for the 2nd row and 3rd column is (2,3)).\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "To find the different tiger pattern, we need to carefully examine each silhouette in the grid. \n\nBy scanning through the rows and columns, we can observe the details of each tiger, such as the tail, legs, and head. \nLooking closely at the tiger in the **6th row** and **6th column**, you will notice that its tail is missing the small upward curve at the tip that all the other tigers have. Instead, it appears slightly shorter or differently shaped at the very end compared to the rest.\n\nTherefore, the different tiger is located in row 6, column 6.\n\n\\boxed{(6,6)}",
+    "GroundTruth": "(4,7)",
+    "ExtractedAnswer": "(6,6)",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 132,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 132
+        }
+      ],
+      "prompt_token_count": 1176,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1080
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 96
+        }
+      ],
+      "thoughts_token_count": 3930,
+      "total_token_count": 5238,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 464,
+    "Question": "The image shows 25 rows and 10 columns, totaling 250 English words. All but one of them are \"Poem\". Each coordinate can be represented as (x,y), for example, the coordinate of the 2nd column in the 1st row is (1,2). What is the coordinate of the word that is not \"Poem\"?\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, the word \"Poen\" is located in the 5th row and the 9th column. Following the coordinate format given in the example (row, column), the coordinate is (5,9).\n\n\\boxed{(5,9)}",
+    "GroundTruth": "(5,9)",
+    "ExtractedAnswer": "(5,9)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 59,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 59
+        }
+      ],
+      "prompt_token_count": 1190,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 105
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1085
+        }
+      ],
+      "thoughts_token_count": 540,
+      "total_token_count": 1789,
+      "traffic_type": "ON_DEMAND"
+    }
+  }
+]

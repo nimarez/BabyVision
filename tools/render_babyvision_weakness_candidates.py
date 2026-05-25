@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render deterministic BabyVision-style weakness candidates with known answers."""
+"""Render deterministic visual logical puzzle weakness candidates with known answers."""
 
 from __future__ import annotations
 

@@ -1,0 +1,741 @@
+[
+  {
+    "Id": 437,
+    "Question": "In the image, some shoe patterns are same in pairs. Find the index pairs of these identical shoes (answer format like 1-2, 3-4).\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "",
+    "GroundTruth": "1-7,2-9,3-10,4-8,6-11",
+    "ExtractedAnswer": null,
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the same",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {},
+    "Error": "Model response did not include text. finish_reason=FinishReason.MAX_TOKENS"
+  },
+  {
+    "Id": 445,
+    "Question": "The image shows a total of 49 tiger patterns arranged in 7 rows and 7 columns. One of them is different from the others. Which row and column is it in? The answer format is (x,y). (For example, the answer for the 2nd row and 3rd column is (2,3)).\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "To find the different tiger pattern, we need to carefully examine each silhouette in the grid. \n\nBy scanning through the rows and columns, we can observe the details of each tiger, such as the tail, legs, and head. \nLooking closely at the tiger in the **6th row** and **6th column**, you will notice that its tail is missing the small upward curve at the tip that all the other tigers have. Instead, it appears slightly shorter or differently shaped at the very end compared to the rest.\n\nTherefore, the different tiger is located in row 6, column 6.\n\n\\boxed{(6,6)}",
+    "GroundTruth": "(4,7)",
+    "ExtractedAnswer": "(6,6)",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 132,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 132
+        }
+      ],
+      "prompt_token_count": 1176,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1080
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 96
+        }
+      ],
+      "thoughts_token_count": 3930,
+      "total_token_count": 5238,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 462,
+    "Question": "The following 4 options from left to right are A, B, C, D successively. Which option is the same as the pattern in the stem?\nChoices:\n(A) The first one from left to right below\n(B) The second one from left to right below\n(C) The third one from left to right below\n(D) The fourth one from left to right below\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "To determine which option is the same as the pattern in the stem, let's carefully compare the colors and shapes of the pieces in the main image with each option.\n\n**Main Image Analysis:**\n*   **Top left:** A brown piece on top of a large orange piece.\n*   **Top right:** An orange piece on top, a green piece below it, and a yellow piece at the tip.\n*   **Middle left:** A dark brown piece.\n*   **Middle right:** A yellowish-orange piece, followed by a brown piece, and a blue piece on the outer edge.\n*   **Bottom left:** A light yellow piece with a small pink triangle on its top left edge.\n*   **Bottom right:** A yellow piece, followed by an orange piece, and a pink piece on the outer edge.\n\n**Evaluating the Options:**\n*   **(A) First option:** The piece below the top brown piece is green, not orange. (Mismatch)\n*   **(B) Second option:** The piece below the top brown piece is green, not orange. (Mismatch)\n*   **(C) Third option:** The top left piece is green, not brown. (Mismatch)\n*   **(D) Fourth option:** All pieces match the colors and positions of the main image perfectly.\n    *   Top left: Brown over orange.\n    *   Top right: Orange over green, yellow tip.\n    *   Middle left: Dark brown.\n    *   Middle right: Yellowish-orange, brown, blue.\n    *   Bottom left: Light yellow with pink tip.\n    *   Bottom right: Yellow, orange, pink.\n\nTherefore, the fourth option is identical to the main image.\n\n\\boxed{D}",
+    "GroundTruth": "D",
+    "ExtractedAnswer": "D",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the same",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 369,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 369
+        }
+      ],
+      "prompt_token_count": 1197,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 108
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 1019,
+      "total_token_count": 2585,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 464,
+    "Question": "The image shows 25 rows and 10 columns, totaling 250 English words. All but one of them are \"Poem\". Each coordinate can be represented as (x,y), for example, the coordinate of the 2nd column in the 1st row is (1,2). What is the coordinate of the word that is not \"Poem\"?\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, the word that is not \"Poem\" is located in the 5th row from the top and the 9th column from the left. The word there is \"Poen\".\n\nFollowing the coordinate format given in the example where the 1st row, 2nd column is (1,2), the coordinate for the 5th row, 9th column is (5,9).\n\n\\boxed{(5,9)}",
+    "GroundTruth": "(5,9)",
+    "ExtractedAnswer": "(5,9)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 100,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 100
+        }
+      ],
+      "prompt_token_count": 1190,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 105
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1085
+        }
+      ],
+      "thoughts_token_count": 556,
+      "total_token_count": 1846,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 469,
+    "Question": "Find two identical pictures. Answer format: a-b, meaning sequence number a and sequence number b are the same\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful visual inspection of the nine pictures:\n- Picture 1 has a red circle and a purple arm.\n- Picture 2 has a brown circle and a purple arm.\n- Picture 3 has a yellow circle and a purple arm.\n- Picture 4 has a magenta circle and a purple arm.\n- Picture 5 has a red circle and a purple arm.\n- Picture 6 has a yellow circle and a purple arm.\n- Picture 7 has a brown circle and a purple arm.\n- Picture 8 has a magenta circle and a purple arm.\n- Picture 9 has a magenta circle and a yellow arm.\n\nComparing the pictures with the same features, we can see that pictures 4 and 8 are identical in every detail",
+    "GroundTruth": "2-7",
+    "ExtractedAnswer": null,
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the same",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 161,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 161
+        }
+      ],
+      "prompt_token_count": 1137,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1088
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 49
+        }
+      ],
+      "thoughts_token_count": 3931,
+      "total_token_count": 5229,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 475,
+    "Question": "Which two clouds in the image are identical? Answer format: (a,b)-(c,d), indicating that the element in the a-th row from the top and b-th column from the left is identical to the element in the c-th row from the top and d-th column from the left (where the question mark is in the 2nd row and 2nd column).\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful visual comparison of the shapes, curves, and shadows of all the clouds in the image, the cloud in the top-left corner is identical to the cloud in the bottom-left corner.\n\n*   **Cloud (1,1)** has a specific pattern of bumps: one on the left, two main ones on top, one on the right, and four smaller bumps along the bottom edge.\n*   **Cloud (3,1)** shares this exact same pattern and overall shape.\n\nNone of the other clouds match this specific shape or each other.\n\n\\boxed{(1,1)-(3,1)}",
+    "GroundTruth": "(1,3)-(3,1)",
+    "ExtractedAnswer": "(1,1)-(3,1)",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the same",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 129,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 129
+        }
+      ],
+      "prompt_token_count": 1181,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1073
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 108
+        }
+      ],
+      "thoughts_token_count": 890,
+      "total_token_count": 2200,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 507,
+    "Question": "There are 308 uppercase letters \"C\" in the image, arranged in 11 rows and 28 columns. One of them is different from the others. What is the coordinate of this different element? (The X-th row and Y-th column are represented by (X,Y))\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, the grid consists of uppercase letters \"C\". However, there is one character that is different: a \"\u00c7\" (C with a cedilla). \n\nCounting from the top, this different character is located in the **5th row**.\nCounting from the left, it is located in the **7th column**.\n\nTherefore, the coordinate of the different element is (5, 7).\n\n\\boxed{(5,7)}",
+    "GroundTruth": "(5,7)",
+    "ExtractedAnswer": "(5,7)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 98,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 98
+        }
+      ],
+      "prompt_token_count": 1171,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 90
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1081
+        }
+      ],
+      "thoughts_token_count": 656,
+      "total_token_count": 1925,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 525,
+    "Question": "Find the pattern that is different from the others (color is not considered). The answer format is (a,b), which means the a-th row from top to bottom and the b-th column from left to right.\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful examination of the image, all the words are \"HIT\" except for one. \n\nIf we count the rows from top to bottom and the columns from left to right:\n- In the 7th row, the 8th word is \"Hlt\" (with a lowercase 'l' instead of an uppercase 'I').\n\nTherefore, the pattern that is different from the others is located at row 7, column 8.\n\n\\boxed{(7,8)}",
+    "GroundTruth": "(7,8)",
+    "ExtractedAnswer": "(7,8)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 102,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 102
+        }
+      ],
+      "prompt_token_count": 1161,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 72
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 1127,
+      "total_token_count": 2390,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 534,
+    "Question": "The image shows a pattern of 260 locks in 13 rows and 20 columns. One of them is different from the other 259. What are the coordinates of this different lock? (The coordinates of the i-th row and j-th column are (i,j))\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, all the locks are open (the shackle is detached on the left side) except for one. \n\nIf we count the rows from top to bottom and the columns from left to right:\n- Go down to the **6th row**.\n- Move across to the **12th column**.\n\nThe lock at this position is closed (the shackle is connected on both sides). \n\n\\boxed{(6,12)}",
+    "GroundTruth": "(6,12)",
+    "ExtractedAnswer": "(6,12)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 99,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 99
+        }
+      ],
+      "prompt_token_count": 1170,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1080
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 90
+        }
+      ],
+      "thoughts_token_count": 794,
+      "total_token_count": 2063,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 638,
+    "Question": "Find the row and column of the Cyrillic letter that is different from the others in the image. (Answer format: Row a Column b. 'a' indicates the row number from top to bottom, and 'b' indicates the column number from left to right.)\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, the different Cyrillic letter '\u0418' is located in the 4th row and the 17th column.\n\n\\boxed{Row 4 Column 17}",
+    "GroundTruth": "Row 4 Column 17",
+    "ExtractedAnswer": "Row 4 Column 17",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 46,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 46
+        }
+      ],
+      "prompt_token_count": 1161,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1080
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 81
+        }
+      ],
+      "thoughts_token_count": 686,
+      "total_token_count": 1893,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 779,
+    "Question": "In which row and column in the image is the pattern different from the other patterns? (The answer should be in the format (a, b), where 'a' is the row number counted from top to bottom, and 'b' is the column number counted from left to right.)\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful examination of the image, the grid consists of repeating groups of three emojis: a yellow pointing-up finger, a brown pointing-up finger, and another yellow pointing-up finger. \n\nIf we count the rows from top to bottom and the columns (each group of three emojis) from left to right:\n- In the 10th row, the 9th group of emojis is different. Instead of the usual \"yellow, brown, yellow\" pattern, it is \"yellow, brown, brown\".\n\nTherefore, the pattern is different in row 10, column 9.\n\n\\boxed{(10, 9)}",
+    "GroundTruth": "(10, 9)",
+    "ExtractedAnswer": "(10, 9)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 136,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 136
+        }
+      ],
+      "prompt_token_count": 1172,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 84
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1088
+        }
+      ],
+      "thoughts_token_count": 700,
+      "total_token_count": 2008,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 879,
+    "Question": "Find the position of the different item in the image. The answer format is (a,b), which means the a-th row from the top and the b-th column from the left.\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, the grid consists of the word \"SOS\" repeated in multiple rows and columns. By scanning through each row, we can find the item that is different:\n\n- Row 1 to Row 9 contain only \"SOS\".\n- In **Row 10**, the 5th item from the left is **\"SSO\"** instead of \"SOS\".\n- Rows 11 to 14 contain only \"SOS\".\n\nTherefore, the different item is located in the 10th row and the 5th column.\n\n\\boxed{(10,5)}",
+    "GroundTruth": "10,5",
+    "ExtractedAnswer": "(10,5)",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 129,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 129
+        }
+      ],
+      "prompt_token_count": 1154,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 66
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1088
+        }
+      ],
+      "thoughts_token_count": 780,
+      "total_token_count": 2063,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 910,
+    "Question": "In the image, which row and column contains the face that is different from the others? (Answer in the format a,b, meaning the a-th row from the top and the b-th column from the left)\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful examination of the image, the grid consists of repeating groups of three faces. Most of these groups follow the pattern of a blonde-haired face, a brown-haired face, and another blonde-haired face. \n\nIf we count the rows from the top and the columns of these three-face groups from the left:\n- In the **9th row**, the **5th group** from the left is different. Instead of having a brown-haired face in the middle, it has three blonde-haired faces.\n\nTherefore, the different face group is located at row 9, column 5.\n\n\\boxed{9,5}",
+    "GroundTruth": "9,5",
+    "ExtractedAnswer": "9,5",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 136,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 136
+        }
+      ],
+      "prompt_token_count": 1160,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1088
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 72
+        }
+      ],
+      "thoughts_token_count": 879,
+      "total_token_count": 2175,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 984,
+    "Question": "In which row and column in the image is the pattern different from the other patterns? (Answer format is (a,b), i.e., the a-th row from top to bottom and the b-th column from left to right)\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, the grid consists of the letter 'H' repeated in rows and columns. \n\nIf we count the rows from top to bottom and the columns from left to right:\n- In the **6th row**, the **10th character** is a '\u0427' instead of an 'H'.\n\nTherefore, the pattern is different at row 6, column 10.\n\n\\boxed{(6,10)}",
+    "GroundTruth": "(6,10)",
+    "ExtractedAnswer": "(6,10)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 96,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 96
+        }
+      ],
+      "prompt_token_count": 1186,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1110
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 76
+        }
+      ],
+      "thoughts_token_count": 1025,
+      "total_token_count": 2307,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 986,
+    "Question": "Which row and column in the image contain a pattern which is different from the other patterns? (The answer format is (a,b), meaning the a-th row from top to bottom and the b-th column from left to right.)\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful examination of the image, the standard pattern for each group of emojis is a winking face, followed by a blushing face, and then another winking face. \n\nIf we look at the 11th row from the top and the 4th column from the left, the pattern is different: it consists of two winking faces followed by a blushing face.\n\n\\boxed{(11,4)}",
+    "GroundTruth": "(11,4)",
+    "ExtractedAnswer": "(11,4)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 88,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "prompt_token_count": 1164,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 75
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 823,
+      "total_token_count": 2075,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 988,
+    "Question": "Which row and column in the image contain the pattern that is different from the others? (Answer format is (a,b), i.e., the a-th row from top to bottom and the b-th column from left to right.)\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, the grid consists of the number \"404\" repeated in multiple rows and columns. By scanning through the grid, we can find one number that is different from the rest.\n\nLooking at the 9th row from the top and the 7th column from the left, the number is \"440\" instead of \"404\".\n\nTherefore, the pattern that is different is located at row 9, column 7.\n\n\\boxed{(9,7)}",
+    "GroundTruth": "(9,7)",
+    "ExtractedAnswer": "(9,7)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 108,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 108
+        }
+      ],
+      "prompt_token_count": 1164,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1088
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 76
+        }
+      ],
+      "thoughts_token_count": 1230,
+      "total_token_count": 2502,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 4152,
+    "Question": "Find the pattern that is different from the others in the image. (Answer format: (a,b) where a is the row number from top to bottom, and b is the column number from left to right)\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual inspection of the image, all the Christmas trees have a blue bow on top except for one. \n\nIf we count the rows from top to bottom and the columns from left to right:\n- Go down to the 7th row.\n- Look at the 2nd tree from the left.\n\nThis specific tree is missing the blue bow on top, making it different from all the others.\n\n\\boxed{(7,2)}",
+    "GroundTruth": "(7,2)",
+    "ExtractedAnswer": "(7,2)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 94,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "prompt_token_count": 1150,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 70
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1080
+        }
+      ],
+      "thoughts_token_count": 355,
+      "total_token_count": 1599,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 6161,
+    "Question": "Find the different one and mark it. The answer format is (a,b), where a is the row number from top to bottom and b is the column number from left to right.\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "To find the different one, we need to examine each group of three faces in the grid. \nMost groups consist of a pattern: a yellow face (grandpa), a grey face (grandma), and another yellow face (grandpa).\nLet's scan the rows from top to bottom and columns from left to right.\n- In Row 7, look at the last group on the right (Column 8).\n- The pattern in this group is: yellow face, grey face, **grey face**.\n- The third face in this group is a grey grandma face instead of the usual yellow grandpa face.\n\nTherefore, the different group is located in row 7, column 8.\n\n\\boxed{(7,8)}",
+    "GroundTruth": "(7,8)",
+    "ExtractedAnswer": "(7,8)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 153,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 153
+        }
+      ],
+      "prompt_token_count": 1153,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 64
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 785,
+      "total_token_count": 2091,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 6164,
+    "Question": "Find the one that is inconsistent with the other groups. The answer format is (a,b), which means the a-th row from top to bottom and the b-th column from left to right.\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful examination of the image, each group typically consists of a red apple, an orange peach, and a green apple. However, if you look at the 9th row from the top and the 2nd column from the left, the group consists of a red apple and two orange peaches. \n\nTherefore, the inconsistent group is located at row 9, column 2.\n\n\\boxed{(9,2)}",
+    "GroundTruth": "(9,2)",
+    "ExtractedAnswer": "(9,2)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 89,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 89
+        }
+      ],
+      "prompt_token_count": 1157,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 68
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 851,
+      "total_token_count": 2097,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 6165,
+    "Question": "Observe the animal silhouettes in the image, find the one that is different from the others, and write its position in the image as the row number from top to bottom and the column number from left to right, using the format below for your answer. For example: 2-4 (indicating the position in the second row from top to bottom, and the fourth column from left to right).\nThink about the question, then give your final answer in exactly \\boxed{Answer} format. Keep the final answer concise.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful observation of the image, all the animal silhouettes are identical except for one. If you look at the 8th row from the top and the 8th column from the left, you will notice that the animal silhouette is missing its tail.\n\n\\boxed{8-8}",
+    "GroundTruth": "6-7",
+    "ExtractedAnswer": "8-8",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 61,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 61
+        }
+      ],
+      "prompt_token_count": 1169,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1064
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 105
+        }
+      ],
+      "thoughts_token_count": 1343,
+      "total_token_count": 2573,
+      "traffic_type": "ON_DEMAND"
+    }
+  }
+]

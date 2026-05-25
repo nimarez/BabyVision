@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate AI-created BabyVision weakness candidates with prompt records."""
+"""Generate AI-created visual logical puzzle weakness candidates with prompt records."""
 
 from __future__ import annotations
 
@@ -22,6 +22,7 @@ from PIL import Image
 DEFAULT_PROJECT = "construction-takeoff-496319"
 DEFAULT_LOCATION = "global"
 DEFAULT_MODEL = "gemini-3-pro-image-preview"
+DEFAULT_PLANNER_MODEL = "gemini-3.1-pro-preview"
 
 
 def gcloud_config_value(name: str) -> str | None:
@@ -42,14 +43,169 @@ def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def base_prompt() -> str:
+def slugify(value: str, fallback: str) -> str:
+    slug = "".join(ch.lower() if ch.isalnum() else "_" for ch in value.strip())
+    slug = "_".join(part for part in slug.split("_") if part)
+    return slug or fallback
+
+
+def style_description(style_anchor: str) -> str:
+    if style_anchor == "generic":
+        return (
+            "Create one clean visual reasoning worksheet puzzle for early visual "
+            "cognition skills. "
+        )
+    return "Create one BabyVision-style visual logical puzzle image. "
+
+
+def base_prompt(style_anchor: str = "babyvision") -> str:
     return (
-        "Create one BabyVision-style visual reasoning benchmark image. "
+        style_description(style_anchor) +
         "Use a clean printed worksheet style on a white background, crisp "
         "geometric shapes, small labels, no photorealism, no watermark, and "
         "no explanatory answer key. It must be unambiguous and solvable from "
         "the image alone. Do not include the written question in the image."
     )
+
+
+INVENTION_FOCI: list[dict[str, str]] = [
+    {
+        "type": "Visual Tracking",
+        "subtype": "Line or route tracking",
+        "weakness": "following one continuous path through crossings, switches, occlusions, or near-overlaps",
+    },
+    {
+        "type": "Fine-grained Discrimination",
+        "subtype": "Near-identical option discrimination",
+        "weakness": "finding the only exact match among near duplicates with tiny differences",
+    },
+    {
+        "type": "Visual Pattern Recognition",
+        "subtype": "Compositional pattern completion",
+        "weakness": "combining multiple visual rules such as mirroring, rotation, overlay, ordering, or symbol substitution",
+    },
+    {
+        "type": "Spatial Perception",
+        "subtype": "Spatial transform or 3D reasoning",
+        "weakness": "reasoning about folding, unfolding, hidden structure, orientation, or spatial adjacency",
+    },
+]
+
+INVENTION_MIRROR_TAIL_FOCI: list[dict[str, str]] = [
+    {
+        "type": "Visual Pattern Recognition",
+        "subtype": "Creative Mirroring Patterns",
+        "weakness": "invent a mirror-symmetry puzzle that is not a simple 2x2 quadrant completion",
+    },
+    {
+        "type": "Visual Pattern Recognition",
+        "subtype": "Creative Rotation Patterns",
+        "weakness": "invent a rotation or transformation sequence with at least two interacting rules",
+    },
+    {
+        "type": "Spatial Perception",
+        "subtype": "Creative Paper Folding",
+        "weakness": "invent a folding, unfolding, hole-punch, or cutout puzzle with plausible distractors",
+    },
+    {
+        "type": "Visual Pattern Recognition",
+        "subtype": "Creative Overlay Patterns",
+        "weakness": "invent an overlay, transparency, or layer-composition puzzle with a non-grid layout if possible",
+    },
+]
+
+
+def invention_prompt(focus: dict[str, str], index: int, style_anchor: str) -> str:
+    if style_anchor == "generic":
+        style_line = (
+            "The final image should be a clean visual reasoning worksheet puzzle "
+            "for early visual cognition skills: white background, crisp geometric "
+            "or symbolic marks, concise labels, no photorealism, no watermark, "
+            "and no explanatory answer key."
+        )
+    else:
+        style_line = (
+            "The final image should feel like a BabyVision-style clean printed "
+            "worksheet puzzle: white background, crisp geometric or symbolic "
+            "marks, concise labels, no photorealism, no watermark, and no "
+            "explanatory answer key."
+        )
+    return f"""Invent one new visual logical puzzle specification for an image-generation model.
+
+{style_line}
+
+Target category: {focus['type']}
+Target subtype: {focus['subtype']}
+Weakness to target: {focus['weakness']}
+
+Avoid copying common template language such as "draw a 2x2 mirror-completion puzzle with the top-right quadrant blank". You may use any layout that is unambiguous, visually checkable, and likely to challenge a vision-language model.
+
+Return JSON only with this schema:
+{{
+  "slug": "short_snake_case_unique_name_{index}",
+  "type": "{focus['type']}",
+  "subtype": "{focus['subtype']}",
+  "question": "standalone question text, without chain-of-thought instructions",
+  "answer": "the exact expected short answer",
+  "image_prompt": "specific prompt for the image-generation model. It must describe the complete puzzle, include labels/options if needed, state which option or value is correct, and specify plausible near-miss distractors. It must not include the written question in the image.",
+  "rubric": "one sentence explaining why the answer is correct"
+}}
+
+The answer must be determinable from the image alone. If using multiple choice, choose any correct label A-D yourself and make the distractors close but clearly wrong."""
+
+
+def response_text_parts(response: Any) -> list[str]:
+    text_parts: list[str] = []
+    for candidate in response.candidates or []:
+        if not candidate.content:
+            continue
+        for part in candidate.content.parts:
+            if part.text:
+                text_parts.append(part.text)
+    return text_parts
+
+
+def extract_json_object(text: str) -> dict[str, Any]:
+    stripped = text.strip()
+    if stripped.startswith("```"):
+        stripped = stripped.strip("`")
+        if stripped.startswith("json"):
+            stripped = stripped[4:].strip()
+    start = stripped.find("{")
+    end = stripped.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        raise ValueError("planner response did not contain a JSON object")
+    return json.loads(stripped[start : end + 1])
+
+
+def invent_case(client: Any, args: argparse.Namespace, index: int, focus: dict[str, str]) -> dict[str, Any]:
+    def call():
+        return client.models.generate_content(
+            model=args.planner_model,
+            contents=invention_prompt(focus, index, args.style_anchor),
+        )
+
+    response = call_with_retries(f"planner_{index:06d}", call, args.retries)
+    response_text = "\n".join(response_text_parts(response))
+    spec = extract_json_object(response_text)
+    required = {"slug", "type", "subtype", "question", "answer", "image_prompt", "rubric"}
+    missing = sorted(required - set(spec))
+    if missing:
+        raise ValueError(f"planner spec missing fields: {', '.join(missing)}")
+
+    return {
+        "slug": slugify(str(spec["slug"]), f"invented_{index:06d}"),
+        "type": str(spec["type"]).strip(),
+        "subtype": str(spec["subtype"]).strip(),
+        "answer": str(spec["answer"]).strip(),
+        "question": str(spec["question"]).strip(),
+        "rubric": str(spec["rubric"]).strip(),
+        "planner_model": args.planner_model,
+        "planner_focus": focus,
+        "planner_response": response_text,
+        "style_anchor": args.style_anchor,
+        "prompt": f"{base_prompt(args.style_anchor)} {str(spec['image_prompt']).strip()}",
+    }
 
 
 CASES: list[dict[str, Any]] = [
@@ -302,12 +458,13 @@ MIRROR_TAIL_CASES: list[dict[str, Any]] = [
         "answer": "C",
         "question": "Which option completes the missing quadrant by mirror symmetry?",
         "prompt": (
-            f"{base_prompt()} Draw a 2x2 mirror-completion puzzle. Three "
-            "quadrants are filled with 6-8 tiny geometric icons each, arranged "
-            "around a vertical and horizontal mirror axis. The top-right quadrant "
-            "is blank with a question mark. Below draw options A-D. Option C "
-            "must be the only exact mirror completion. Distractors should be very "
-            "close with one icon swapped or one position slightly wrong."
+            f"{base_prompt()} Invent and draw a mirror-symmetry puzzle with a "
+            "layout that is not a simple 2x2 quadrant completion. Use an "
+            "asymmetric arrangement of small geometric or symbolic marks and "
+            "four answer options A-D. Option C must be the only exact mirror "
+            "solution. Distractors should be close but clearly wrong, such as "
+            "one reflected mark in the wrong place, a swapped symbol, or a "
+            "partial mirror."
         ),
     },
     {
@@ -498,15 +655,38 @@ def call_with_retries(label: str, fn, retries: int) -> Any:
     raise RuntimeError(f"{label} failed after {retries} attempts") from last_error
 
 
+def cases_for_args(args: argparse.Namespace) -> list[dict[str, Any]] | None:
+    if args.profile == "mirror-tail":
+        return MIRROR_TAIL_CASES
+    if args.profile == "diverse":
+        return CASES
+    return None
+
+
+def focus_for_args(args: argparse.Namespace, index: int) -> dict[str, str]:
+    foci = INVENTION_MIRROR_TAIL_FOCI if args.profile in {"invented-mirror-heavy", "invented-mirror-tail"} else INVENTION_FOCI
+    return foci[(index - 1) % len(foci)]
+
+
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate AI-created BabyVision candidates.")
+    parser = argparse.ArgumentParser(description="Generate AI-created visual logical puzzle candidates.")
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--project", default=gcloud_config_value("project") or DEFAULT_PROJECT)
     parser.add_argument("--location", default=DEFAULT_LOCATION)
     parser.add_argument("--model", default=DEFAULT_MODEL)
+    parser.add_argument("--planner-model", default=DEFAULT_PLANNER_MODEL)
+    parser.add_argument(
+        "--style-anchor",
+        choices=["babyvision", "generic"],
+        default="babyvision",
+        help=(
+            "Use 'babyvision' to mention BabyVision-style in generated prompts, "
+            "or 'generic' to describe the visual-reasoning essence without naming the dataset."
+        ),
+    )
     parser.add_argument(
         "--profile",
-        choices=["diverse", "mirror-tail"],
+        choices=["diverse", "mirror-tail", "invented", "invented-mirror-heavy", "invented-mirror-tail"],
         default="diverse",
     )
     parser.add_argument("--limit", type=int)
@@ -521,13 +701,29 @@ def main() -> int:
     metadata_path = args.output_dir / "meta_data.jsonl"
     client = genai.Client(vertexai=True, project=args.project, location=args.location)
     rows = []
-    cases = MIRROR_TAIL_CASES if args.profile == "mirror-tail" else CASES
-    limit = args.limit or len(cases)
+    cases = cases_for_args(args)
+    limit = args.limit or (len(cases) if cases is not None else 16)
+    if cases is not None:
+        limit = min(limit, len(cases))
 
-    for index, case in enumerate(cases[:limit], start=1):
-        output_path = image_dir / f"{index:06d}_{case['slug']}.png"
+    for index in range(1, limit + 1):
+        case = cases[index - 1] if cases is not None else None
+        if case is None:
+            focus = focus_for_args(args, index)
+            slug = f"invented_{index:06d}_{slugify(focus['subtype'], 'puzzle')}"
+        else:
+            slug = case["slug"]
+
+        output_path = image_dir / f"{index:06d}_{slug}.png"
         prompt_path = output_path.with_suffix(".prompt.json")
-        print(f"[{index}/{min(limit, len(cases))}] {case['subtype']} -> {output_path}", flush=True)
+        if case is None and prompt_path.exists():
+            case = json.loads(prompt_path.read_text()).get("case")
+        if case is None:
+            case = invent_case(client, args, index, focus_for_args(args, index))
+            output_path = image_dir / f"{index:06d}_{case['slug']}.png"
+            prompt_path = output_path.with_suffix(".prompt.json")
+
+        print(f"[{index}/{limit}] {case['subtype']} -> {output_path}", flush=True)
         if output_path.exists() and prompt_path.exists():
             response_text = json.loads(prompt_path.read_text()).get("response_text", [])
         else:
@@ -548,6 +744,8 @@ def main() -> int:
                         "created_at": now_iso(),
                         "generator": "tools/generate_ai_weakness_candidates.py",
                         "model": args.model,
+                        "planner_model": args.planner_model if args.profile.startswith("invented") else None,
+                        "style_anchor": args.style_anchor,
                         "project": args.project,
                         "location": args.location,
                         "output_image": str(output_path),
@@ -586,6 +784,8 @@ def main() -> int:
                 "project": args.project,
                 "location": args.location,
                 "profile": args.profile,
+                "planner_model": args.planner_model if args.profile.startswith("invented") else None,
+                "style_anchor": args.style_anchor,
                 "count": len(rows),
                 "metadata": str(metadata_path),
             },

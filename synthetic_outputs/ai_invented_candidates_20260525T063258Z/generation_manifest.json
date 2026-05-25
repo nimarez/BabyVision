@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-05-25T07:06:32.476469+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "profile": "invented",
+  "planner_model": "gemini-3.1-pro-preview",
+  "count": 20,
+  "metadata": "synthetic_outputs/ai_invented_candidates_20260525T063258Z/meta_data.jsonl"
+}

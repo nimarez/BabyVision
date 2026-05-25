@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-05-25T06:34:22.311167+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_candidates_20260525T063258Z/images/000001_woven_braid_line_tracking.png",
+  "case": {
+    "slug": "woven_braid_line_tracking",
+    "type": "Visual Tracking",
+    "subtype": "Line or route tracking",
+    "answer": "C",
+    "question": "Trace the path of the dashed line starting from node 2 at the top. The lines cross over and under each other. Which letter (A, B, C, or D) does the dashed line connect to at the bottom?",
+    "rubric": "By visually tracing the dashed line downward from the starting node 2 through its various over and under intersections, the continuous path leads directly to the bottom node labeled C.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Visual Tracking",
+      "subtype": "Line or route tracking",
+      "weakness": "following one continuous path through crossings, switches, occlusions, or near-overlaps"
+    },
+    "planner_response": "{\n  \"slug\": \"woven_braid_line_tracking\",\n  \"type\": \"Visual Tracking\",\n  \"subtype\": \"Line or route tracking\",\n  \"question\": \"Trace the path of the dashed line starting from node 2 at the top. The lines cross over and under each other. Which letter (A, B, C, or D) does the dashed line connect to at the bottom?\",\n  \"answer\": \"C\",\n  \"image_prompt\": \"A clean, printed visual tracking worksheet puzzle on a pure white background. Top row has four square nodes labeled '1', '2', '3', and '4' from left to right. Bottom row has four square nodes labeled 'A', 'B', 'C', and 'D' from left to right. Four distinct black paths connect the top and bottom nodes: a solid line from 1 to B, a dashed line from 2 to C, a dotted line from 3 to A, and a zig-zag line from 4 to D. All paths must be black to prevent color-matching shortcuts. The paths tangle and cross each other multiple times in the middle. At every crossing point, the line in the foreground has a thick white outline to clearly break the line in the background, creating precise visual overlaps and occlusions. The dashed line starting at 2 must explicitly terminate at C. No other text, no answer key, crisp geometric vector-art style.\",\n  \"rubric\": \"By visually tracing the dashed line downward from the starting node 2 through its various over and under intersections, the continuous path leads directly to the bottom node labeled C.\"\n}",
+    "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, printed visual tracking worksheet puzzle on a pure white background. Top row has four square nodes labeled '1', '2', '3', and '4' from left to right. Bottom row has four square nodes labeled 'A', 'B', 'C', and 'D' from left to right. Four distinct black paths connect the top and bottom nodes: a solid line from 1 to B, a dashed line from 2 to C, a dotted line from 3 to A, and a zig-zag line from 4 to D. All paths must be black to prevent color-matching shortcuts. The paths tangle and cross each other multiple times in the middle. At every crossing point, the line in the foreground has a thick white outline to clearly break the line in the background, creating precise visual overlaps and occlusions. The dashed line starting at 2 must explicitly terminate at C. No other text, no answer key, crisp geometric vector-art style."
+  },
+  "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, printed visual tracking worksheet puzzle on a pure white background. Top row has four square nodes labeled '1', '2', '3', and '4' from left to right. Bottom row has four square nodes labeled 'A', 'B', 'C', and 'D' from left to right. Four distinct black paths connect the top and bottom nodes: a solid line from 1 to B, a dashed line from 2 to C, a dotted line from 3 to A, and a zig-zag line from 4 to D. All paths must be black to prevent color-matching shortcuts. The paths tangle and cross each other multiple times in the middle. At every crossing point, the line in the foreground has a thick white outline to clearly break the line in the background, creating precise visual overlaps and occlusions. The dashed line starting at 2 must explicitly terminate at C. No other text, no answer key, crisp geometric vector-art style.",
+  "response_text": [
+    "**Developing Visual Puzzle**\n\nI'm focusing on creating a BabyVision-style logical puzzle. My current work involves establishing a clean, printed worksheet aesthetic with sharp geometric vector art, strictly avoiding any photorealism or watermarks.\n\n",
+    "**Designing Logic Grid**\n\nI am currently refining the visual representation of the logical puzzle. My focus is on achieving a distinct worksheet aesthetic through geometric vector art, ensuring clarity in the path connections and their overlaps.\n\n",
+    "**Reviewing Geometric Accuracy**\n\nI am now meticulously scrutinizing the rendered output, comparing it against the specific directives provided. All elements, including the geometric styling, label placement, and the varied line types (solid, dashed, dotted, zig-zag), appear to align precisely. The intricate entanglement and the distinct white outlines are also under review.\n\n",
+    "**Verifying Precise Alignment**\n\nMy focus is on confirming that the generated visual adheres strictly to the prompt's specifications. Each geometric form, label position, and line characteristic, from solid to dotted, is being cross-referenced. The subtle weaving and the clear white demarcations at intersections are also undergoing thorough evaluation.\n\n"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-05-25T07:01:50.526555+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_candidates_20260525T063258Z/images/000018_dial_indicator_fine_discrimination.png",
+  "case": {
+    "slug": "dial_indicator_fine_discrimination",
+    "type": "Fine-grained Discrimination",
+    "subtype": "Near-identical option discrimination",
+    "answer": "C",
+    "question": "Which option (A, B, C, or D) is an exact visual match to the TARGET dial?",
+    "rubric": "Option C correctly replicates all features of the target without altering the angles of the hands or the position of the hollow circle.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Fine-grained Discrimination",
+      "subtype": "Near-identical option discrimination",
+      "weakness": "finding the only exact match among near duplicates with tiny differences"
+    },
+    "planner_response": "```json\n{\n  \"slug\": \"dial_indicator_fine_discrimination\",\n  \"type\": \"Fine-grained Discrimination\",\n  \"subtype\": \"Near-identical option discrimination\",\n  \"question\": \"Which option (A, B, C, or D) is an exact visual match to the TARGET dial?\",\n  \"answer\": \"C\",\n  \"image_prompt\": \"A minimalist, crisp black-and-white logic puzzle worksheet on a pure white background. Flat vector graphics. Top section: A box labeled 'TARGET' containing a circular dial with 8 equally spaced tick marks around its edge (at compass points). Inside the TARGET dial: a solid black triangle in the exact center pointing Up (North), a long solid line pointing Top-Right (North-East), a short dashed line pointing Down (South), and a small hollow circle resting exactly on the Left (West) tick mark. Bottom section: Four distinct options labeled 'A', 'B', 'C', and 'D' arranged in a 2x2 grid. Dial A: The short dashed line points Bottom-Right (South-East); all else matches TARGET. Dial B: The hollow circle is on the Top-Left (North-West) tick mark; all else matches TARGET. Dial C: An exact match to TARGET in every detail. Dial D: The long solid line points exactly Right (East); all else matches TARGET. Do not include the written question or an answer key in the image.\",\n  \"rubric\": \"Option C correctly replicates all features of the target without altering the angles of the hands or the position of the hollow circle.\"\n}\n```",
+    "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A minimalist, crisp black-and-white logic puzzle worksheet on a pure white background. Flat vector graphics. Top section: A box labeled 'TARGET' containing a circular dial with 8 equally spaced tick marks around its edge (at compass points). Inside the TARGET dial: a solid black triangle in the exact center pointing Up (North), a long solid line pointing Top-Right (North-East), a short dashed line pointing Down (South), and a small hollow circle resting exactly on the Left (West) tick mark. Bottom section: Four distinct options labeled 'A', 'B', 'C', and 'D' arranged in a 2x2 grid. Dial A: The short dashed line points Bottom-Right (South-East); all else matches TARGET. Dial B: The hollow circle is on the Top-Left (North-West) tick mark; all else matches TARGET. Dial C: An exact match to TARGET in every detail. Dial D: The long solid line points exactly Right (East); all else matches TARGET. Do not include the written question or an answer key in the image."
+  },
+  "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A minimalist, crisp black-and-white logic puzzle worksheet on a pure white background. Flat vector graphics. Top section: A box labeled 'TARGET' containing a circular dial with 8 equally spaced tick marks around its edge (at compass points). Inside the TARGET dial: a solid black triangle in the exact center pointing Up (North), a long solid line pointing Top-Right (North-East), a short dashed line pointing Down (South), and a small hollow circle resting exactly on the Left (West) tick mark. Bottom section: Four distinct options labeled 'A', 'B', 'C', and 'D' arranged in a 2x2 grid. Dial A: The short dashed line points Bottom-Right (South-East); all else matches TARGET. Dial B: The hollow circle is on the Top-Left (North-West) tick mark; all else matches TARGET. Dial C: An exact match to TARGET in every detail. Dial D: The long solid line points exactly Right (East); all else matches TARGET. Do not include the written question or an answer key in the image.",
+  "response_text": [
+    "**Generating Puzzle Image**\n\nI'm working on creating a minimalist, black-and-white logical puzzle illustration. The focus is on a clean, printed worksheet aesthetic. The layout will be divided into two distinct sections, one above the other.\n\n",
+    "**Designing Puzzle Elements**\n\nI am detailing the components for a minimalist, black-and-white logical puzzle worksheet. The central task involves rendering a circular dial in the upper section, featuring specific directional markings, and a 2x2 grid of options in the lower section, one of which will precisely mirror the target dial.\n\n",
+    "**Evaluating Logic Puzzle Generation**\n\nI'm currently reviewing the generated output against the core requirements. My focus is on ensuring the logic puzzle adheres strictly to the specified \"BabyVision-style\" aesthetic, specifically its clean, monochrome, worksheet presentation, and that it remains solvable and free from extraneous elements.\n\n",
+    "**Refining Logic Puzzles**\n\nMy current focus is on the precise implementation of all requested visual elements for the logic puzzle. I am verifying that each component, from the target dial to the individual grid options, accurately reflects the specified \"BabyVision-style\" aesthetic, ensuring clarity and solvability without any unwanted additions.\n\n"
+  ]
+}

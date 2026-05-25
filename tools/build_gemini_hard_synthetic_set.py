@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate BabyVision-style synthetic cases that Gemini answers incorrectly."""
+"""Generate visual logical puzzle synthetic cases that Gemini answers incorrectly."""
 
 from __future__ import annotations
 
@@ -456,7 +456,7 @@ def make_spec(rng: random.Random, candidate_num: int) -> dict[str, Any]:
 
 
 def validation_prompt(spec: dict[str, Any]) -> str:
-    return f"""Inspect this generated BabyVision-style puzzle image and return JSON only.
+    return f"""Inspect this generated visual logical puzzle image and return JSON only.
 Use this schema:
 {{
   "valid": true,
@@ -472,7 +472,7 @@ The image is valid only if the question can be answered unambiguously from the v
 
 
 def eval_prompt(spec: dict[str, Any]) -> str:
-    return f"""Answer this BabyVision-style visual puzzle.
+    return f"""Answer this visual logical puzzle.
 Question: {spec['question']}
 Think privately and keep the visible response concise. Put the final answer only in \\boxed{{...}}.
 """

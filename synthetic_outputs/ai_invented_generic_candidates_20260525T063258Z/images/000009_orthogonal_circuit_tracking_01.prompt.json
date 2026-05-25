@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-05-25T07:17:49.787483+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "style_anchor": "generic",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_generic_candidates_20260525T063258Z/images/000009_orthogonal_circuit_tracking_01.png",
+  "case": {
+    "slug": "orthogonal_circuit_tracking_01",
+    "type": "Visual Tracking",
+    "subtype": "Line or route tracking",
+    "answer": "X",
+    "question": "Trace the continuous solid line starting from the 'IN' circle. Which output square (X, Y, or Z) does it connect to?",
+    "rubric": "Following the solid line from 'IN' traces a path that loops right, goes over the dotted line, under the dashed line, and routes back to the left before terminating exactly at square X.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Visual Tracking",
+      "subtype": "Line or route tracking",
+      "weakness": "following one continuous path through crossings, switches, occlusions, or near-overlaps"
+    },
+    "planner_response": "```json\n{\n  \"slug\": \"orthogonal_circuit_tracking_01\",\n  \"type\": \"Visual Tracking\",\n  \"subtype\": \"Line or route tracking\",\n  \"question\": \"Trace the continuous solid line starting from the 'IN' circle. Which output square (X, Y, or Z) does it connect to?\",\n  \"answer\": \"X\",\n  \"image_prompt\": \"A clean 2D vector-style visual reasoning worksheet on a solid white background. No photorealism, no watermark. At the top center, a black circle clearly labeled 'IN'. At the bottom, three black squares horizontally aligned and evenly spaced, labeled 'X', 'Y', and 'Z' from left to right. Three distinct paths exist. Path 1: A solid black line starts at 'IN', goes straight down, makes a sharp 90-degree turn to the right, crosses directly OVER a vertical dotted line, makes a sharp 90-degree turn down, crosses directly UNDER a horizontal dashed line, makes a 90-degree turn left, and routes down into square 'X'. Path 2: A dotted line originates from the top left, travels down, goes under the solid line, and connects to square 'Y'. Path 3: A dashed line originates from the right, travels horizontally over the solid line, turns down, and connects to square 'Z'. All lines are purely horizontal or vertical (orthogonal circuit style).\",\n  \"rubric\": \"Following the solid line from 'IN' traces a path that loops right, goes over the dotted line, under the dashed line, and routes back to the left before terminating exactly at square X.\"\n}\n```",
+    "style_anchor": "generic",
+    "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean 2D vector-style visual reasoning worksheet on a solid white background. No photorealism, no watermark. At the top center, a black circle clearly labeled 'IN'. At the bottom, three black squares horizontally aligned and evenly spaced, labeled 'X', 'Y', and 'Z' from left to right. Three distinct paths exist. Path 1: A solid black line starts at 'IN', goes straight down, makes a sharp 90-degree turn to the right, crosses directly OVER a vertical dotted line, makes a sharp 90-degree turn down, crosses directly UNDER a horizontal dashed line, makes a 90-degree turn left, and routes down into square 'X'. Path 2: A dotted line originates from the top left, travels down, goes under the solid line, and connects to square 'Y'. Path 3: A dashed line originates from the right, travels horizontally over the solid line, turns down, and connects to square 'Z'. All lines are purely horizontal or vertical (orthogonal circuit style)."
+  },
+  "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean 2D vector-style visual reasoning worksheet on a solid white background. No photorealism, no watermark. At the top center, a black circle clearly labeled 'IN'. At the bottom, three black squares horizontally aligned and evenly spaced, labeled 'X', 'Y', and 'Z' from left to right. Three distinct paths exist. Path 1: A solid black line starts at 'IN', goes straight down, makes a sharp 90-degree turn to the right, crosses directly OVER a vertical dotted line, makes a sharp 90-degree turn down, crosses directly UNDER a horizontal dashed line, makes a 90-degree turn left, and routes down into square 'X'. Path 2: A dotted line originates from the top left, travels down, goes under the solid line, and connects to square 'Y'. Path 3: A dashed line originates from the right, travels horizontally over the solid line, turns down, and connects to square 'Z'. All lines are purely horizontal or vertical (orthogonal circuit style).",
+  "response_text": [
+    "**Generating Worksheet Visuals**\n\nI'm focusing on creating a clean, black and white 2D vector illustration. The aim is a visual reasoning worksheet, presented on a plain white background without any photorealism or distracting elements.\n\n",
+    "**Designing Worksheet Elements**\n\nMy focus is on constructing a stark, black-and-white 2D vector illustration. The objective is a visual reasoning worksheet, presented against a plain white backdrop devoid of any photorealism or unnecessary embellishments. I am now detailing the specific components and their arrangement.\n\n",
+    "**Verifying Output Elements**\n\nI'm currently reviewing the generated image, cross-referencing it with the specific instructions. The visualization correctly depicts the solid, dotted, and dashed paths originating from the 'IN' point and leading to the 'X', 'Y', and output nodes, adhering to the worksheet aesthetic.\n\n",
+    "**Confirming Visual Representation**\n\nI am presently evaluating the visualization to ensure its fidelity with the user's explicit directives. The output accurately portrays the three distinct path styles—solid, dotted, and dashed—emanating from the 'IN' node and terminating at the 'X', 'Y', and 'Z' endpoints, aligning with the established worksheet aesthetic.\n\n"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-23T23:30:36.685568+00:00",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "model": "gemini-3.1-pro-preview",
+  "tasks": 388,
+  "thinking_level": "HIGH",
+  "media_resolution": "HIGH",
+  "max_output_tokens": 4096,
+  "gcs_input_uri": "gs://construction-takeoff-496319-document-ai/babyvision-batch/gemini-3.1-pro-preview-high/20260523T233020Z/input/babyvision_requests.jsonl",
+  "gcs_output_uri": "gs://construction-takeoff-496319-document-ai/babyvision-batch/gemini-3.1-pro-preview-high/20260523T233020Z/output",
+  "job_name": "projects/1061530971649/locations/global/batchPredictionJobs/4934403126540107776",
+  "job_state": "JobState.JOB_STATE_SUCCEEDED"
+}

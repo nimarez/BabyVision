@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Caption/trace a BabyVision-style puzzle image with Vertex AI Gemini Pro."""
+"""Caption/trace a visual logical puzzle image with Vertex AI Gemini Pro."""
 
 from __future__ import annotations
 
@@ -19,7 +19,7 @@ DEFAULT_MODEL = "gemini-3.1-pro-preview"
 DEFAULT_FALLBACK_MODELS = "gemini-2.5-pro"
 DEFAULT_LOCATION = "global"
 DEFAULT_PROMPT = """\
-Inspect this BabyVision-style visual puzzle image and return concise JSON only.
+Inspect this visual logical puzzle image and return concise JSON only.
 Use this schema:
 {
   "type": "Visual Tracking | Fine-grained Discrimination | Visual Pattern Recognition | Spatial Perception",

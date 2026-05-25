@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-05-25T07:12:21.429846+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "style_anchor": "generic",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_generic_candidates_20260525T063258Z/images/000005_circuit_routing_occlusion_grid.png",
+  "case": {
+    "slug": "circuit_routing_occlusion_grid",
+    "type": "Visual Tracking",
+    "subtype": "Line or route tracking",
+    "answer": "B",
+    "question": "Trace the continuous path from the START node. Which terminal box (A, B, C, or D) does it connect to?",
+    "rubric": "The unbroken line starting from the START node navigates through the intersections and directly terminates at box B, while other boxes connect to disconnected loops or dead ends.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Visual Tracking",
+      "subtype": "Line or route tracking",
+      "weakness": "following one continuous path through crossings, switches, occlusions, or near-overlaps"
+    },
+    "planner_response": "```json\n{\n  \"slug\": \"circuit_routing_occlusion_grid\",\n  \"type\": \"Visual Tracking\",\n  \"subtype\": \"Line or route tracking\",\n  \"question\": \"Trace the continuous path from the START node. Which terminal box (A, B, C, or D) does it connect to?\",\n  \"answer\": \"B\",\n  \"image_prompt\": \"A clean, crisp 2D line-tracking puzzle on a white background in vector-art style. An orthogonal network of thick black lines with 90-degree turns. At the top center is a black circle labeled 'START'. From 'START', a single continuous black line routes downwards, making several distinct 90-degree left and right turns. It crosses other distinct black lines; at these intersections, the line passing underneath has a small white gap to visually indicate passing under. At the bottom of the image are four square terminal boxes labeled 'A', 'B', 'C', and 'D' from left to right. The continuous path originating from 'START' precisely routes into box 'B'. The boxes 'A', 'C', and 'D' are connected to distractors: independent closed rectangular line loops or disconnected lines originating from unlabelled dead-ends. No photorealism, no watermarks, no explanatory answer key, crisp symbolic marks.\",\n  \"rubric\": \"The unbroken line starting from the START node navigates through the intersections and directly terminates at box B, while other boxes connect to disconnected loops or dead ends.\"\n}\n```",
+    "style_anchor": "generic",
+    "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, crisp 2D line-tracking puzzle on a white background in vector-art style. An orthogonal network of thick black lines with 90-degree turns. At the top center is a black circle labeled 'START'. From 'START', a single continuous black line routes downwards, making several distinct 90-degree left and right turns. It crosses other distinct black lines; at these intersections, the line passing underneath has a small white gap to visually indicate passing under. At the bottom of the image are four square terminal boxes labeled 'A', 'B', 'C', and 'D' from left to right. The continuous path originating from 'START' precisely routes into box 'B'. The boxes 'A', 'C', and 'D' are connected to distractors: independent closed rectangular line loops or disconnected lines originating from unlabelled dead-ends. No photorealism, no watermarks, no explanatory answer key, crisp symbolic marks."
+  },
+  "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, crisp 2D line-tracking puzzle on a white background in vector-art style. An orthogonal network of thick black lines with 90-degree turns. At the top center is a black circle labeled 'START'. From 'START', a single continuous black line routes downwards, making several distinct 90-degree left and right turns. It crosses other distinct black lines; at these intersections, the line passing underneath has a small white gap to visually indicate passing under. At the bottom of the image are four square terminal boxes labeled 'A', 'B', 'C', and 'D' from left to right. The continuous path originating from 'START' precisely routes into box 'B'. The boxes 'A', 'C', and 'D' are connected to distractors: independent closed rectangular line loops or disconnected lines originating from unlabelled dead-ends. No photorealism, no watermarks, no explanatory answer key, crisp symbolic marks.",
+  "response_text": [
+    "**Developing Visual Puzzle Elements**\n\nI'm currently focusing on establishing the foundational visual components for a printable worksheet. My efforts are directed towards creating a crisp, black geometric aesthetic on a white background. I'm beginning with the 'START' element, a centrally positioned black circle.\n\n",
+    "**Designing Path Components**\n\nMy current focus is on establishing the primary path elements for the puzzle. I am generating a thick, black line originating from the 'START' circle, designed to navigate downwards with distinct 90-degree turns and intersect with other orthogonal lines.\n\n",
+    "**Analyzing Request Match**\n\nI'm currently cross-referencing the output against the provided specifications. My focus is on confirming the inclusion of the 'START' marker, the path leading to 'B', and the orthogonal line structure.\n\n",
+    "**Confirming Output Accuracy**\n\nI am reviewing the generated output to ensure it precisely aligns with the established parameters. My current emphasis is on verifying the presence of the designated 'START' node, the accurate path delineation to point 'B', and the adherence to orthogonal line configurations.\n\n"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-05-25T06:46:32.501202+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_candidates_20260525T063258Z/images/000008_cube_color_rotation_deduction.png",
+  "case": {
+    "slug": "cube_color_rotation_deduction",
+    "type": "Spatial Perception",
+    "subtype": "Spatial transform or 3D reasoning",
+    "answer": "D",
+    "question": "Based on these three views of the same colored cube, which option (A-D) represents the color opposite the Blue face?",
+    "rubric": "Comparing Cubes 1 and 2 shows the cube rotating around its vertical axis, revealing Yellow is opposite Red; rolling Cube 2 to the left yields Cube 3, which moves Yellow to the top and reveals that the old bottom face (opposite the Blue top) is White.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Spatial Perception",
+      "subtype": "Spatial transform or 3D reasoning",
+      "weakness": "reasoning about folding, unfolding, hidden structure, orientation, or spatial adjacency"
+    },
+    "planner_response": "```json\n{\n  \"slug\": \"cube_color_rotation_deduction\",\n  \"type\": \"Spatial Perception\",\n  \"subtype\": \"Spatial transform or 3D reasoning\",\n  \"question\": \"Based on these three views of the same colored cube, which option (A-D) represents the color opposite the Blue face?\",\n  \"answer\": \"D\",\n  \"image_prompt\": \"A clean, minimal printed worksheet puzzle on a white background. At the top, there is a horizontal row of three isometric 3D cubes, showing their top, front, and right faces. The cubes are labeled '1', '2', and '3' above them. Cube 1 has a solid Blue top face, a solid Red front face, and a solid Green right face. Cube 2 has a solid Blue top face, a solid Green front face, and a solid Yellow right face. Cube 3 has a solid Yellow top face, a solid Green front face, and a solid White right face. Below the cubes, there is a horizontal row of four isolated, flat colored squares representing the multiple-choice options, labeled 'A', 'B', 'C', and 'D' below each square. Square A is Yellow. Square B is Green. Square C is Red. Square D is White. Crisp geometric shapes, distinct colors, no explanatory text, no watermark. Do not include the puzzle question in the image.\",\n  \"rubric\": \"Comparing Cubes 1 and 2 shows the cube rotating around its vertical axis, revealing Yellow is opposite Red; rolling Cube 2 to the left yields Cube 3, which moves Yellow to the top and reveals that the old bottom face (opposite the Blue top) is White.\"\n}\n```",
+    "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, minimal printed worksheet puzzle on a white background. At the top, there is a horizontal row of three isometric 3D cubes, showing their top, front, and right faces. The cubes are labeled '1', '2', and '3' above them. Cube 1 has a solid Blue top face, a solid Red front face, and a solid Green right face. Cube 2 has a solid Blue top face, a solid Green front face, and a solid Yellow right face. Cube 3 has a solid Yellow top face, a solid Green front face, and a solid White right face. Below the cubes, there is a horizontal row of four isolated, flat colored squares representing the multiple-choice options, labeled 'A', 'B', 'C', and 'D' below each square. Square A is Yellow. Square B is Green. Square C is Red. Square D is White. Crisp geometric shapes, distinct colors, no explanatory text, no watermark. Do not include the puzzle question in the image."
+  },
+  "prompt": "Create one BabyVision-style visual logical puzzle image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean, minimal printed worksheet puzzle on a white background. At the top, there is a horizontal row of three isometric 3D cubes, showing their top, front, and right faces. The cubes are labeled '1', '2', and '3' above them. Cube 1 has a solid Blue top face, a solid Red front face, and a solid Green right face. Cube 2 has a solid Blue top face, a solid Green front face, and a solid Yellow right face. Cube 3 has a solid Yellow top face, a solid Green front face, and a solid White right face. Below the cubes, there is a horizontal row of four isolated, flat colored squares representing the multiple-choice options, labeled 'A', 'B', 'C', and 'D' below each square. Square A is Yellow. Square B is Green. Square C is Red. Square D is White. Crisp geometric shapes, distinct colors, no explanatory text, no watermark. Do not include the puzzle question in the image.",
+  "response_text": [
+    "**Developing Visual Puzzle Elements**\n\nI'm currently focusing on the stylistic execution and initial composition for a visual puzzle. This involves defining a clean, geometric, and non-photorealistic aesthetic suitable for a worksheet, and beginning the arrangement of three isometric cubes, labeled 1, 2, and 3, in a horizontal row.\n\n",
+    "**Designing Puzzle Components**\n\nMy focus is on the specific color assignments and spatial arrangement for the visual puzzle. I am currently working on defining the color faces for three isometric cubes and the flat squares below, ensuring their labels and hue are precise.\n\n",
+    "**Verifying Visual Accuracy**\n\nI'm confirming the generated worksheet puzzle precisely matches your detailed specifications, particularly the accurate representation of the three colored isometric cubes and their corresponding multiple-choice answers.\n\n",
+    "**Confirming Output Fidelity**\n\nI have reviewed the generated output and can confirm it aligns precisely with the requested isometric cubes and multiple-choice format. All specified constraints and details have been met.\n\n"
+  ]
+}

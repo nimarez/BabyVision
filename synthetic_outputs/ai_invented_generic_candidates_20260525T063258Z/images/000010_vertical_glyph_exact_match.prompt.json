@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-05-25T07:18:32.816123+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "style_anchor": "generic",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_generic_candidates_20260525T063258Z/images/000010_vertical_glyph_exact_match.png",
+  "case": {
+    "slug": "vertical_glyph_exact_match",
+    "type": "Fine-grained Discrimination",
+    "subtype": "Near-identical option discrimination",
+    "answer": "C",
+    "question": "Which option (A, B, C, or D) is an exact duplicate of the TARGET figure?",
+    "rubric": "Option C exactly matches the sequence and all internal features of the target shapes, while A, B, and D each contain one subtle feature alteration in a specific shape.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Fine-grained Discrimination",
+      "subtype": "Near-identical option discrimination",
+      "weakness": "finding the only exact match among near duplicates with tiny differences"
+    },
+    "planner_response": "{\n  \"slug\": \"vertical_glyph_exact_match\",\n  \"type\": \"Fine-grained Discrimination\",\n  \"subtype\": \"Near-identical option discrimination\",\n  \"question\": \"Which option (A, B, C, or D) is an exact duplicate of the TARGET figure?\",\n  \"answer\": \"C\",\n  \"image_prompt\": \"A clean visual reasoning worksheet on a white background using crisp black line-art. At the top center, a stacked geometric figure labeled 'TARGET'. The TARGET consists of four distinct shapes stacked vertically from top to bottom: an upward-pointing triangle filled with vertical stripes, a hollow circle, a square containing a solid black dot in its center, and a diamond filled with horizontal stripes. Below a horizontal divider line, there are four candidate stacks arranged side-by-side, distinctly labeled 'A', 'B', 'C', and 'D'. Option A shows the stack but its top triangle has horizontal stripes instead of vertical. Option B shows the stack but its square is entirely empty, lacking the black dot. Option C is the exact duplicate of the TARGET (vertical-striped triangle, hollow circle, square with black dot, horizontal-striped diamond). Option D shows the stack but its bottom diamond has vertical stripes instead of horizontal. Minimalist layout, clear legible text labels, no photorealism, no watermark, and no other text.\",\n  \"rubric\": \"Option C exactly matches the sequence and all internal features of the target shapes, while A, B, and D each contain one subtle feature alteration in a specific shape.\"\n}",
+    "style_anchor": "generic",
+    "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean visual reasoning worksheet on a white background using crisp black line-art. At the top center, a stacked geometric figure labeled 'TARGET'. The TARGET consists of four distinct shapes stacked vertically from top to bottom: an upward-pointing triangle filled with vertical stripes, a hollow circle, a square containing a solid black dot in its center, and a diamond filled with horizontal stripes. Below a horizontal divider line, there are four candidate stacks arranged side-by-side, distinctly labeled 'A', 'B', 'C', and 'D'. Option A shows the stack but its top triangle has horizontal stripes instead of vertical. Option B shows the stack but its square is entirely empty, lacking the black dot. Option C is the exact duplicate of the TARGET (vertical-striped triangle, hollow circle, square with black dot, horizontal-striped diamond). Option D shows the stack but its bottom diamond has vertical stripes instead of horizontal. Minimalist layout, clear legible text labels, no photorealism, no watermark, and no other text."
+  },
+  "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean visual reasoning worksheet on a white background using crisp black line-art. At the top center, a stacked geometric figure labeled 'TARGET'. The TARGET consists of four distinct shapes stacked vertically from top to bottom: an upward-pointing triangle filled with vertical stripes, a hollow circle, a square containing a solid black dot in its center, and a diamond filled with horizontal stripes. Below a horizontal divider line, there are four candidate stacks arranged side-by-side, distinctly labeled 'A', 'B', 'C', and 'D'. Option A shows the stack but its top triangle has horizontal stripes instead of vertical. Option B shows the stack but its square is entirely empty, lacking the black dot. Option C is the exact duplicate of the TARGET (vertical-striped triangle, hollow circle, square with black dot, horizontal-striped diamond). Option D shows the stack but its bottom diamond has vertical stripes instead of horizontal. Minimalist layout, clear legible text labels, no photorealism, no watermark, and no other text.",
+  "response_text": [
+    "**Designing Visual Worksheet**\n\nI'm focusing on creating a clean, black-and-white line-art worksheet. My current task involves placing a stacked geometric figure at the top center, clearly labeled as 'TARGET'. This forms the core of the visual reasoning exercise.\n\n",
+    "**Crafting Geometric Options**\n\nMy focus is on detailing the variations for options A, B, and D relative to the initial TARGET stack. Specifically, I am iterating on the stripe orientation of the bottom diamond and the internal detail of the square.\n\n",
+    "**Evaluating Visual Accuracy**\n\nI'm currently cross-referencing the generated output with the explicit parameters of the user's request. My focus is on ensuring adherence to the specified artistic style and structural elements for the visual reasoning worksheet.\n\n",
+    "**Confirming Request Alignment**\n\nI am verifying the generated output against the precise specifications of the user's request, particularly regarding the artistic style and structural layout for the visual reasoning worksheet.\n\n"
+  ]
+}

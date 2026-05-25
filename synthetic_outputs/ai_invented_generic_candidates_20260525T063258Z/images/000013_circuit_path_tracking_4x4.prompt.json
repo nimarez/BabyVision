@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-05-25T07:23:19.115346+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "style_anchor": "generic",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_generic_candidates_20260525T063258Z/images/000013_circuit_path_tracking_4x4.png",
+  "case": {
+    "slug": "circuit_path_tracking_4x4",
+    "type": "Visual Tracking",
+    "subtype": "Line or route tracking",
+    "answer": "D",
+    "question": "Trace the continuous path starting from node 2 on the left. Which letter on the right does it connect to?",
+    "rubric": "Following the solid black line from starting node 2 straight through its orthogonal intersections reveals that it continuously routes to ending node D.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Visual Tracking",
+      "subtype": "Line or route tracking",
+      "weakness": "following one continuous path through crossings, switches, occlusions, or near-overlaps"
+    },
+    "planner_response": "{\n  \"slug\": \"circuit_path_tracking_4x4\",\n  \"type\": \"Visual Tracking\",\n  \"subtype\": \"Line or route tracking\",\n  \"question\": \"Trace the continuous path starting from node 2 on the left. Which letter on the right does it connect to?\",\n  \"answer\": \"D\",\n  \"image_prompt\": \"A crisp, minimalist visual tracking puzzle on a clean white background. On the far left, there are four starting nodes perfectly aligned vertically, labeled '1', '2', '3', and '4'. On the far right, there are four ending nodes aligned vertically, labeled 'A', 'B', 'C', and 'D'. Four identical, solid black paths connect the left nodes to the right nodes in a circuit-board routing style, using only straight horizontal and vertical lines with 90-degree bends. The connections MUST strictly be: 1 connects to C, 2 connects to D, 3 connects to A, and 4 connects to B. The paths cross each other multiple times in the center of the image. At every crossing point, the lines intersect cleanly at 90 degrees (perpendicularly) without merging, breaking, or changing thickness, ensuring the continuous paths can be logically traced. Use pure monochrome line-art, no shading, no photorealism, no watermark, and do not include the question text in the image.\",\n  \"rubric\": \"Following the solid black line from starting node 2 straight through its orthogonal intersections reveals that it continuously routes to ending node D.\"\n}",
+    "style_anchor": "generic",
+    "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A crisp, minimalist visual tracking puzzle on a clean white background. On the far left, there are four starting nodes perfectly aligned vertically, labeled '1', '2', '3', and '4'. On the far right, there are four ending nodes aligned vertically, labeled 'A', 'B', 'C', and 'D'. Four identical, solid black paths connect the left nodes to the right nodes in a circuit-board routing style, using only straight horizontal and vertical lines with 90-degree bends. The connections MUST strictly be: 1 connects to C, 2 connects to D, 3 connects to A, and 4 connects to B. The paths cross each other multiple times in the center of the image. At every crossing point, the lines intersect cleanly at 90 degrees (perpendicularly) without merging, breaking, or changing thickness, ensuring the continuous paths can be logically traced. Use pure monochrome line-art, no shading, no photorealism, no watermark, and do not include the question text in the image."
+  },
+  "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A crisp, minimalist visual tracking puzzle on a clean white background. On the far left, there are four starting nodes perfectly aligned vertically, labeled '1', '2', '3', and '4'. On the far right, there are four ending nodes aligned vertically, labeled 'A', 'B', 'C', and 'D'. Four identical, solid black paths connect the left nodes to the right nodes in a circuit-board routing style, using only straight horizontal and vertical lines with 90-degree bends. The connections MUST strictly be: 1 connects to C, 2 connects to D, 3 connects to A, and 4 connects to B. The paths cross each other multiple times in the center of the image. At every crossing point, the lines intersect cleanly at 90 degrees (perpendicularly) without merging, breaking, or changing thickness, ensuring the continuous paths can be logically traced. Use pure monochrome line-art, no shading, no photorealism, no watermark, and do not include the question text in the image.",
+  "response_text": [
+    "**Developing Visual Puzzle Elements**\n\nI'm currently focused on establishing the foundational visual components for a minimalist puzzle. The initial phase involves rendering a stark white background to ensure clarity and defining the starting nodes as four vertically aligned black circles, each clearly labeled with a number starting from '1'.\n\n",
+    "**Refining Path Intersections**\n\nMy current focus is on ensuring the central paths intersect cleanly and perpendicularly. I am working to make certain that each crossing is unambiguous, facilitating easy tracing for the user by avoiding any merging or breaking of the lines.\n\n",
+    "**Verifying Diagram Accuracy**\n\nI am now cross-referencing the generated diagram with the specific user requirements, confirming that the clean, minimalist aesthetic and monochrome graphical elements align precisely with the request. The node numbering and lettering also match the specified layout.\n\n",
+    "**Confirming Output Alignment**\n\nI've reviewed the generated diagram, ensuring its alignment with your precise specifications. The monochrome graphics, minimalist worksheet aesthetic, and clean layout with accurate node numbering and lettering all conform to the request, as do the circuit-board routing and the implementation of all required connections.\n\n"
+  ]
+}

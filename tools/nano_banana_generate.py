@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a single BabyVision-style synthetic image with Vertex AI Gemini."""
+"""Generate a single visual logical puzzle synthetic image with Vertex AI Gemini."""
 
 from __future__ import annotations
 
@@ -90,7 +90,7 @@ def write_prompt_record(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Generate a BabyVision-style synthetic image with Vertex AI Gemini Pro Image."
+        description="Generate a visual logical puzzle synthetic image with Vertex AI Gemini Pro Image."
     )
     parser.add_argument("--prompt", required=True)
     parser.add_argument("--output", default="synthetic_outputs/nano_banana_pro.png")

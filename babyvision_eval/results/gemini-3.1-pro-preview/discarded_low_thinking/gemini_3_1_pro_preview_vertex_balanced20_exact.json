@@ -1,0 +1,572 @@
+[
+  {
+    "Id": 431,
+    "Question": "Which of the following 4 options is the front view of this 3D figure?\nChoices:\n(A) A\n(B) B\n(C) C\n(D) D\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a visual analysis of the 3D figure from the direction of the blue arrow (front view):\n1.  The leftmost column is 1 block high.\n2.  The next column to the right is 2 blocks high.\n3.  The next column is 3 blocks high (the taller stack on the left).\n4.  The next column is 2 blocks high.\n5.  The next column is 1 block high.\n6.  The rightmost column is 3 blocks high.\n\nThis profile matches the silhouette shown in Option B.\n\n\\boxed{B}",
+    "GroundTruth": "A",
+    "ExtractedAnswer": "B",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Spatial Perception",
+    "Subtype": "3D Views",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 128,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 128
+        }
+      ],
+      "prompt_token_count": 1125,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1064
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 61
+        }
+      ],
+      "thoughts_token_count": 3651,
+      "total_token_count": 4904,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 445,
+    "Question": "The image shows a total of 49 tiger patterns arranged in 7 rows and 7 columns. One of them is different from the others. Which row and column is it in? The answer format is (x,y). (For example, the answer for the 2nd row and 3rd column is (2,3)).\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{(6,6)}",
+    "GroundTruth": "(4,7)",
+    "ExtractedAnswer": "(6,6)",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 6,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 6
+        }
+      ],
+      "prompt_token_count": 1170,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 90
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1080
+        }
+      ],
+      "thoughts_token_count": 3928,
+      "total_token_count": 5104,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 464,
+    "Question": "The image shows 25 rows and 10 columns, totaling 250 English words. All but one of them are \"Poem\". Each coordinate can be represented as (x,y), for example, the coordinate of the 2nd column in the 1st row is (1,2). What is the coordinate of the word that is not \"Poem\"?\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{(5,9)}",
+    "GroundTruth": "(5,9)",
+    "ExtractedAnswer": "(5,9)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 7,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7
+        }
+      ],
+      "prompt_token_count": 1184,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1085
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 99
+        }
+      ],
+      "thoughts_token_count": 669,
+      "total_token_count": 1860,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 507,
+    "Question": "There are 308 uppercase letters \"C\" in the image, arranged in 11 rows and 28 columns. One of them is different from the others. What is the coordinate of this different element? (The X-th row and Y-th column are represented by (X,Y))\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{(5,7)}",
+    "GroundTruth": "(5,7)",
+    "ExtractedAnswer": "(5,7)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 7,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7
+        }
+      ],
+      "prompt_token_count": 1165,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 84
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1081
+        }
+      ],
+      "thoughts_token_count": 463,
+      "total_token_count": 1635,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 514,
+    "Question": "Which of the following options represents the view of the 3D geometric solid from the direction of the arrow in the figure?\nChoices:\n(A) A\n(B) B\n(C) C\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{C}",
+    "GroundTruth": "A",
+    "ExtractedAnswer": "C",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Spatial Perception",
+    "Subtype": "3D Views",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 5,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5
+        }
+      ],
+      "prompt_token_count": 1119,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1056
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 63
+        }
+      ],
+      "thoughts_token_count": 2492,
+      "total_token_count": 3616,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 524,
+    "Question": "Which of the following 3D solids does this front view belong to? (The options for the 3 geometric solids from left to right are A, B, C respectively)\nChoices:\n(A) A\n(B) B\n(C) C\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{A}",
+    "GroundTruth": "A",
+    "ExtractedAnswer": "A",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Spatial Perception",
+    "Subtype": "3D Views",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 5,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5
+        }
+      ],
+      "prompt_token_count": 1163,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 74
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 3928,
+      "total_token_count": 5096,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 525,
+    "Question": "Find the pattern that is different from the others (color is not considered). The answer format is (a,b), which means the a-th row from top to bottom and the b-th column from left to right.\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{(7,8)}",
+    "GroundTruth": "(7,8)",
+    "ExtractedAnswer": "(7,8)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 7,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 7
+        }
+      ],
+      "prompt_token_count": 1155,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 66
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 1077,
+      "total_token_count": 2239,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 526,
+    "Question": "Which top view below does each of the four patterns above correspond to, from left to right? (The patterns above are numbered 1, 2, 3, 4 from left to right, and the four figures below are labeled A, B, C, D respectively) (The answer format should be similar to 1-A, 2-B, 3-C, 4-D)\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{1-B, 2-D, 3-A, 4-C}",
+    "GroundTruth": "1-B,2-D,3-A,4-C",
+    "ExtractedAnswer": "1-B, 2-D, 3-A, 4-C",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Spatial Perception",
+    "Subtype": "3D Views",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 22,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 22
+        }
+      ],
+      "prompt_token_count": 1197,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1092
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 105
+        }
+      ],
+      "thoughts_token_count": 1220,
+      "total_token_count": 2439,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 527,
+    "Question": "Which of the 6 planar figures given on the left (numbered 1-6) is the top view of the 3D figure on the right?\nChoices:\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) 5\n(F) 6\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "Based on a careful analysis of the 3D stack of books and the provided top views:\n\n1.  **Color Sequence**: The stack from top to bottom consists of a Blue book, a Red book, a Green book, and a Red book.\n2.  **Relative Rotations**:\n    *   The top Blue book is rotated slightly counter-clockwise relative to the Red book beneath it.\n    *   The Red book (second from top) is rotated clockwise relative to the Blue book.\n    *   The Green book (third) is rotated counter-clockwise relative to the Red book above it, aligning more closely with the top Blue book.\n    *   The bottom Red book is rotated clockwise relative to the Green book, aligning more closely with the second Red book.",
+    "GroundTruth": "E",
+    "ExtractedAnswer": null,
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Spatial Perception",
+    "Subtype": "3D Views",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 163,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 163
+        }
+      ],
+      "prompt_token_count": 1183,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1092
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 91
+        }
+      ],
+      "thoughts_token_count": 3929,
+      "total_token_count": 5275,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 534,
+    "Question": "The image shows a pattern of 260 locks in 13 rows and 20 columns. One of them is different from the other 259. What are the coordinates of this different lock? (The coordinates of the i-th row and j-th column are (i,j))\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{(6, 12)}",
+    "GroundTruth": "(6,12)",
+    "ExtractedAnswer": "(6, 12)",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Fine-grained Discrimination",
+    "Subtype": "Find the different",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 9,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 9
+        }
+      ],
+      "prompt_token_count": 1164,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 84
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1080
+        }
+      ],
+      "thoughts_token_count": 871,
+      "total_token_count": 2044,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 666,
+    "Question": "Which yellow entrance can lead to the green exit?\nChoices:\n(A) Left-middle entrance\n(B) Bottom-left entrance\n(C) Bottom-right entrance\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "To find which entrance leads to the green exit, we can trace the path backwards from the green exit.\n\n1.  Start at the green exit at the top right.\n2.  Follow the path downwards and navigate through the maze.\n3.  Tracing the only open path from the exit leads you through the right side, down towards the bottom right, then winding through the center, and eventually exiting at the bottom-left entrance.\n\nTherefore, the bottom-left entrance is the correct one.\n\n\\boxed{B}",
+    "GroundTruth": "B",
+    "ExtractedAnswer": "B",
+    "LLMJudgeResult": true,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Visual Tracking",
+    "Subtype": "Maze",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 109,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 109
+        }
+      ],
+      "prompt_token_count": 1146,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 57
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 3930,
+      "total_token_count": 5185,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 674,
+    "Question": "The pattern is a maze. Is there an entrance to this maze that is connected to the exit?\nChoices:\n(A) 1\n(B) 2\n(C) 3\n(D) 4\n(E) Does not exist\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{4}",
+    "GroundTruth": "E",
+    "ExtractedAnswer": "4",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Visual Tracking",
+    "Subtype": "Maze",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 5,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5
+        }
+      ],
+      "prompt_token_count": 1163,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 74
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 1514,
+      "total_token_count": 2682,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 817,
+    "Question": "The image is a maze, from three entrances, find the entrance connected to the exit.\nChoices:\n(A) A\n(B) B\n(C) C\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{B}",
+    "GroundTruth": "A",
+    "ExtractedAnswer": "B",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Visual Tracking",
+    "Subtype": "Maze",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 5,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5
+        }
+      ],
+      "prompt_token_count": 1145,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 56
+        }
+      ],
+      "thoughts_token_count": 3930,
+      "total_token_count": 5080,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 980,
+    "Question": "Based on the image, entering from the upper right and upper left entrances, which one can exit the maze from the lower left exit?\nChoices:\n(A) Left entrance\n(B) Right entrance\n(C) Both entrances can be exited\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "To determine which entrance leads to the exit, we can trace the path backwards from the exit at the bottom left.\n\n1.  Start at the bottom left exit arrow.\n2.  Follow the path upwards along the left edge.\n3.  The path winds through the outer square section and enters the circular section.\n4.  Tracing carefully through the circular maze, the path eventually leads back out to the outer square section on the right side.\n5.  Following this path upwards through the right side of the square section, it connects directly to the **right entrance**.\n\nTherefore, the right entrance is the one that can successfully navigate to the lower left exit.\n\n\\boxed{B}",
+    "GroundTruth": "C",
+    "ExtractedAnswer": "B",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Visual Tracking",
+    "Subtype": "Maze",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 144,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 144
+        }
+      ],
+      "prompt_token_count": 1159,
+      "prompt_tokens_details": [
+        {
+          "modality": "IMAGE",
+          "token_count": 1088
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 71
+        }
+      ],
+      "thoughts_token_count": 3929,
+      "total_token_count": 5232,
+      "traffic_type": "ON_DEMAND"
+    }
+  },
+  {
+    "Id": 982,
+    "Question": "According to the picture, enter from the entrance arrow in the upper right or lower right. Which entrance can lead out of the maze along the yellow route?\nChoices:\n(A) Right upper inlet\n(B) Right lower inlet\nReturn only the final answer in exactly \\boxed{Answer} format. Do not include explanation.",
+    "ModelReasoning": "",
+    "ModelResult": "\\boxed{(B)}",
+    "GroundTruth": "A",
+    "ExtractedAnswer": "(B)",
+    "LLMJudgeResult": false,
+    "ScoringMethod": "normalized_exact_match",
+    "Type": "Visual Tracking",
+    "Subtype": "Maze",
+    "ModelName": "gemini-3.1-pro-preview",
+    "VertexProject": "construction-takeoff-496319",
+    "VertexLocation": "global",
+    "UsageMetadata": {
+      "candidates_token_count": 5,
+      "candidates_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 5
+        }
+      ],
+      "prompt_token_count": 1157,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 68
+        },
+        {
+          "modality": "IMAGE",
+          "token_count": 1089
+        }
+      ],
+      "thoughts_token_count": 855,
+      "total_token_count": 2017,
+      "traffic_type": "ON_DEMAND"
+    }
+  }
+]

@@ -1,0 +1,3040 @@
+{
+  "results_path": "babyvision_eval/results/gemini-3.1-pro-preview/batch_high_thinking_16k_restart/model_results_run_1.json",
+  "model": "gemini-3.1-pro-preview",
+  "overall": {
+    "total": 388,
+    "correct": 171,
+    "accuracy": 0.44072164948453607,
+    "failures": 217
+  },
+  "by_type": [
+    {
+      "Type": "Spatial Perception",
+      "total": 91,
+      "correct": 27,
+      "accuracy": 0.2967032967032967,
+      "failures": 64
+    },
+    {
+      "Type": "Visual Tracking",
+      "total": 83,
+      "correct": 34,
+      "accuracy": 0.40963855421686746,
+      "failures": 49
+    },
+    {
+      "Type": "Visual Pattern Recognition",
+      "total": 51,
+      "correct": 25,
+      "accuracy": 0.49019607843137253,
+      "failures": 26
+    },
+    {
+      "Type": "Fine-grained Discrimination",
+      "total": 163,
+      "correct": 85,
+      "accuracy": 0.5214723926380368,
+      "failures": 78
+    }
+  ],
+  "by_subtype": [
+    {
+      "Subtype": "Connect the lines",
+      "total": 19,
+      "correct": 0,
+      "accuracy": 0.0,
+      "failures": 19
+    },
+    {
+      "Subtype": "3D Cube Unfold",
+      "total": 12,
+      "correct": 1,
+      "accuracy": 0.08333333333333333,
+      "failures": 11
+    },
+    {
+      "Subtype": "3D Pattern Completion",
+      "total": 18,
+      "correct": 2,
+      "accuracy": 0.1111111111111111,
+      "failures": 16
+    },
+    {
+      "Subtype": "Find the same",
+      "total": 17,
+      "correct": 3,
+      "accuracy": 0.17647058823529413,
+      "failures": 14
+    },
+    {
+      "Subtype": "Maze",
+      "total": 20,
+      "correct": 4,
+      "accuracy": 0.2,
+      "failures": 16
+    },
+    {
+      "Subtype": "Count 3D blocks",
+      "total": 22,
+      "correct": 6,
+      "accuracy": 0.2727272727272727,
+      "failures": 16
+    },
+    {
+      "Subtype": "Find the shadow",
+      "total": 23,
+      "correct": 7,
+      "accuracy": 0.30434782608695654,
+      "failures": 16
+    },
+    {
+      "Subtype": "Overlay Patterns",
+      "total": 17,
+      "correct": 6,
+      "accuracy": 0.35294117647058826,
+      "failures": 11
+    },
+    {
+      "Subtype": "Pattern and Color Completion",
+      "total": 20,
+      "correct": 8,
+      "accuracy": 0.4,
+      "failures": 12
+    },
+    {
+      "Subtype": "Rotation Patterns",
+      "total": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "failures": 6
+    },
+    {
+      "Subtype": "3D Views",
+      "total": 27,
+      "correct": 12,
+      "accuracy": 0.4444444444444444,
+      "failures": 15
+    },
+    {
+      "Subtype": "2D Pattern Completion",
+      "total": 20,
+      "correct": 9,
+      "accuracy": 0.45,
+      "failures": 11
+    },
+    {
+      "Subtype": "Metro map",
+      "total": 12,
+      "correct": 6,
+      "accuracy": 0.5,
+      "failures": 6
+    },
+    {
+      "Subtype": "Paper Folding",
+      "total": 12,
+      "correct": 6,
+      "accuracy": 0.5,
+      "failures": 6
+    },
+    {
+      "Subtype": "Count Clusters",
+      "total": 18,
+      "correct": 10,
+      "accuracy": 0.5555555555555556,
+      "failures": 8
+    },
+    {
+      "Subtype": "Logic Patterns",
+      "total": 14,
+      "correct": 8,
+      "accuracy": 0.5714285714285714,
+      "failures": 6
+    },
+    {
+      "Subtype": "Find the different",
+      "total": 16,
+      "correct": 11,
+      "accuracy": 0.6875,
+      "failures": 5
+    },
+    {
+      "Subtype": "Mirroring Patterns",
+      "total": 10,
+      "correct": 7,
+      "accuracy": 0.7,
+      "failures": 3
+    },
+    {
+      "Subtype": "Recognize numbers and letters",
+      "total": 23,
+      "correct": 17,
+      "accuracy": 0.7391304347826086,
+      "failures": 6
+    },
+    {
+      "Subtype": "Count Same Patterns",
+      "total": 35,
+      "correct": 26,
+      "accuracy": 0.7428571428571429,
+      "failures": 9
+    },
+    {
+      "Subtype": "Lines Observation",
+      "total": 9,
+      "correct": 7,
+      "accuracy": 0.7777777777777778,
+      "failures": 2
+    },
+    {
+      "Subtype": "Reconstruction",
+      "total": 14,
+      "correct": 11,
+      "accuracy": 0.7857142857142857,
+      "failures": 3
+    }
+  ],
+  "by_answer_type": [
+    {
+      "AnswerType": "choice",
+      "total": 135,
+      "correct": 53,
+      "accuracy": 0.3925925925925926,
+      "failures": 82
+    },
+    {
+      "AnswerType": "blank",
+      "total": 253,
+      "correct": 118,
+      "accuracy": 0.466403162055336,
+      "failures": 135
+    }
+  ],
+  "by_aspect_bucket": [
+    {
+      "aspect_bucket": "landscape",
+      "total": 119,
+      "correct": 44,
+      "accuracy": 0.3697478991596639,
+      "failures": 75
+    },
+    {
+      "aspect_bucket": "portrait",
+      "total": 42,
+      "correct": 17,
+      "accuracy": 0.40476190476190477,
+      "failures": 25
+    },
+    {
+      "aspect_bucket": "square-ish",
+      "total": 227,
+      "correct": 110,
+      "accuracy": 0.4845814977973568,
+      "failures": 117
+    }
+  ],
+  "by_area_bucket": [
+    {
+      "area_bucket": "medium",
+      "total": 209,
+      "correct": 84,
+      "accuracy": 0.4019138755980861,
+      "failures": 125
+    },
+    {
+      "area_bucket": "large",
+      "total": 17,
+      "correct": 7,
+      "accuracy": 0.4117647058823529,
+      "failures": 10
+    },
+    {
+      "area_bucket": "small",
+      "total": 162,
+      "correct": 80,
+      "accuracy": 0.49382716049382713,
+      "failures": 82
+    }
+  ],
+  "by_dimension": [
+    {
+      "dimension": "3d_spatial",
+      "total": 93,
+      "correct": 29,
+      "accuracy": 0.3118279569892473,
+      "failures": 64
+    },
+    {
+      "dimension": "path_tracking",
+      "total": 76,
+      "correct": 24,
+      "accuracy": 0.3157894736842105,
+      "failures": 52
+    },
+    {
+      "dimension": "coordinate_search",
+      "total": 62,
+      "correct": 24,
+      "accuracy": 0.3870967741935484,
+      "failures": 38
+    },
+    {
+      "dimension": "rotation_or_shadow",
+      "total": 44,
+      "correct": 19,
+      "accuracy": 0.4318181818181818,
+      "failures": 25
+    },
+    {
+      "dimension": "pattern_completion",
+      "total": 231,
+      "correct": 102,
+      "accuracy": 0.44155844155844154,
+      "failures": 129
+    },
+    {
+      "dimension": "fine_detail",
+      "total": 204,
+      "correct": 94,
+      "accuracy": 0.46078431372549017,
+      "failures": 110
+    },
+    {
+      "dimension": "counting",
+      "total": 115,
+      "correct": 61,
+      "accuracy": 0.5304347826086957,
+      "failures": 54
+    },
+    {
+      "dimension": "overlay_reconstruction",
+      "total": 31,
+      "correct": 17,
+      "accuracy": 0.5483870967741935,
+      "failures": 14
+    }
+  ],
+  "synthetic_targets": [
+    {
+      "priority": 1,
+      "target": "Connect the lines",
+      "accuracy": 0.0,
+      "total": 19,
+      "failures": 19,
+      "prompt_focus": "path_tracking, fine_detail, pattern_completion"
+    },
+    {
+      "priority": 2,
+      "target": "3D Cube Unfold",
+      "accuracy": 0.08333333333333333,
+      "total": 12,
+      "failures": 11,
+      "prompt_focus": "3d_spatial, pattern_completion, fine_detail"
+    },
+    {
+      "priority": 3,
+      "target": "3D Pattern Completion",
+      "accuracy": 0.1111111111111111,
+      "total": 18,
+      "failures": 16,
+      "prompt_focus": "3d_spatial, pattern_completion, fine_detail"
+    },
+    {
+      "priority": 4,
+      "target": "Find the same",
+      "accuracy": 0.17647058823529413,
+      "total": 17,
+      "failures": 14,
+      "prompt_focus": "fine_detail, pattern_completion, coordinate_search"
+    },
+    {
+      "priority": 5,
+      "target": "Maze",
+      "accuracy": 0.2,
+      "total": 20,
+      "failures": 16,
+      "prompt_focus": "path_tracking, coordinate_search, counting"
+    },
+    {
+      "priority": 6,
+      "target": "Count 3D blocks",
+      "accuracy": 0.2727272727272727,
+      "total": 22,
+      "failures": 16,
+      "prompt_focus": "counting, 3d_spatial, fine_detail"
+    },
+    {
+      "priority": 7,
+      "target": "Find the shadow",
+      "accuracy": 0.30434782608695654,
+      "total": 23,
+      "failures": 16,
+      "prompt_focus": "pattern_completion, rotation_or_shadow, coordinate_search"
+    },
+    {
+      "priority": 8,
+      "target": "Overlay Patterns",
+      "accuracy": 0.35294117647058826,
+      "total": 17,
+      "failures": 11,
+      "prompt_focus": "pattern_completion, overlay_reconstruction, coordinate_search"
+    }
+  ],
+  "failed_examples": [
+    {
+      "Id": 445,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the different",
+      "GroundTruth": "(4,7)",
+      "ExtractedAnswer": "(6,6)",
+      "Image": "images/1323d501-85a7-4a9e-abe4-2f5b7e22e458.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 879,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the different",
+      "GroundTruth": "10,5",
+      "ExtractedAnswer": "(10,5)",
+      "Image": "images/2b6ee8c7-4b0c-4d71-851a-d7129af7671c.png",
+      "dimensions": [
+        "coordinate_search",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 910,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the different",
+      "GroundTruth": "9,5",
+      "ExtractedAnswer": "9,14",
+      "Image": "images/40c99384-b5b0-4880-9a75-2ec6062ede96.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 984,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the different",
+      "GroundTruth": "(6,10)",
+      "ExtractedAnswer": "(6,11)",
+      "Image": "images/0b9bc2ec-68a9-479a-845a-c5941b72fae2.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6165,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the different",
+      "GroundTruth": "6-7",
+      "ExtractedAnswer": "8-4",
+      "Image": "images/685d56bd-fc23-4a67-a252-440f55ca94c3.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 437,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "1-7,2-9,3-10,4-8,6-11",
+      "ExtractedAnswer": "2-9, 3-4, 5-7",
+      "Image": "images/6a7fbc76-ca69-47f2-a14d-f2326f080f0b.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 469,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "2-7",
+      "ExtractedAnswer": "1-5",
+      "Image": "images/4348fb50-5609-40e8-b6bc-1a6362c7db40.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 475,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "(1,3)-(3,1)",
+      "ExtractedAnswer": "(1,1)-(3,1)",
+      "Image": "images/a243790c-6b09-4562-a058-8190c9db0737.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 476,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "4-11",
+      "ExtractedAnswer": "9-13",
+      "Image": "images/0edfe18c-194d-4219-95bb-ba045cbe3f85.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 478,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "2,3,6,7,10",
+      "ExtractedAnswer": null,
+      "Image": "images/648d2475-16a4-4288-bfa8-a33a47b803e7.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 522,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "E",
+      "ExtractedAnswer": "D",
+      "Image": "images/4de097b9-f6f9-4d30-aba7-1a63c5a73c29.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 617,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/e2c4dba6-38ed-4b38-8f98-6199cecbcab9.png",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 626,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "Second row third column",
+      "ExtractedAnswer": null,
+      "Image": "images/6e5680f0-3554-4beb-9beb-a378013ed8b5.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 635,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "9-12",
+      "ExtractedAnswer": "9-14",
+      "Image": "images/2e8c1070-9e17-48a5-aa28-619de411cb15.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 651,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "4-11",
+      "ExtractedAnswer": "8-11",
+      "Image": "images/2789ed9a-a0dd-48f4-80ae-49ead4c6cc34.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 720,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "12",
+      "ExtractedAnswer": null,
+      "Image": "images/450f329d-6664-4aa6-8111-3cca73600da3.png",
+      "dimensions": [
+        "counting",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4698,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "2D,6A,4B,1B,5C,1F",
+      "ExtractedAnswer": "D2,A6,B4,C1,C5,F1",
+      "Image": "images/f576ad05-78c1-4990-9645-bfd92c4bd233.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5597,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "2,4,5,6,7,9",
+      "ExtractedAnswer": "3, 5, 6, 7, 8, 9, 10",
+      "Image": "images/b59c132d-c5d7-43da-9e70-4ebdad0eeb78.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 7568,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the same",
+      "GroundTruth": "F",
+      "ExtractedAnswer": "B",
+      "Image": "images/d2e8a6fc-5212-4164-8965-635acd19017d.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 459,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "1-4,3-12,5-10,7-2,9-6,11-8",
+      "ExtractedAnswer": null,
+      "Image": "images/38b98651-d368-4af1-9f12-3e2aa6248b79.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 644,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "1-6,2-5,3-8,4-11,5-12,6-7",
+      "ExtractedAnswer": "1-10,3-8,5-4,7-6,9-2,11-12",
+      "Image": "images/b8b4cee5-2987-4d12-9d6a-060b727bfc82.png",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 826,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "1-6,3-4,5-8,7-12,9-10,11-2",
+      "ExtractedAnswer": "1-4, 3-6, 5-8, 7-10, 9-12, 11-2",
+      "Image": "images/f5495e63-4b68-4af7-a32e-e708b70dd9e6.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4998,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "B",
+      "ExtractedAnswer": "A",
+      "Image": "images/dfe4fa8b-a717-40df-b6af-f545387886f6.png",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 5001,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "Second row third column",
+      "ExtractedAnswer": "Row 1, Column 1",
+      "Image": "images/01240bb9-9951-4c21-9d32-5ed884543bfc.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5004,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "Second row first column",
+      "ExtractedAnswer": "Row 2, Column 2",
+      "Image": "images/a05cad1f-98ff-4dc9-96a0-3dbe1a9ba547.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5006,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "Row 1, Column 2",
+      "ExtractedAnswer": "Row 1, Column 1",
+      "Image": "images/8641525e-3ee2-48bc-a0a9-9b6927369f82.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 5008,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "The second row, third column",
+      "ExtractedAnswer": "Row 2, Column 1",
+      "Image": "images/1817333b-8b3a-443f-a1b2-5cf28132c66a.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5009,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "Row 1 Column 3",
+      "ExtractedAnswer": "1, 2",
+      "Image": "images/32b62294-f389-48f3-aeda-0df3e41d8993.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5011,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "Third row first column",
+      "ExtractedAnswer": "Row 2, Column 2",
+      "Image": "images/54352de9-a46b-43cd-b1a6-fa175189fbfe.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 5013,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "Third Row Second Column",
+      "ExtractedAnswer": "4, 3",
+      "Image": "images/b1373f23-19c7-4475-969e-9da09ffb09af.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5018,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "The third row and first column",
+      "ExtractedAnswer": "Row 1, Column 1",
+      "Image": "images/0fe9be48-34c5-4974-82e5-07d052195a8b.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 5020,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "Second column, first one",
+      "ExtractedAnswer": "Column 2, Row 1",
+      "Image": "images/4ce9463d-c726-487e-bf6c-c8d61c248558.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5022,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "The first row and second column",
+      "ExtractedAnswer": "Row 2, Column 2",
+      "Image": "images/fe876758-076a-4bf0-9eb6-92ca53c63a89.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5023,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "Second row second",
+      "ExtractedAnswer": "Row 2, Column 3",
+      "Image": "images/571d04b9-a05f-4a8a-a6f9-3093532e057f.jpeg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5025,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Find the shadow",
+      "GroundTruth": "1-G,2-D,3-A,4-F,6-B,7-E,8-H,9-C",
+      "ExtractedAnswer": "1-G, 2-D, 3-F, 4-H, 6-A, 7-C, 8-B, 9-E",
+      "Image": "images/364531d7-053d-4d69-80bd-4809d1bb6c4f.png",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 5275,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Reconstruction",
+      "GroundTruth": "2,3,4,5",
+      "ExtractedAnswer": "1,2,3,4",
+      "Image": "images/16ea8d82-a18a-4611-9b14-56d584860958.png",
+      "dimensions": [
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 5276,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Reconstruction",
+      "GroundTruth": "1,3,4,6,8",
+      "ExtractedAnswer": "1,2,3,6,7,8",
+      "Image": "images/c3ba8afe-045b-4ee6-9680-c6797f2278e8.png",
+      "dimensions": [
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 6273,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Reconstruction",
+      "GroundTruth": "A-6, B-3, C-4, D-1, E-2, F-5",
+      "ExtractedAnswer": "D-1, E-2, B-3, C-4, A-5, F-6",
+      "Image": "images/4b6f00c3-1440-42f1-aed9-89e5201c8f59.png",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 457,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "3",
+      "Image": "images/9b29b896-3e3b-474d-947a-d004479b73ed.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 494,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/a10c4089-cddd-40cb-a25e-ed0db948b32b.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 637,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/e89ce3b5-a4de-4206-bfee-fbfbe58067bb.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 673,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "The second small puzzle",
+      "Image": "images/ffcc7b4c-c91b-41fb-a537-995df16f13d5.png",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 765,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "2",
+      "Image": "images/8110846f-835e-41f6-94aa-82e20ba59d40.png",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4026,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "B",
+      "Image": "images/40829b36-905b-4985-a87d-0624ad8b0be8.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4142,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/662d60fa-859b-4475-8336-23b2a3f458c5.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4173,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": null,
+      "Image": "images/06b05036-30c3-40ce-bcb0-fea3ed1f94fa.jpeg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4190,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/3b3629c0-f316-4de1-ab8b-9e840f524128.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4386,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/01ce368f-cc58-409a-a77b-ee8ab6e92cda.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4415,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "2D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/b54c4748-8ef6-4d9a-92e5-ccd06687d426.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 559,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/bfb140ec-60b1-4a5b-930f-72e15383372c.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 628,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "3",
+      "Image": "images/56becf3d-618b-4426-b5b4-5fdb28e36618.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 639,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/a48cda3c-09d0-46c7-89b5-1a18fa34bdc9.png",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 721,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/c96aa4de-591c-4ea7-89b9-5a995442572e.png",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 792,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/9aeec37c-a527-4d6f-b2f4-fac017fbc20a.png",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 1594,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "B",
+      "ExtractedAnswer": "C",
+      "Image": "images/d24767e9-0cc0-497b-be6a-bec4d861aace.png",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4146,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "B",
+      "Image": "images/dc39fba8-d69a-4c9e-a9f1-5d548fbb05bb.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4148,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/adf605f7-e567-44dc-a764-16d3c050dfa3.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4181,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "B",
+      "ExtractedAnswer": "A",
+      "Image": "images/91860e38-803d-4186-8422-08f4b8c582e8.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 5123,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "Row 2, Column 3",
+      "ExtractedAnswer": "1, 2",
+      "Image": "images/9ab00866-1085-4834-98ae-7210c82bd507.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5399,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/826de84c-bcc1-4c02-bc1f-4b44c7014702.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 6206,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Pattern and Color Completion",
+      "GroundTruth": "2,6,8",
+      "ExtractedAnswer": "3,4,9",
+      "Image": "images/3981f844-c205-4f49-8603-c5c53a0d653c.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4537,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "13",
+      "ExtractedAnswer": "12",
+      "Image": "images/24046a4b-2587-41c9-a40c-62242b5948bb.png",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4540,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "18",
+      "ExtractedAnswer": null,
+      "Image": "images/1e3ba2fc-c414-42cf-8d0f-cfbc4c647f79.png",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5073,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "23",
+      "ExtractedAnswer": null,
+      "Image": "images/95fed1c4-2e4c-4941-83ec-7a9e2ee99f48.png",
+      "dimensions": [
+        "counting",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5084,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "24",
+      "ExtractedAnswer": "20",
+      "Image": "images/c015b31e-251b-46e1-96f4-e2b74830723f.png",
+      "dimensions": [
+        "counting",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5086,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "34",
+      "ExtractedAnswer": "33",
+      "Image": "images/e7c8bce4-9fe7-40d4-aed2-3915752f1f1a.png",
+      "dimensions": [
+        "counting",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5357,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "8, 3, 7, 4, 5, 6",
+      "ExtractedAnswer": "8,3,7,4,5,5",
+      "Image": "images/28b01f19-a1d1-495e-800f-ceb5d9401f28.png",
+      "dimensions": [
+        "counting",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5640,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "5",
+      "ExtractedAnswer": "3",
+      "Image": "images/a2810b3d-5392-48e5-8e62-4e470fa2c0dc.png",
+      "dimensions": [
+        "counting",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5786,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "10",
+      "ExtractedAnswer": "14",
+      "Image": "images/6f063458-3162-4ded-8fa1-0f794523836a.png",
+      "dimensions": [
+        "counting",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6466,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Same Patterns",
+      "GroundTruth": "5,6,5,8",
+      "ExtractedAnswer": "4,6,5,7",
+      "Image": "images/e9d928eb-8d54-40e0-b655-3a8c378837bd.jpg",
+      "dimensions": [
+        "counting",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4650,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Clusters",
+      "GroundTruth": "19",
+      "ExtractedAnswer": "20",
+      "Image": "images/b9e8c996-e06b-4474-917f-becc0715d016.png",
+      "dimensions": [
+        "counting"
+      ]
+    },
+    {
+      "Id": 4653,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Clusters",
+      "GroundTruth": "9",
+      "ExtractedAnswer": "8",
+      "Image": "images/bdcde643-6904-4c0d-bca6-0928313c9f3f.png",
+      "dimensions": [
+        "counting"
+      ]
+    },
+    {
+      "Id": 5113,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Clusters",
+      "GroundTruth": "10",
+      "ExtractedAnswer": "8",
+      "Image": "images/b2343498-7f90-4d99-9a2c-6f14b3feb332.png",
+      "dimensions": [
+        "counting",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 5490,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Clusters",
+      "GroundTruth": "8\u22125=3",
+      "ExtractedAnswer": "8-5=3",
+      "Image": "images/e5b3d69f-d088-4569-bc28-94e28915f38a.png",
+      "dimensions": [
+        "counting",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5492,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Clusters",
+      "GroundTruth": "7\u22121=6",
+      "ExtractedAnswer": "7-1=6",
+      "Image": "images/a12be848-dac6-4147-a9f4-c37e33f29f87.png",
+      "dimensions": [
+        "counting",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6555,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Clusters",
+      "GroundTruth": ">",
+      "ExtractedAnswer": "=",
+      "Image": "images/74c6b0c3-8ba1-47f0-ab86-8abaf78f32b3.jpg",
+      "dimensions": [
+        "counting",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6556,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Clusters",
+      "GroundTruth": "<",
+      "ExtractedAnswer": "=",
+      "Image": "images/72b2eb96-1edc-4d50-8c9e-4a49f488b4c3.jpg",
+      "dimensions": [
+        "counting",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6557,
+      "Type": "Fine-grained Discrimination",
+      "Subtype": "Count Clusters",
+      "GroundTruth": "=",
+      "ExtractedAnswer": ">",
+      "Image": "images/173a924a-d607-4d64-a488-e70748c76db1.jpg",
+      "dimensions": [
+        "counting",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 666,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "B",
+      "ExtractedAnswer": "(A)",
+      "Image": "images/f1763bca-cc31-4a22-90a4-66be1cb5c91a.jpg",
+      "dimensions": [
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 674,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "E",
+      "ExtractedAnswer": "2",
+      "Image": "images/aafbd39a-5278-4233-b116-495509791697.png",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 817,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/5b840d1f-79df-4e51-ac91-3451b8478e28.jpg",
+      "dimensions": [
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 980,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/27dc5b22-2372-4a3b-a304-0ee19dcfc0f2.png",
+      "dimensions": [
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 982,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "B",
+      "Image": "images/e5395070-d6c0-43cd-a6c5-44fec590beb0.png",
+      "dimensions": [
+        "coordinate_search",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 983,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "B",
+      "Image": "images/a57782ef-8f5f-487e-b5f8-c7959aa3d11e.png",
+      "dimensions": [
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 1306,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/03533471-2aec-48d1-a0bc-867393371971.png",
+      "dimensions": [
+        "coordinate_search",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 1651,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/8883a18b-e55f-48de-a598-76200b86b070.png",
+      "dimensions": [
+        "coordinate_search",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 3782,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/d53bf4fe-d9bf-487e-a37c-1024ff293c68.jpg",
+      "dimensions": [
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 5127,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "59",
+      "ExtractedAnswer": null,
+      "Image": "images/3d851cb4-e710-45e5-b971-7c980c9237a5.png",
+      "dimensions": [
+        "coordinate_search",
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5128,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "50",
+      "ExtractedAnswer": null,
+      "Image": "images/e92241ef-330d-463c-9d1a-5c23df725b13.png",
+      "dimensions": [
+        "coordinate_search",
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5130,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "57",
+      "ExtractedAnswer": null,
+      "Image": "images/99da78c2-9d02-4b8d-9617-f2ab2c287dce.png",
+      "dimensions": [
+        "coordinate_search",
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5131,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "53",
+      "ExtractedAnswer": null,
+      "Image": "images/168fbf44-ceea-4419-b406-52a4900d355e.png",
+      "dimensions": [
+        "coordinate_search",
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5140,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "52",
+      "ExtractedAnswer": null,
+      "Image": "images/61a1bd01-5f3b-4371-801e-17633813ca38.png",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 5142,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "52",
+      "ExtractedAnswer": null,
+      "Image": "images/3814869c-d600-431a-99de-beee1e2c46a5.png",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5143,
+      "Type": "Visual Tracking",
+      "Subtype": "Maze",
+      "GroundTruth": "55",
+      "ExtractedAnswer": null,
+      "Image": "images/11e60050-19a3-4a7c-bd8f-e483520a9df2.png",
+      "dimensions": [
+        "counting",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 770,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "A-2,B-3,C-1",
+      "ExtractedAnswer": "A-3, B-1, C-2",
+      "Image": "images/2d0e8797-9b50-4112-be39-fbc10ae66bc5.png",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 1662,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "4,2,6,5,7,3,1",
+      "ExtractedAnswer": "4, 2, 6, 7, 1, 3, 5",
+      "Image": "images/6527e7d3-dc9c-4fbf-b752-051fefac3038.png",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 2492,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "D",
+      "ExtractedAnswer": "C",
+      "Image": "images/3dfc049e-a138-4e5c-af03-a83c958a9c00.png",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4327,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "1-B,2-A,3-C",
+      "ExtractedAnswer": "1-A, 2-B, 3-C",
+      "Image": "images/96e59d70-7f9a-4aab-a41d-d68f51c75216.jpg",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4329,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "10,7,7",
+      "ExtractedAnswer": "6, 8, 5",
+      "Image": "images/40829786-5b8b-4110-a43b-7a8eadd805a6.jpg",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4330,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "A - Blue, B - Yellow, C - Green",
+      "ExtractedAnswer": "A-yellow, B-blue, C-green",
+      "Image": "images/a661e253-605e-4c8c-8724-6266e5bed2b9.jpg",
+      "dimensions": [
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 4332,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "3-Gem,1-Fan,2-Crab,4-Skull",
+      "ExtractedAnswer": "1-gem,2-fan,3-crab,4-skull",
+      "Image": "images/f63f93f6-51b2-4a72-9a96-c1ba5d06dc4b.jpg",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4337,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "1-Skull #3, 2-Skull #2, 3-Diamond, 4-Skull #1",
+      "ExtractedAnswer": "Line 1: Skull #1\nLine 2: Diamond\nLine 3: Skull #3\nLine 4: Skull #2",
+      "Image": "images/f41b2235-182b-4275-90bf-138596d4446a.jpg",
+      "dimensions": [
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 4352,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "A-Circle, B-Triangle, C-Rectangle, D-Square, E-Pentagram",
+      "ExtractedAnswer": "A-circle, B-square, C-pentagram, D-triangle, E-rectangle",
+      "Image": "images/0c2af3e2-a3ae-480c-a6dc-daab6850b78f.jpg",
+      "dimensions": [
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 5152,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "1-S,2-N,3-O,4-W,5-M,6-A,7-N",
+      "ExtractedAnswer": "1-S,2-N,3-W,4-M,5-N,6-A,7-O",
+      "Image": "images/27409708-4eb6-4080-ad2b-7cac0443c53c.png",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5154,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "A-X,B-Y,C-Z,D-W",
+      "ExtractedAnswer": "A-W,B-X,C-Y,D-Z",
+      "Image": "images/03966ee0-6666-4164-8ec5-575b3443ee7e.png",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5156,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "1-D,2-I,3-A,4-M,5-O,6-N,7-D",
+      "ExtractedAnswer": "1-N,2-A,3-D,4-D,5-O,6-I,7-M",
+      "Image": "images/e29e29cf-b2f6-449a-b257-b2ad98e4c4fc.png",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5161,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "1-U,2-M,3-B,4-R,5-E,6-L,7-L,8-A",
+      "ExtractedAnswer": null,
+      "Image": "images/23c00d11-0dfc-4c67-a93a-e21dd36a7441.png",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5164,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "1-H,2-E,3-D,4-G,5-E,6-H,7-O,8-G",
+      "ExtractedAnswer": null,
+      "Image": "images/70498e1e-6674-41b9-82a3-fadfe068b97c.png",
+      "dimensions": [
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5245,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "Still,waters,run,deep",
+      "ExtractedAnswer": null,
+      "Image": "images/8c681f72-3da0-4bf5-ae56-aae4e6ab0245.png",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5246,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "Better,late,than,never",
+      "ExtractedAnswer": null,
+      "Image": "images/764860bf-1cc6-4eb6-9147-fe49d846e3f5.png",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5247,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "Which,witch,is,which",
+      "ExtractedAnswer": "Which which is witch",
+      "Image": "images/6615a5d7-c818-47a3-a24c-f81677e68484.png",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5248,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "Rolling,red,wagons",
+      "ExtractedAnswer": null,
+      "Image": "images/156f4dab-c016-479f-ae47-2995e80c44d7.png",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5249,
+      "Type": "Visual Tracking",
+      "Subtype": "Connect the lines",
+      "GroundTruth": "Daddy,draws,doors",
+      "ExtractedAnswer": null,
+      "Image": "images/cf8ef818-cbb0-44e7-8cce-5df1ac3faf88.png",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 542,
+      "Type": "Visual Tracking",
+      "Subtype": "Recognize numbers and letters",
+      "GroundTruth": "6,9,8",
+      "ExtractedAnswer": "8, 9, 5",
+      "Image": "images/bf34904e-aed9-4f65-90a8-41933781cedd.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 544,
+      "Type": "Visual Tracking",
+      "Subtype": "Recognize numbers and letters",
+      "GroundTruth": "3,6,2",
+      "ExtractedAnswer": "3, 8, 2",
+      "Image": "images/f8e81d76-8c6b-4d5b-8d57-e6b7854adbca.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 665,
+      "Type": "Visual Tracking",
+      "Subtype": "Recognize numbers and letters",
+      "GroundTruth": "D, 2, 4",
+      "ExtractedAnswer": "0,2,4",
+      "Image": "images/56962908-30ef-4d46-a8ca-2c304f4e4756.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 671,
+      "Type": "Visual Tracking",
+      "Subtype": "Recognize numbers and letters",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "B",
+      "Image": "images/dbbb43e7-a919-4c1a-9ba6-d3baa4fdf402.png",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 1298,
+      "Type": "Visual Tracking",
+      "Subtype": "Recognize numbers and letters",
+      "GroundTruth": "J, U, 3",
+      "ExtractedAnswer": "J, V, 3",
+      "Image": "images/140c02b9-21c8-42af-a6b2-79e7b3fa3577.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6435,
+      "Type": "Visual Tracking",
+      "Subtype": "Recognize numbers and letters",
+      "GroundTruth": "3,6,1",
+      "ExtractedAnswer": "3,8,4",
+      "Image": "images/15b376f7-750b-4bad-851c-3387a38e7431.jpg",
+      "dimensions": [
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 8326,
+      "Type": "Visual Tracking",
+      "Subtype": "Metro map",
+      "GroundTruth": "6",
+      "ExtractedAnswer": "7",
+      "Image": "images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 8328,
+      "Type": "Visual Tracking",
+      "Subtype": "Metro map",
+      "GroundTruth": "11",
+      "ExtractedAnswer": "12",
+      "Image": "images/8a9eefd2-e7b8-4b0a-a3f5-7b1af9382a78.jpg",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 8330,
+      "Type": "Visual Tracking",
+      "Subtype": "Metro map",
+      "GroundTruth": "8",
+      "ExtractedAnswer": "7",
+      "Image": "images/3652da18-2299-4dc5-87dd-356ca9075d91.jpg",
+      "dimensions": [
+        "counting",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 8339,
+      "Type": "Visual Tracking",
+      "Subtype": "Metro map",
+      "GroundTruth": "22",
+      "ExtractedAnswer": "21",
+      "Image": "images/1bd3a5d9-3450-46ad-bc79-b0e18cff6e7b.png",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 8340,
+      "Type": "Visual Tracking",
+      "Subtype": "Metro map",
+      "GroundTruth": "8",
+      "ExtractedAnswer": "11",
+      "Image": "images/d0e505a0-16f5-406f-bdab-440b661e8d90.jpg",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 8343,
+      "Type": "Visual Tracking",
+      "Subtype": "Metro map",
+      "GroundTruth": "11",
+      "ExtractedAnswer": "10",
+      "Image": "images/b9816827-1a10-4154-9ab6-d9058261a006.png",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 8163,
+      "Type": "Visual Tracking",
+      "Subtype": "Lines Observation",
+      "GroundTruth": "17,16,12,12,11,11,9,5,4,3",
+      "ExtractedAnswer": null,
+      "Image": "images/05e90d66-31df-4514-a0eb-b0ec0ac29a5e.png",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 8167,
+      "Type": "Visual Tracking",
+      "Subtype": "Lines Observation",
+      "GroundTruth": "13,4,17,3,27,14,5,9,8",
+      "ExtractedAnswer": null,
+      "Image": "images/0aa0f4d8-16dc-4e18-93b6-9b8bdf60447e.png",
+      "dimensions": [
+        "counting",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 431,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/bb952495-90aa-4b10-87fc-e3daacd3e8d5.jpg",
+      "dimensions": [
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 514,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "C",
+      "Image": "images/9a55a28d-b6a9-4de8-a7be-c0e63194ac5c.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 524,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/49301888-46ad-4682-bfe7-1d9622d9b2f7.jpg",
+      "dimensions": [
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 527,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "E",
+      "ExtractedAnswer": "3",
+      "Image": "images/74c999db-45ce-4a3b-ba76-356581576e56.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 694,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "D",
+      "ExtractedAnswer": "4",
+      "Image": "images/1e742612-5294-4c82-b504-e085769fe9cf.png",
+      "dimensions": [
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 696,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "D",
+      "ExtractedAnswer": null,
+      "Image": "images/ae22870e-7d4a-498f-bae3-c71a3e05f3a0.png",
+      "dimensions": [
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 713,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "B",
+      "Image": "images/7aee0684-86ad-422c-8571-6bc80a86b3cb.png",
+      "dimensions": [
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 888,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/1aa9e614-8807-4d91-9b3e-151ac9358717.png",
+      "dimensions": [
+        "3d_spatial",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4047,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "A-3,B-1,C-4,D-2,F-5,G-6,E-7,H-8",
+      "ExtractedAnswer": "A-3, B-1, C-4, D-2, E-7, F-5, G-6, H-8",
+      "Image": "images/427aacb2-0cac-42fc-99c7-bb5d92b1aef1.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5285,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "1-15,2-12,3-14,4-11,5-9,6-16,7-13,8-10",
+      "ExtractedAnswer": "1-15, 2-13, 3-9, 4-11, 5-14, 6-16, 7-12, 8-10",
+      "Image": "images/3701bbd1-2770-479b-b260-fc6b49db8c6f.png",
+      "dimensions": [
+        "3d_spatial",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5695,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/9898e0d9-d7b0-41c0-b3ab-f59c7a843563.jpg",
+      "dimensions": [
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 6038,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "1-4,2-10,6-8,7-9,11-5,12-3",
+      "ExtractedAnswer": "6-8, 11-5",
+      "Image": "images/34159715-db48-4ffd-b948-56628e6ba257.png",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6197,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "2-8, 1-3, 5-6, 4-7",
+      "ExtractedAnswer": null,
+      "Image": "images/6700e19d-9da2-4b5c-a437-0daec5c26288.png",
+      "dimensions": [
+        "3d_spatial",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6280,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "1-C, 2-D, 3-A, 4-B.",
+      "ExtractedAnswer": null,
+      "Image": "images/1c313586-8053-49d3-adc6-a6de759b8dd8.png",
+      "dimensions": [
+        "3d_spatial",
+        "path_tracking",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6340,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Views",
+      "GroundTruth": "1-8,2-9,3-6,10-4,11-7,12-5",
+      "ExtractedAnswer": null,
+      "Image": "images/711458d5-ed0b-4269-a193-4acf5bb45adf.png",
+      "dimensions": [
+        "3d_spatial",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 799,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "6,7,9",
+      "ExtractedAnswer": null,
+      "Image": "images/a1908d24-c780-4c08-beb5-2588b85de1db.png",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 1974,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/cd9f7e27-43d6-42b6-8f8f-c24046f2a30f.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 2065,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "The first one in the first row, the third one in the first row",
+      "ExtractedAnswer": null,
+      "Image": "images/c2ce8a0b-bc0a-4fcc-8db0-3eb29f30fbdc.png",
+      "dimensions": [
+        "coordinate_search",
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 3838,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "3, 5, 6",
+      "ExtractedAnswer": "3",
+      "Image": "images/b03f8c28-f8f4-4363-9b29-e3ea43ae441a.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4064,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "E",
+      "ExtractedAnswer": null,
+      "Image": "images/6d498729-dc05-441f-960b-98b68982fc4f.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4077,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "CD",
+      "ExtractedAnswer": null,
+      "Image": "images/0d576af0-1ea0-45d8-8ccf-ee401ac89a50.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4759,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "B,C",
+      "ExtractedAnswer": null,
+      "Image": "images/941bf491-e3b1-4d39-ad9d-9e5a790fe28e.png",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4760,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "2,5",
+      "ExtractedAnswer": "2",
+      "Image": "images/0cf7a405-1b93-429b-9d6a-285654557451.png",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 5388,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "2,3,6",
+      "ExtractedAnswer": null,
+      "Image": "images/8a4e55c7-ee31-4680-83ce-08e98faf8619.png",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5449,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "2,5,7",
+      "ExtractedAnswer": null,
+      "Image": "images/f3d30bb0-bfa2-4e71-af4b-c0145fa01e28.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 6344,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Cube Unfold",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "(C)",
+      "Image": "images/9e48bf35-de89-46c0-a2eb-3a9db0c83d46.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 501,
+      "Type": "Spatial Perception",
+      "Subtype": "Paper Folding",
+      "GroundTruth": "D",
+      "ExtractedAnswer": "A",
+      "Image": "images/e04854e2-1063-491a-b6e1-c60260bb6e59.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 8333,
+      "Type": "Spatial Perception",
+      "Subtype": "Paper Folding",
+      "GroundTruth": "7",
+      "ExtractedAnswer": null,
+      "Image": "images/f367bbe2-76f7-4d7f-9639-aac19f6b05bf.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 8334,
+      "Type": "Spatial Perception",
+      "Subtype": "Paper Folding",
+      "GroundTruth": "7",
+      "ExtractedAnswer": null,
+      "Image": "images/56542938-48bf-4627-b231-a591e8f022bd.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 8335,
+      "Type": "Spatial Perception",
+      "Subtype": "Paper Folding",
+      "GroundTruth": "6",
+      "ExtractedAnswer": "4",
+      "Image": "images/6f160da8-bc02-4f24-adba-5328178b994c.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 8336,
+      "Type": "Spatial Perception",
+      "Subtype": "Paper Folding",
+      "GroundTruth": "8",
+      "ExtractedAnswer": null,
+      "Image": "images/bfb85c6e-5763-4eac-a549-66876847ef00.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 8338,
+      "Type": "Spatial Perception",
+      "Subtype": "Paper Folding",
+      "GroundTruth": "9",
+      "ExtractedAnswer": null,
+      "Image": "images/6c900c22-5f11-4bd7-b128-9a4af26d3f78.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "path_tracking"
+      ]
+    },
+    {
+      "Id": 454,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/732da25b-91ba-4f85-b172-a22b7b73f2a5.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 480,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": null,
+      "Image": "images/a80147eb-625d-4f6c-b199-2f8061daf9d2.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 481,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/7945cf4a-304f-4198-92eb-c71f02f2ca6a.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 484,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/8c362cbb-d07e-4429-b5fd-c06c8a1a3406.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 502,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "B",
+      "ExtractedAnswer": "A",
+      "Image": "images/edda79fe-3aa9-42a6-90c8-004144938a18.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 505,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": null,
+      "Image": "images/0009e1a6-a625-4d52-a1fc-f3f2e634ef2a.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 512,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/7038fe3d-87a5-4498-b03b-cd0b6aa2d3af.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 621,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/c7c5d2bd-7f3c-4fb3-879c-d9032a614464.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 3777,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/3f6e844f-c32c-49ef-aa36-3052fa6fda82.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4375,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "B",
+      "ExtractedAnswer": "A",
+      "Image": "images/fcb02b4a-517d-4fc0-b5c8-82d96ceb7c10.png",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4391,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": null,
+      "Image": "images/e3100086-569c-40c5-bb23-03ecdd47e451.png",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4420,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/fe606365-ca64-4ce0-a227-8da4e03575ff.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 5308,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "B",
+      "Image": "images/e7310f48-a9f2-47b9-95f4-68f053d76575.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 5320,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/c9a46eab-12d0-4e18-a4f6-4425f5aacb17.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 5525,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/9a7d58eb-3101-4a3a-a0a5-d77ffc5237bb.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 5531,
+      "Type": "Spatial Perception",
+      "Subtype": "3D Pattern Completion",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/119dd196-7088-40b6-b888-45bd420551f5.jpg",
+      "dimensions": [
+        "3d_spatial",
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 4457,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "8",
+      "ExtractedAnswer": "6",
+      "Image": "images/b8366312-e21f-4632-8486-3ea59349b5ad.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4458,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "10",
+      "ExtractedAnswer": "9",
+      "Image": "images/7c6e845d-df59-4006-92df-34727f68293a.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4460,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "9",
+      "ExtractedAnswer": "8",
+      "Image": "images/229a1747-92b3-4544-905e-765203064f63.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4593,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "9",
+      "ExtractedAnswer": "8",
+      "Image": "images/c56582a4-aad4-4d5d-a499-69320122f641.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4597,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "13",
+      "ExtractedAnswer": "11",
+      "Image": "images/c4c47ac5-48c8-47b2-a00d-09b199e5d81a.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4598,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "16",
+      "ExtractedAnswer": null,
+      "Image": "images/7804674c-7a5a-4f4e-a8cc-393518228866.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4599,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "17",
+      "ExtractedAnswer": null,
+      "Image": "images/9b6d42a0-bc3f-43b9-bfcc-baac93e71a77.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4603,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "17",
+      "ExtractedAnswer": "15",
+      "Image": "images/f7b51a35-ef7c-46d2-ac5d-4494a4a1a95c.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4604,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "21",
+      "ExtractedAnswer": null,
+      "Image": "images/77292d06-e047-41c3-a097-2d75fef67c2d.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4607,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "26",
+      "ExtractedAnswer": null,
+      "Image": "images/1ca0feb5-870a-4cbf-9fc8-da34fc425036.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4610,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "13",
+      "ExtractedAnswer": null,
+      "Image": "images/9efe9815-0c2d-44e8-9d6a-df73497106c6.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4614,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "18",
+      "ExtractedAnswer": null,
+      "Image": "images/97a703b9-24f6-45bc-9194-a83374ce948f.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial"
+      ]
+    },
+    {
+      "Id": 4618,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "21",
+      "ExtractedAnswer": null,
+      "Image": "images/bf961d37-327b-4eeb-bf8f-26bd5810d92d.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4619,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "21",
+      "ExtractedAnswer": null,
+      "Image": "images/f19e5654-731b-42c3-94fa-d3f34ba359c1.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4621,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "22",
+      "ExtractedAnswer": "25",
+      "Image": "images/fd8b9025-69ad-45eb-bc3d-e338ae040210.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 4624,
+      "Type": "Spatial Perception",
+      "Subtype": "Count 3D blocks",
+      "GroundTruth": "19",
+      "ExtractedAnswer": null,
+      "Image": "images/4a81c121-d34b-43db-893a-5c5056454c6a.png",
+      "dimensions": [
+        "counting",
+        "3d_spatial",
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 434,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/61b343e9-c1b2-4f1e-8353-216ead042496.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 435,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "2,9",
+      "ExtractedAnswer": null,
+      "Image": "images/8d8d7824-38b5-47dc-801c-6e506262d1ff.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 438,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/cd3f50cd-2d82-4f51-ad73-3d57281c7408.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 441,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/e28810a9-8037-43f6-ad19-b806cb13115e.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 458,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "B",
+      "Image": "images/8f75ab8d-3b27-4a37-866b-6807dd877653.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 504,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "B",
+      "Image": "images/b36b1282-be7e-421b-b31e-70ae6e37e9ca.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 509,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "A",
+      "ExtractedAnswer": null,
+      "Image": "images/c2d35a59-ebf8-4c76-b88c-df97a6a55c65.jpg",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 536,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "3,9",
+      "ExtractedAnswer": null,
+      "Image": "images/47544751-140e-49a7-a0fb-2fb658ca9acd.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 664,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/b397d8ac-1f6a-464a-98f7-b343924132d2.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 693,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "C",
+      "ExtractedAnswer": "A",
+      "Image": "images/25e3b435-36e9-4f01-8890-38c0014304d9.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 708,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Overlay Patterns",
+      "GroundTruth": "A",
+      "ExtractedAnswer": "B",
+      "Image": "images/ab4a8e98-8b8f-4f2b-9775-52bd82b36cd9.png",
+      "dimensions": [
+        "coordinate_search",
+        "pattern_completion",
+        "overlay_reconstruction"
+      ]
+    },
+    {
+      "Id": 467,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Logic Patterns",
+      "GroundTruth": "F",
+      "ExtractedAnswer": "B",
+      "Image": "images/bf41b90b-ec5e-4b80-a734-105dea3175ff.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 676,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Logic Patterns",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/79c9c6fc-0a6a-4227-9bda-a0de0cc3fb67.jpg",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 687,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Logic Patterns",
+      "GroundTruth": "E",
+      "ExtractedAnswer": "5",
+      "Image": "images/8bd21334-af0b-446f-a3e9-7cf8120bc49d.png",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 718,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Logic Patterns",
+      "GroundTruth": "E",
+      "ExtractedAnswer": "5",
+      "Image": "images/3b3f193f-8930-4f1f-8970-5880be2501e6.png",
+      "dimensions": [
+        "pattern_completion"
+      ]
+    },
+    {
+      "Id": 1914,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Logic Patterns",
+      "GroundTruth": "2-9",
+      "ExtractedAnswer": null,
+      "Image": "images/c5e1ac30-2c8d-4528-bbc7-3b51642af149.png",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 1925,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Logic Patterns",
+      "GroundTruth": "3 and 11",
+      "ExtractedAnswer": null,
+      "Image": "images/9217a686-fc0b-4d84-a28a-ad5e90fdfbb8.png",
+      "dimensions": [
+        "pattern_completion",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 510,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Rotation Patterns",
+      "GroundTruth": "6,4,2",
+      "ExtractedAnswer": "6,4,3",
+      "Image": "images/11144938-2101-4747-8298-8f7a2510996b.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 540,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Rotation Patterns",
+      "GroundTruth": "B",
+      "ExtractedAnswer": "A",
+      "Image": "images/c3afb8f4-c4ed-43b9-a1a3-64a0d3969125.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 4180,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Rotation Patterns",
+      "GroundTruth": "C",
+      "ExtractedAnswer": null,
+      "Image": "images/28ada346-f819-4cd6-aeec-f61950239d86.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 5293,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Rotation Patterns",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/034891a4-af23-4a97-89ec-760e5425994a.png",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 5519,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Rotation Patterns",
+      "GroundTruth": "C",
+      "ExtractedAnswer": null,
+      "Image": "images/1cf1255b-bc4f-45c0-b963-01bae0f2ce44.png",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 5565,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Rotation Patterns",
+      "GroundTruth": "B",
+      "ExtractedAnswer": null,
+      "Image": "images/8267a03d-f710-416f-885d-58f86fd658fe.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 537,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Mirroring Patterns",
+      "GroundTruth": "D",
+      "ExtractedAnswer": "A",
+      "Image": "images/6e82799f-6858-4356-b738-01be510f9578.jpg",
+      "dimensions": [
+        "path_tracking",
+        "pattern_completion",
+        "rotation_or_shadow"
+      ]
+    },
+    {
+      "Id": 547,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Mirroring Patterns",
+      "GroundTruth": "8",
+      "ExtractedAnswer": "6",
+      "Image": "images/bc48b6f2-58fd-468d-9297-fc0f3b5fa471.jpg",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    },
+    {
+      "Id": 1929,
+      "Type": "Visual Pattern Recognition",
+      "Subtype": "Mirroring Patterns",
+      "GroundTruth": "1-7, 2-4, 3-10, 5-11, 6-8, 9-12",
+      "ExtractedAnswer": "6-8",
+      "Image": "images/3e40e91d-2be4-4294-a7a0-4401c7602234.png",
+      "dimensions": [
+        "pattern_completion",
+        "rotation_or_shadow",
+        "fine_detail"
+      ]
+    }
+  ]
+}

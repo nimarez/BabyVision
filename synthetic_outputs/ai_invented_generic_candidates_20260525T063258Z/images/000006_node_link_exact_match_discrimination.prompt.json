@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-05-25T07:13:31.844475+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "planner_model": "gemini-3.1-pro-preview",
+  "style_anchor": "generic",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_invented_generic_candidates_20260525T063258Z/images/000006_node_link_exact_match_discrimination.png",
+  "case": {
+    "slug": "node_link_exact_match_discrimination",
+    "type": "Fine-grained Discrimination",
+    "subtype": "Near-identical option discrimination",
+    "answer": "B",
+    "question": "Which option perfectly matches the target figure?",
+    "rubric": "Option B is the only figure that accurately reproduces both the shapes and the specific fill states (left black square, right hollow circle, top black triangle) of all three terminal nodes in the target.",
+    "planner_model": "gemini-3.1-pro-preview",
+    "planner_focus": {
+      "type": "Fine-grained Discrimination",
+      "subtype": "Near-identical option discrimination",
+      "weakness": "finding the only exact match among near duplicates with tiny differences"
+    },
+    "planner_response": "```json\n{\n  \"slug\": \"node_link_exact_match_discrimination\",\n  \"type\": \"Fine-grained Discrimination\",\n  \"subtype\": \"Near-identical option discrimination\",\n  \"question\": \"Which option perfectly matches the target figure?\",\n  \"answer\": \"B\",\n  \"image_prompt\": \"A clean visual cognitive test on a pure white background. The image is divided into a top and bottom section. In the top section, the word 'TARGET' is written above a geometric diagram. The Target diagram consists of a central hollow diamond with three straight line segments radiating from it: one segment points left and ends in a filled black square, one segment points right and ends in a hollow circle, and one segment points straight up and ends in a filled black triangle. In the bottom section, there are four similar diagrams arranged in a horizontal row, labeled 'A', 'B', 'C', and 'D' below each respective figure. Option A has a hollow square on the left, but is otherwise identical. Option B exactly matches the Target (filled black square left, hollow circle right, filled black triangle up). Option C has a filled black circle on the right, but is otherwise identical. Option D has a hollow triangle on the top, but is otherwise identical. Crisp geometric lines, no watermarks, no photorealism, and no explanatory answer key.\",\n  \"rubric\": \"Option B is the only figure that accurately reproduces both the shapes and the specific fill states (left black square, right hollow circle, top black triangle) of all three terminal nodes in the target.\"\n}\n```",
+    "style_anchor": "generic",
+    "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean visual cognitive test on a pure white background. The image is divided into a top and bottom section. In the top section, the word 'TARGET' is written above a geometric diagram. The Target diagram consists of a central hollow diamond with three straight line segments radiating from it: one segment points left and ends in a filled black square, one segment points right and ends in a hollow circle, and one segment points straight up and ends in a filled black triangle. In the bottom section, there are four similar diagrams arranged in a horizontal row, labeled 'A', 'B', 'C', and 'D' below each respective figure. Option A has a hollow square on the left, but is otherwise identical. Option B exactly matches the Target (filled black square left, hollow circle right, filled black triangle up). Option C has a filled black circle on the right, but is otherwise identical. Option D has a hollow triangle on the top, but is otherwise identical. Crisp geometric lines, no watermarks, no photorealism, and no explanatory answer key."
+  },
+  "prompt": "Create one clean visual reasoning worksheet puzzle for early visual cognition skills. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. A clean visual cognitive test on a pure white background. The image is divided into a top and bottom section. In the top section, the word 'TARGET' is written above a geometric diagram. The Target diagram consists of a central hollow diamond with three straight line segments radiating from it: one segment points left and ends in a filled black square, one segment points right and ends in a hollow circle, and one segment points straight up and ends in a filled black triangle. In the bottom section, there are four similar diagrams arranged in a horizontal row, labeled 'A', 'B', 'C', and 'D' below each respective figure. Option A has a hollow square on the left, but is otherwise identical. Option B exactly matches the Target (filled black square left, hollow circle right, filled black triangle up). Option C has a filled black circle on the right, but is otherwise identical. Option D has a hollow triangle on the top, but is otherwise identical. Crisp geometric lines, no watermarks, no photorealism, and no explanatory answer key.",
+  "response_text": [
+    "**Designing Visual Puzzles**\n\nI'm focusing on a clean, printable worksheet aesthetic, utilizing crisp black lines and geometric forms on a white background for the initial layout. My current concentration is on establishing the foundational elements for the top section of the puzzle.\n\n",
+    "**Crafting Puzzle Components**\n\nI am currently defining the structural elements for the puzzle's upper portion. My focus is on establishing the core visual representation of the target configuration, ensuring clarity and precision in its geometric construction.\n\n",
+    "**Evaluating Diagram Components**\n\nI am currently verifying the generated visual puzzle against the user's precise specifications. The primary diagram and the four solution options appear to align correctly with the requested geometric configurations.\n\n",
+    "**Confirming Puzzle Accuracy**\n\nI've reviewed the generated visual puzzle and confirmed that the target diagram and solution options precisely match the user's specifications. All geometric elements have been rendered accurately according to the prompt.\n\n"
+  ]
+}
