@@ -11,3 +11,7 @@
 
 # remove all __pycache__ folders in all folders
 **/__pycache__/
+
+# local development
+.venv/
+.DS_Store

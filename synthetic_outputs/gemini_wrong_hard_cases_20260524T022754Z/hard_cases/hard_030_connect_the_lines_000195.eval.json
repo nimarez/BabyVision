@@ -1,0 +1,38 @@
+{
+  "source_dataset": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z",
+  "source_eval": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z/eval_gemini_3_1_pro_high",
+  "source_task_id": 195,
+  "model": "gemini-3.1-pro-preview",
+  "judge_model": "local_exact",
+  "finish_reason": "STOP",
+  "type": "Visual Tracking",
+  "subtype": "Connect the lines",
+  "question": "Start at label C and follow its continuous line. Which numbered endpoint does it reach?\nThink about the question and give your final answer in \\boxed{Answer} format.",
+  "ground_truth": "3",
+  "model_result": "To find which numbered endpoint the line starting at label **C** reaches, we carefully trace its path:\n\n1.  Start at the dot next to **C**.\n2.  Follow the line horizontally to the right.\n3.  At the first bend, the line angles diagonally **up and to the right**.\n4.  Continue along this line as it crosses another line and reaches a **peak**.\n5.  From the peak, the line angles diagonally **down and to the right**.\n6.  It crosses another line and reaches a **valley**.\n7.  From the valley, the line angles diagonally **up and to the right**.\n8.  It crosses another line and reaches a second **peak** (the highest point in the middle section).\n9.  From this peak, the line angles diagonally **down and to the right**.\n10. It reaches another **valley**.\n11. From this valley, the line goes **horizontally to the right**.\n12. At the final bend, the line angles diagonally **up and to the right**.\n13. The line ends at the dot next to the number **2**.\n\n\\boxed{2}",
+  "extracted_answer": "2",
+  "local_exact_result": false,
+  "usage_metadata": {
+    "candidatesTokenCount": 251,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 251
+      }
+    ],
+    "promptTokenCount": 1121,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 41
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1080
+      }
+    ],
+    "thoughtsTokenCount": 7860,
+    "totalTokenCount": 9232,
+    "trafficType": "ON_DEMAND"
+  }
+}

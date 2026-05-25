@@ -1,0 +1,2721 @@
+{
+  "summary": {
+    "dataset_sources": [
+      "data/babyvision_data/images"
+    ],
+    "generated_sources": [
+      "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+    ],
+    "dataset_image_count": 388,
+    "generated_image_count": 50,
+    "hash_size": 8,
+    "max_distance": 2,
+    "exact_byte_match_count": 0,
+    "exact_pixel_match_count": 0,
+    "perceptual_match_count": 0,
+    "match_count": 0,
+    "fail_on": "pixel"
+  },
+  "generated": [
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_001_rendered_connect_the_lines_000009.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_001_rendered_connect_the_lines_000009.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "10b6673456566884ef007fd795b83af9c481102a640cf9b9b6b6176b7cefb829",
+        "pixel_sha256": "d2ffcfdd2de7698582186a46853e1560d24cf4fbe729c5f435929477f08a5ac6",
+        "ahash": "3fb02d008004fbff",
+        "dhash": "5c6549660d39e604",
+        "phash": "2f078532a7859bc3"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_001_rendered_connect_the_lines_000009.png",
+          "dataset": "data/babyvision_data/images/c4c47ac5-48c8-47b2-a00d-09b199e5d81a.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 26,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_001_rendered_connect_the_lines_000009.png",
+          "dataset": "data/babyvision_data/images/f63f93f6-51b2-4a72-9a96-c1ba5d06dc4b.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 28,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_001_rendered_connect_the_lines_000009.png",
+          "dataset": "data/babyvision_data/images/29742a10-56e3-469f-959e-ea1b679f24e9.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 28,
+          "dhash_distance": 28,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_002_rendered_overlay_patterns_000012.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_002_rendered_overlay_patterns_000012.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "fe89e081e60f86b1a660af742ba5adbea0c6f99bdd61d1cd0711dfb60e336704",
+        "pixel_sha256": "8420c2c3687697d1b55254ee43eaa0a2b60e2d27f3eb02d9832bcceda57c0a90",
+        "ahash": "3fe7e7ff8100ffff",
+        "dhash": "680c4c0855550000",
+        "phash": "26268d1d8d9d3f82"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_002_rendered_overlay_patterns_000012.png",
+          "dataset": "data/babyvision_data/images/f63f93f6-51b2-4a72-9a96-c1ba5d06dc4b.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 33,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_002_rendered_overlay_patterns_000012.png",
+          "dataset": "data/babyvision_data/images/119dd196-7088-40b6-b888-45bd420551f5.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 25,
+          "dhash_distance": 23,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_002_rendered_overlay_patterns_000012.png",
+          "dataset": "data/babyvision_data/images/a10c4089-cddd-40cb-a25e-ed0db948b32b.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 26,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_003_rendered_find_the_same_000014.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_003_rendered_find_the_same_000014.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "2f7d0b97d6c7f7a334bad75041942ea13b68c4ae91cacfd5dde8d7967972e776",
+        "pixel_sha256": "9871a6650c5950bf62db1ce2a12dd1171ed5bebb2ba5b0773c1e18ec4250e026",
+        "ahash": "3fff81c1c1c1c1ff",
+        "dhash": "6093032303132b03",
+        "phash": "2a87870f953e0f2a"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_003_rendered_find_the_same_000014.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 17,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_003_rendered_find_the_same_000014.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 24,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_003_rendered_find_the_same_000014.png",
+          "dataset": "data/babyvision_data/images/a450ddcb-8548-49ea-aee4-ff3bede26ef6.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 25,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_004_rendered_connect_the_lines_000015.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_004_rendered_connect_the_lines_000015.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "2d79815c683e06a0c48976d77c032dd8894db3ddfea8fbd2b5a2df9109218a96",
+        "pixel_sha256": "d6a8b07872f66feda517aace4984fca93834cfcaf824d9c928350eac9b317597",
+        "ahash": "3f703883072efdff",
+        "dhash": "c44163ba54488104",
+        "phash": "0b0fc217b5288f8f"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_004_rendered_connect_the_lines_000015.png",
+          "dataset": "data/babyvision_data/images/732da25b-91ba-4f85-b172-a22b7b73f2a5.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 27,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_004_rendered_connect_the_lines_000015.png",
+          "dataset": "data/babyvision_data/images/40829b36-905b-4985-a87d-0624ad8b0be8.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 29,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_004_rendered_connect_the_lines_000015.png",
+          "dataset": "data/babyvision_data/images/36127ca4-be61-4936-a84b-0131e4e26dd0.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 30,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_005_rendered_connect_the_lines_000021.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_005_rendered_connect_the_lines_000021.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "bc1464aeea2e49ee6080628248e157045a86f07c05f16824e106650c216e3db6",
+        "pixel_sha256": "676dd4173addf5a533facee1da1f948eb9bfd1492861e5e62ca3f32fb20af2a6",
+        "ahash": "3f7e8401017cffff",
+        "dhash": "40c40d5343c9c000",
+        "phash": "0b2f84c72d3d3272"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_005_rendered_connect_the_lines_000021.png",
+          "dataset": "data/babyvision_data/images/1323d501-85a7-4a9e-abe4-2f5b7e22e458.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 30,
+          "dhash_distance": 21,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_005_rendered_connect_the_lines_000021.png",
+          "dataset": "data/babyvision_data/images/5cbdbd18-1743-4e2c-9418-6d7ec4f7ba2c.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 30,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_005_rendered_connect_the_lines_000021.png",
+          "dataset": "data/babyvision_data/images/bfe77107-fea0-49f9-96f1-f88b9f62499b.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 22,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_006_rendered_find_the_same_000026.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_006_rendered_find_the_same_000026.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "dc06c543c34af2705ee52e0ce31176eae8b2047f0088514e353a5013bf6cf2a3",
+        "pixel_sha256": "9fc872efb2d7eabd09cdea5819497e63ef1dd329477cbd24f8892386ed938c81",
+        "ahash": "3fff81c1c1c1c1ff",
+        "dhash": "60cb032b030b2313",
+        "phash": "2a87871e953e872a"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_006_rendered_find_the_same_000026.png",
+          "dataset": "data/babyvision_data/images/a450ddcb-8548-49ea-aee4-ff3bede26ef6.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 25,
+          "phash_distance": 14,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_006_rendered_find_the_same_000026.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 19,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_006_rendered_find_the_same_000026.png",
+          "dataset": "data/babyvision_data/images/b2343498-7f90-4d99-9a2c-6f14b3feb332.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 21,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_007_rendered_connect_the_lines_000039.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_007_rendered_connect_the_lines_000039.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "177822c236f52a53a98627d224639fb1ebbce40e6de570ce742ccc91bbd9b303",
+        "pixel_sha256": "654c948650c51fc72130864a024fb3b26abcc0e2b469cdd6cd1ecb4c6d08422c",
+        "ahash": "3fed0080591ea7ff",
+        "dhash": "68893753d9544c08",
+        "phash": "2f0b9787cb270ce0"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_007_rendered_connect_the_lines_000039.png",
+          "dataset": "data/babyvision_data/images/f78c6b21-17da-4efa-875f-032cf15905bf.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 25,
+          "dhash_distance": 22,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_007_rendered_connect_the_lines_000039.png",
+          "dataset": "data/babyvision_data/images/74c6b0c3-8ba1-47f0-ab86-8abaf78f32b3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 25,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_007_rendered_connect_the_lines_000039.png",
+          "dataset": "data/babyvision_data/images/79bae992-1a88-4cc3-85e1-5516f4697869.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 27,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_008_rendered_overlay_patterns_000048.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_008_rendered_overlay_patterns_000048.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "2b6436d28c3b1b8fa56c22a567aa570e52be81766211801597bf137c2715d0d9",
+        "pixel_sha256": "e2b82e1ade58f1af756f1eaafe4f7e96622c8ce4f08b71ba4a556ee20f976045",
+        "ahash": "3fe7e7ff8500ffff",
+        "dhash": "680c4c0855550000",
+        "phash": "26278d1d8d8d3f82"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_008_rendered_overlay_patterns_000048.png",
+          "dataset": "data/babyvision_data/images/e2c4dba6-38ed-4b38-8f98-6199cecbcab9.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 28,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_008_rendered_overlay_patterns_000048.png",
+          "dataset": "data/babyvision_data/images/f63f93f6-51b2-4a72-9a96-c1ba5d06dc4b.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 33,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_008_rendered_overlay_patterns_000048.png",
+          "dataset": "data/babyvision_data/images/450f329d-6664-4aa6-8111-3cca73600da3.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 32,
+          "dhash_distance": 33,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_009_rendered_connect_the_lines_000051.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_009_rendered_connect_the_lines_000051.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "c7e21cafe189d2f4a95406c6c84a502f61c497a561a968e7751cb28b69444397",
+        "pixel_sha256": "da468bdcff99fc46a35589ab6120a82f5697a442dec42d9427bc0ed1897ddfea",
+        "ahash": "3f21db1b2209c3ff",
+        "dhash": "696b96566c5b962c",
+        "phash": "2f07930b8789d9e4"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_009_rendered_connect_the_lines_000051.png",
+          "dataset": "data/babyvision_data/images/a10c4089-cddd-40cb-a25e-ed0db948b32b.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 20,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_009_rendered_connect_the_lines_000051.png",
+          "dataset": "data/babyvision_data/images/3814869c-d600-431a-99de-beee1e2c46a5.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 25,
+          "dhash_distance": 28,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_009_rendered_connect_the_lines_000051.png",
+          "dataset": "data/babyvision_data/images/5b840d1f-79df-4e51-ac91-3451b8478e28.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 24,
+          "dhash_distance": 26,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_010_rendered_connect_the_lines_000057.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_010_rendered_connect_the_lines_000057.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "c902c868a447ab47f64a8edb4c1d8d3fa5b16ccddd827fe224bfd85cca709130",
+        "pixel_sha256": "079f985ef0035fd4212b9ef5226973568ee07000721db9da23d68ae0e2b48f65",
+        "ahash": "3f3c049d3000eeff",
+        "dhash": "42650d3561578808",
+        "phash": "0e0f954d8d9327b2"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_010_rendered_connect_the_lines_000057.png",
+          "dataset": "data/babyvision_data/images/74c6b0c3-8ba1-47f0-ab86-8abaf78f32b3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 24,
+          "dhash_distance": 24,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_010_rendered_connect_the_lines_000057.png",
+          "dataset": "data/babyvision_data/images/cf8ef818-cbb0-44e7-8cce-5df1ac3faf88.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 28,
+          "dhash_distance": 16,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_010_rendered_connect_the_lines_000057.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 20,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_011_rendered_connect_the_lines_000063.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_011_rendered_connect_the_lines_000063.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "b8a01d27766997276676a269ffbaa24af3b4dfa98f3aa11131cec84ae2bcd07d",
+        "pixel_sha256": "4caffaea8d6cfa7c80cc9781a6a20e9df695571961741a9aa7921359d4705b5d",
+        "ahash": "3f7836060010b9ff",
+        "dhash": "41f1645c95366b09",
+        "phash": "0f07cb499397a466"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_011_rendered_connect_the_lines_000063.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 33,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_011_rendered_connect_the_lines_000063.png",
+          "dataset": "data/babyvision_data/images/49cfa0c0-1622-413f-a9e0-294fa37f0980.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 30,
+          "dhash_distance": 25,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_011_rendered_connect_the_lines_000063.png",
+          "dataset": "data/babyvision_data/images/a57782ef-8f5f-487e-b5f8-c7959aa3d11e.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 33,
+          "dhash_distance": 29,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_012_rendered_connect_the_lines_000069.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_012_rendered_connect_the_lines_000069.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "64c2025b2676330e518d537306e228890ec5399b9d2a7aafa35854ffb96e0a68",
+        "pixel_sha256": "267f8979805c159e611f5669aa1460e699bba470797256d2ea849a58930210ab",
+        "ahash": "3f4400983230c7ff",
+        "dhash": "449d296b56668c18",
+        "phash": "0f0bb1858db3cf21"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_012_rendered_connect_the_lines_000069.png",
+          "dataset": "data/babyvision_data/images/450f329d-6664-4aa6-8111-3cca73600da3.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 24,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_012_rendered_connect_the_lines_000069.png",
+          "dataset": "data/babyvision_data/images/f407f519-39a0-45a1-888b-8e2572142bdb.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 33,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_012_rendered_connect_the_lines_000069.png",
+          "dataset": "data/babyvision_data/images/69ebd148-f52e-4a34-97fc-ad344223f08b.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 28,
+          "dhash_distance": 36,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_013_rendered_connect_the_lines_000081.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_013_rendered_connect_the_lines_000081.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "7df89a926582d40778313e801f445428f5cf6d53b4f06b1fd129274673c16de7",
+        "pixel_sha256": "5a024f02e4e02f8e49b4c2a9cb50494882a1dea6bfe5df57d3605d2151e2ca08",
+        "ahash": "3f240604101cf6ff",
+        "dhash": "c6e95c5e3325c404",
+        "phash": "2f03874cc9b59d29"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_013_rendered_connect_the_lines_000081.png",
+          "dataset": "data/babyvision_data/images/6615a5d7-c818-47a3-a24c-f81677e68484.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 25,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_013_rendered_connect_the_lines_000081.png",
+          "dataset": "data/babyvision_data/images/a7f69400-fa2b-423f-becd-7680e41696c9.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 32,
+          "dhash_distance": 27,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_013_rendered_connect_the_lines_000081.png",
+          "dataset": "data/babyvision_data/images/8c681f72-3da0-4bf5-ae56-aae4e6ab0245.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 29,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_014_rendered_connect_the_lines_000087.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_014_rendered_connect_the_lines_000087.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "93f9886d7c0de74093139f99f46da053bc282c7142a3a79df583f0ee9909f30c",
+        "pixel_sha256": "e1131d0c802c84c81bec67e444f9942887a3a8e5d51b7b0435ae01e80a6e833d",
+        "ahash": "2f4413b74e00a1ff",
+        "dhash": "5989b6659c356b09",
+        "phash": "3f11c31b970f8c91"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_014_rendered_connect_the_lines_000087.png",
+          "dataset": "data/babyvision_data/images/8274cdc8-dfcc-408c-bd14-9ba80cb28960.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 30,
+          "phash_distance": 14,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_014_rendered_connect_the_lines_000087.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 24,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_014_rendered_connect_the_lines_000087.png",
+          "dataset": "data/babyvision_data/images/9898e0d9-d7b0-41c0-b3ab-f59c7a843563.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 33,
+          "dhash_distance": 21,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_015_rendered_connect_the_lines_000105.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_015_rendered_connect_the_lines_000105.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "54ba8eba411aba3504817da1e1b80258d964ea450ee9c1fc3e6b86999c47616e",
+        "pixel_sha256": "6c15bcf4b0829c9bfa0da86a2d9a4efcb5f6ac2dacf9e3a79bdcd67dc9d93326",
+        "ahash": "3f7e00120125ffff",
+        "dhash": "40cc695693696000",
+        "phash": "0f078603ad9e3b69"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_015_rendered_connect_the_lines_000105.png",
+          "dataset": "data/babyvision_data/images/255e842d-10b5-4303-a4aa-116fe17a2073.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 30,
+          "dhash_distance": 26,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_015_rendered_connect_the_lines_000105.png",
+          "dataset": "data/babyvision_data/images/49eaebb8-dcf6-480e-b4e2-1a82fa252f77.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 30,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_015_rendered_connect_the_lines_000105.png",
+          "dataset": "data/babyvision_data/images/74c6b0c3-8ba1-47f0-ab86-8abaf78f32b3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 23,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_016_rendered_connect_the_lines_000111.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_016_rendered_connect_the_lines_000111.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "8335aef53afb5891eef8f8696ca7d05427b391c4c2d9c61f0ad0e902b6c749dc",
+        "pixel_sha256": "c5be27ae8fdaf077f382f088a0d0f15c046c2b9b7b280e5d04e5e73f3150e844",
+        "ahash": "3f321c00ed083bff",
+        "dhash": "5456315b49106a24",
+        "phash": "0f0f8503e33b98ce"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_016_rendered_connect_the_lines_000111.png",
+          "dataset": "data/babyvision_data/images/cf8ef818-cbb0-44e7-8cce-5df1ac3faf88.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 28,
+          "dhash_distance": 31,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_016_rendered_connect_the_lines_000111.png",
+          "dataset": "data/babyvision_data/images/01ce368f-cc58-409a-a77b-ee8ab6e92cda.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 28,
+          "dhash_distance": 20,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_016_rendered_connect_the_lines_000111.png",
+          "dataset": "data/babyvision_data/images/adf605f7-e567-44dc-a764-16d3c050dfa3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 24,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_017_rendered_find_the_same_000116.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_017_rendered_find_the_same_000116.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "57fdf08d21243c3d50b7a29cd2adcc6b482e03644a4b5be53c35ffbdfafc0336",
+        "pixel_sha256": "55db6aa3f996a8ad5103a30aa2a64ac3155cbc132dcf1294d2a8b76c75961356",
+        "ahash": "3fff81c1c1c1c1ff",
+        "dhash": "608b2b2333230b23",
+        "phash": "2a87870e873e8f2a"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_017_rendered_find_the_same_000116.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 19,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_017_rendered_find_the_same_000116.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 20,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_017_rendered_find_the_same_000116.png",
+          "dataset": "data/babyvision_data/images/450f329d-6664-4aa6-8111-3cca73600da3.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 28,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_018_rendered_connect_the_lines_000117.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_018_rendered_connect_the_lines_000117.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "f3038150b8e358cd8d33190bcee9f244c7ad914f76ea0c2614e5da18999553e0",
+        "pixel_sha256": "1959acd50d3dd89b281210f72e476d1996691747d078705fb028230c715a5c9b",
+        "ahash": "3f7f3280010cffff",
+        "dhash": "59aa64372b599204",
+        "phash": "2f06831be9649fa4"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_018_rendered_connect_the_lines_000117.png",
+          "dataset": "data/babyvision_data/images/6527e7d3-dc9c-4fbf-b752-051fefac3038.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 31,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_018_rendered_connect_the_lines_000117.png",
+          "dataset": "data/babyvision_data/images/aecf8684-2f18-4295-b266-2ec670c9de2f.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 16,
+          "dhash_distance": 22,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_018_rendered_connect_the_lines_000117.png",
+          "dataset": "data/babyvision_data/images/3814869c-d600-431a-99de-beee1e2c46a5.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 31,
+          "dhash_distance": 23,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_019_rendered_connect_the_lines_000123.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_019_rendered_connect_the_lines_000123.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "99ad23a5e3c0cd8bcecb3e4882d8f61bfb5cd7611b58507ed12214af7eda7521",
+        "pixel_sha256": "ae71ac91c7f29161f7a5095d385801d206a0280dc63f1cd65be2d92cf5d0efdd",
+        "ahash": "3f411080007cfeff",
+        "dhash": "4299652d55d1c000",
+        "phash": "1b0f8181b79e8f0e"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_019_rendered_connect_the_lines_000123.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 24,
+          "dhash_distance": 28,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_019_rendered_connect_the_lines_000123.png",
+          "dataset": "data/babyvision_data/images/173a924a-d607-4d64-a488-e70748c76db1.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 25,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_019_rendered_connect_the_lines_000123.png",
+          "dataset": "data/babyvision_data/images/1697eea4-6f47-4c67-ad3f-df5cfae1dcbe.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 27,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_020_rendered_find_the_same_000128.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_020_rendered_find_the_same_000128.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "6adeb6484ec090502ebd58bbc1a2bba4b1074b834380586087b291a91e368b2d",
+        "pixel_sha256": "14087929eacd8696fe25e6c33d132f8c93751dfdfc58c1d1b70d0511033121fa",
+        "ahash": "3fff81c1c1c1c1ff",
+        "dhash": "60cb2323230b0305",
+        "phash": "2a87870f963e872a"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_020_rendered_find_the_same_000128.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 18,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_020_rendered_find_the_same_000128.png",
+          "dataset": "data/babyvision_data/images/a450ddcb-8548-49ea-aee4-ff3bede26ef6.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 24,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_020_rendered_find_the_same_000128.png",
+          "dataset": "data/babyvision_data/images/40829b36-905b-4985-a87d-0624ad8b0be8.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 20,
+          "dhash_distance": 34,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_021_rendered_connect_the_lines_000135.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_021_rendered_connect_the_lines_000135.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "e97c04e3fbe9a9e6f09e923878c90ff906e5e9acb881a5e759248072316a6243",
+        "pixel_sha256": "0f722ca421c72bc2c3c0c0bdd7a8eb513de112875b44fa4e7516cf104f1a466b",
+        "ahash": "3fa0d083836427ff",
+        "dhash": "5869953655cd4c68",
+        "phash": "270b8703bd1cc2cf"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_021_rendered_connect_the_lines_000135.png",
+          "dataset": "data/babyvision_data/images/adf605f7-e567-44dc-a764-16d3c050dfa3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 23,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_021_rendered_connect_the_lines_000135.png",
+          "dataset": "data/babyvision_data/images/bf41b90b-ec5e-4b80-a734-105dea3175ff.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 21,
+          "dhash_distance": 28,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_021_rendered_connect_the_lines_000135.png",
+          "dataset": "data/babyvision_data/images/6615a5d7-c818-47a3-a24c-f81677e68484.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 30,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_022_rendered_connect_the_lines_000141.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_022_rendered_connect_the_lines_000141.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "a9f51b1667931631b7a24cb8c4f9149f7c3f26aa0441ecde6bca35673067b53a",
+        "pixel_sha256": "d5e9b85c1d27548ecf788602a6d381ea1518e7fb0513e85bcc6503bc419d6991",
+        "ahash": "3ff2612c081046ff",
+        "dhash": "68a4c34871358c08",
+        "phash": "0f07a41e9fb18c63"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_022_rendered_connect_the_lines_000141.png",
+          "dataset": "data/babyvision_data/images/8883a18b-e55f-48de-a598-76200b86b070.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 28,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_022_rendered_connect_the_lines_000141.png",
+          "dataset": "data/babyvision_data/images/bfe77107-fea0-49f9-96f1-f88b9f62499b.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 16,
+          "dhash_distance": 30,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_022_rendered_connect_the_lines_000141.png",
+          "dataset": "data/babyvision_data/images/4bdfd416-cf1d-4c65-ba88-86dd645d8d46.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 33,
+          "dhash_distance": 22,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_023_rendered_find_the_same_000146.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_023_rendered_find_the_same_000146.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "5b9927a62852e3220af74c45ecdf204009bcd44e4eb5d6590284989537088f76",
+        "pixel_sha256": "e4dd0b87bae3bd515e98199ed324998f70ebf8d4c24ab57a2645aca5eeee5686",
+        "ahash": "3fff81c1c1c1c1ff",
+        "dhash": "60c32b2b23132303",
+        "phash": "2a87870e953e8f2a"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_023_rendered_find_the_same_000146.png",
+          "dataset": "data/babyvision_data/images/a450ddcb-8548-49ea-aee4-ff3bede26ef6.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 26,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_023_rendered_find_the_same_000146.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 18,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_023_rendered_find_the_same_000146.png",
+          "dataset": "data/babyvision_data/images/b2343498-7f90-4d99-9a2c-6f14b3feb332.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 20,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_024_rendered_connect_the_lines_000147.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_024_rendered_connect_the_lines_000147.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "e128764500b5427dd27ebcefe61aee727ff8c151f718cfba20f971a0cb568653",
+        "pixel_sha256": "b87686f733d64ee13c5e2453c4c0d32234e28ff18151ddba1c3bedf1a6a5881e",
+        "ahash": "3ff83f0900e4ffff",
+        "dhash": "43c56c5b354dc800",
+        "phash": "0f0dc5673993a686"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_024_rendered_connect_the_lines_000147.png",
+          "dataset": "data/babyvision_data/images/c7ae76ef-a9e8-48bd-ba95-3eb9b08d3d63.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 28,
+          "dhash_distance": 29,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_024_rendered_connect_the_lines_000147.png",
+          "dataset": "data/babyvision_data/images/c3ba8afe-045b-4ee6-9680-c6797f2278e8.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 21,
+          "dhash_distance": 19,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_024_rendered_connect_the_lines_000147.png",
+          "dataset": "data/babyvision_data/images/cf8ef818-cbb0-44e7-8cce-5df1ac3faf88.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 29,
+          "dhash_distance": 23,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_025_rendered_count_3d_blocks_000148.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_025_rendered_count_3d_blocks_000148.png",
+        "width": 1150,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "13de701cc3c32b9d73c6210320ff77ca69587a1fb22f5593eefbd83d1c1e456a",
+        "pixel_sha256": "08c1c03e331e0b6e4ca695a04a8018de84beffd4ce8fd0ebf40354c71a02ce0b",
+        "ahash": "3fe7c7e7ffffffff",
+        "dhash": "600c0d0c00040000",
+        "phash": "33338d8d8c273333"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_025_rendered_count_3d_blocks_000148.png",
+          "dataset": "data/babyvision_data/images/1c313586-8053-49d3-adc6-a6de759b8dd8.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 21,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_025_rendered_count_3d_blocks_000148.png",
+          "dataset": "data/babyvision_data/images/8f75ab8d-3b27-4a37-866b-6807dd877653.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 17,
+          "dhash_distance": 23,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_025_rendered_count_3d_blocks_000148.png",
+          "dataset": "data/babyvision_data/images/c9a46eab-12d0-4e18-a4f6-4425f5aacb17.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 16,
+          "dhash_distance": 28,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_026_rendered_connect_the_lines_000159.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_026_rendered_connect_the_lines_000159.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "7094cf55ed122cb62ddeb5a94598b418732b404125a9778e48756492db014fa0",
+        "pixel_sha256": "ca4cd4eb628155f3c78aca3136f9e569f6ac6607649e0704c80ea994e158d048",
+        "ahash": "3f7e9104045affff",
+        "dhash": "40d433696996c000",
+        "phash": "0e0f851333c36c3f"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_026_rendered_connect_the_lines_000159.png",
+          "dataset": "data/babyvision_data/images/963d3b6f-3815-44d3-b782-e7ccb27a3999.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 22,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_026_rendered_connect_the_lines_000159.png",
+          "dataset": "data/babyvision_data/images/b9816827-1a10-4154-9ab6-d9058261a006.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 26,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_026_rendered_connect_the_lines_000159.png",
+          "dataset": "data/babyvision_data/images/1bd3a5d9-3450-46ad-bc79-b0e18cff6e7b.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 25,
+          "dhash_distance": 27,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_027_rendered_connect_the_lines_000183.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_027_rendered_connect_the_lines_000183.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "4a62bf278c6b3f050a3fe7e27b8a169765d73e60db717d69016f7336de0e4de8",
+        "pixel_sha256": "32fff3e8e53967b67d95a3eb8a1ad8c6e7d30ca641c52709e71d20d8a8f8c8fa",
+        "ahash": "3f4e0930001b6fff",
+        "dhash": "47d83b640962c809",
+        "phash": "0f0b8307c64f8d3b"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_027_rendered_connect_the_lines_000183.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 29,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_027_rendered_connect_the_lines_000183.png",
+          "dataset": "data/babyvision_data/images/732da25b-91ba-4f85-b172-a22b7b73f2a5.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 32,
+          "dhash_distance": 25,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_027_rendered_connect_the_lines_000183.png",
+          "dataset": "data/babyvision_data/images/83fb3fa8-9dc9-422b-96c6-3c137cd03527.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 33,
+          "dhash_distance": 27,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_028_rendered_connect_the_lines_000189.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_028_rendered_connect_the_lines_000189.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "95d21e185ad36ff830b476864dd15b0417a1181e064aa4e65046fc6a5e157038",
+        "pixel_sha256": "e0490b213e4bc225a85d59889dd611b62ffe8bb4262be4edc2661d2c755978ec",
+        "ahash": "3ffd00001146ffff",
+        "dhash": "60b145492584d800",
+        "phash": "0e0f958d2fb3264c"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_028_rendered_connect_the_lines_000189.png",
+          "dataset": "data/babyvision_data/images/b8b4cee5-2987-4d12-9d6a-060b727bfc82.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 33,
+          "dhash_distance": 26,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_028_rendered_connect_the_lines_000189.png",
+          "dataset": "data/babyvision_data/images/a1908d24-c780-4c08-beb5-2588b85de1db.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 37,
+          "dhash_distance": 28,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_028_rendered_connect_the_lines_000189.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 31,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_029_rendered_3d_cube_unfold_000191.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_029_rendered_3d_cube_unfold_000191.png",
+        "width": 1150,
+        "height": 860,
+        "mode": "RGB",
+        "sha256": "253bd5048cafaab9c296798c5064773dffe42cfeccf97247c5651465cfb1fadd",
+        "pixel_sha256": "2951200eab0c4f0d39c03b421c354c3fe95db3541c52108ee7d09c4c3fda7ac0",
+        "ahash": "3fefc3c3ffc383ff",
+        "dhash": "60080e0e08161e00",
+        "phash": "33278e9c8e3c6583"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_029_rendered_3d_cube_unfold_000191.png",
+          "dataset": "data/babyvision_data/images/14e4a1a2-123f-4c03-ac16-75adcdf275ee.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 14,
+          "dhash_distance": 25,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_029_rendered_3d_cube_unfold_000191.png",
+          "dataset": "data/babyvision_data/images/e2c4dba6-38ed-4b38-8f98-6199cecbcab9.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 16,
+          "dhash_distance": 30,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_029_rendered_3d_cube_unfold_000191.png",
+          "dataset": "data/babyvision_data/images/40829b36-905b-4985-a87d-0624ad8b0be8.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 16,
+          "dhash_distance": 24,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_030_rendered_connect_the_lines_000195.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_030_rendered_connect_the_lines_000195.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "d302d988127044d4255a49bb8af1ffbc26ec0802e92e605b359a06d45e22a698",
+        "pixel_sha256": "28dd7300673f6f0c0e024f19e15f8130a9b3606b5fbfe10d4a0b22467ea6161e",
+        "ahash": "3f66010a0030ffff",
+        "dhash": "40cc57765369c800",
+        "phash": "0f07c04b3d9d2d69"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_030_rendered_connect_the_lines_000195.png",
+          "dataset": "data/babyvision_data/images/5cbdbd18-1743-4e2c-9418-6d7ec4f7ba2c.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 24,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_030_rendered_connect_the_lines_000195.png",
+          "dataset": "data/babyvision_data/images/90668042-0e8e-4b2c-9941-8eddbd452901.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 30,
+          "dhash_distance": 16,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_030_rendered_connect_the_lines_000195.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 21,
+          "dhash_distance": 26,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_031_rendered_connect_the_lines_000201.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_031_rendered_connect_the_lines_000201.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "b1bce56278112cb7233223a73409e5f897bb1d6bcb2aea20e645984be48f0101",
+        "pixel_sha256": "114c3808aba5ff00e0f50f6e2a6acbc0a40869c6e5aad1c8c75bb9cf69f1fb80",
+        "ahash": "3fe8ff4c21a2c8ff",
+        "dhash": "74c9929d49645130",
+        "phash": "2b039d0f9699948f"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_031_rendered_connect_the_lines_000201.png",
+          "dataset": "data/babyvision_data/images/40829b36-905b-4985-a87d-0624ad8b0be8.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 25,
+          "dhash_distance": 36,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_031_rendered_connect_the_lines_000201.png",
+          "dataset": "data/babyvision_data/images/d1e8b2ff-cae6-4718-9c3f-75e260bf9b5e.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 22,
+          "dhash_distance": 28,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_031_rendered_connect_the_lines_000201.png",
+          "dataset": "data/babyvision_data/images/845bd440-b423-4998-9b37-1a066c2fbc21.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 32,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_032_rendered_connect_the_lines_000207.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_032_rendered_connect_the_lines_000207.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "3aa649473ae63f3dd6aa80295c53d33f86f26d31b1be2d92726c4ef83bc8216e",
+        "pixel_sha256": "4b70de9172e9d5646d98381625699fdd2d63520a22bcacfe4eed54afae4717e3",
+        "ahash": "2f6026920240bdff",
+        "dhash": "48c9ca6636936960",
+        "phash": "2f0793198d07b19d"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_032_rendered_connect_the_lines_000207.png",
+          "dataset": "data/babyvision_data/images/e2c4dba6-38ed-4b38-8f98-6199cecbcab9.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 29,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_032_rendered_connect_the_lines_000207.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 25,
+          "dhash_distance": 27,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_032_rendered_connect_the_lines_000207.png",
+          "dataset": "data/babyvision_data/images/70498e1e-6674-41b9-82a3-fadfe068b97c.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 31,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_033_rendered_connect_the_lines_000219.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_033_rendered_connect_the_lines_000219.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "dc4f0d4268a60dfb0e3b37fc4e7873a100f3b2db4067ea6dd990a047c8e41410",
+        "pixel_sha256": "dec16fa13d8502ee7415fbb5468b4ec8f0c1affac88f25da7e50418d919ed8f6",
+        "ahash": "3f3e00c4003ec5ff",
+        "dhash": "4064092d36448d16",
+        "phash": "26078d8db472cb39"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_033_rendered_connect_the_lines_000219.png",
+          "dataset": "data/babyvision_data/images/732da25b-91ba-4f85-b172-a22b7b73f2a5.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 31,
+          "dhash_distance": 24,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_033_rendered_connect_the_lines_000219.png",
+          "dataset": "data/babyvision_data/images/d0e505a0-16f5-406f-bdab-440b661e8d90.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 24,
+          "dhash_distance": 25,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_033_rendered_connect_the_lines_000219.png",
+          "dataset": "data/babyvision_data/images/a1908d24-c780-4c08-beb5-2588b85de1db.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 24,
+          "dhash_distance": 28,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_034_rendered_connect_the_lines_000225.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_034_rendered_connect_the_lines_000225.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "b57f9cb1d98f085f358b52321d86199fcf353b7b02ecf49c47447734c6d69a48",
+        "pixel_sha256": "b251580286ba2b5116f9573d2cf2e5f15c2780acf2dc0b98dd618dc2f2bf2fa4",
+        "ahash": "3fbc21492404ffff",
+        "dhash": "4061ab934d59a604",
+        "phash": "1f1f850fb12123e6"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_034_rendered_connect_the_lines_000225.png",
+          "dataset": "data/babyvision_data/images/74c6b0c3-8ba1-47f0-ab86-8abaf78f32b3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 24,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_034_rendered_connect_the_lines_000225.png",
+          "dataset": "data/babyvision_data/images/c3ba8afe-045b-4ee6-9680-c6797f2278e8.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 21,
+          "dhash_distance": 26,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_034_rendered_connect_the_lines_000225.png",
+          "dataset": "data/babyvision_data/images/3e40e91d-2be4-4294-a7a0-4401c7602234.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 39,
+          "dhash_distance": 30,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_035_rendered_find_the_same_000230.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_035_rendered_find_the_same_000230.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "7daf56a6aaaf7c02e58904e23b091b5c44de2314e40c6e347d40ba42b1f336e6",
+        "pixel_sha256": "8862f38545953fc8c5707c3f715ac90f784b4e4749cadb893b8dd53dce13d7c0",
+        "ahash": "3fff81c1c1c1c1ff",
+        "dhash": "60c30b233323232b",
+        "phash": "2a87870f953a972a"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_035_rendered_find_the_same_000230.png",
+          "dataset": "data/babyvision_data/images/a450ddcb-8548-49ea-aee4-ff3bede26ef6.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 27,
+          "phash_distance": 14,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_035_rendered_find_the_same_000230.png",
+          "dataset": "data/babyvision_data/images/b2343498-7f90-4d99-9a2c-6f14b3feb332.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 25,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_035_rendered_find_the_same_000230.png",
+          "dataset": "data/babyvision_data/images/2b6ee8c7-4b0c-4d71-851a-d7129af7671c.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 14,
+          "dhash_distance": 25,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_036_rendered_connect_the_lines_000001.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_036_rendered_connect_the_lines_000001.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "bb5e1b25f05411e84d47f36da50b4eda63304c179c366f31452a75e91d488712",
+        "pixel_sha256": "43f46df5b4dfc0502e9c85e6fe5bcd70cd35739015cfa49533ae5d925aa5d835",
+        "ahash": "3f660000397ccfff",
+        "dhash": "40cc75736b899234",
+        "phash": "0f0791838f39ca1f"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_036_rendered_connect_the_lines_000001.png",
+          "dataset": "data/babyvision_data/images/f7f7855b-2e32-44ea-8a29-42e45c955965.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 25,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_036_rendered_connect_the_lines_000001.png",
+          "dataset": "data/babyvision_data/images/4a81c121-d34b-43db-893a-5c5056454c6a.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 24,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_036_rendered_connect_the_lines_000001.png",
+          "dataset": "data/babyvision_data/images/bf961d37-327b-4eeb-bf8f-26bd5810d92d.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 26,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_037_rendered_connect_the_lines_000004.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_037_rendered_connect_the_lines_000004.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "96bd2d37d304ce62ccdacb4b1dda559741f7693a4d0be9c763735c3768b93f00",
+        "pixel_sha256": "93251a97b729e746ef9ff54a58bf7ca5e8e0a93cbff23d1b27cb8273aa2bdf7e",
+        "ahash": "3f58003f1c3cffff",
+        "dhash": "51912d6a6559ca03",
+        "phash": "0f0fc0898f873766"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_037_rendered_connect_the_lines_000004.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 28,
+          "dhash_distance": 26,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_037_rendered_connect_the_lines_000004.png",
+          "dataset": "data/babyvision_data/images/74c6b0c3-8ba1-47f0-ab86-8abaf78f32b3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 24,
+          "dhash_distance": 22,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_037_rendered_connect_the_lines_000004.png",
+          "dataset": "data/babyvision_data/images/577aaf5a-193c-4c4e-89a1-d73969bcc7c2.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 24,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_038_rendered_connect_the_lines_000007.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_038_rendered_connect_the_lines_000007.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "813f074d1c04d746c3aa71d36291e221471895c26802a03e6e45aeac94825cc4",
+        "pixel_sha256": "c63f9c2f2c9e940d4df901b4b9d1b5bd8ccc997125934ecb3e34cfbffc001d17",
+        "ahash": "3fd9080341e0ffff",
+        "dhash": "7291596ed9a96600",
+        "phash": "0f1b894aa78763c9"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_038_rendered_connect_the_lines_000007.png",
+          "dataset": "data/babyvision_data/images/74c6b0c3-8ba1-47f0-ab86-8abaf78f32b3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 21,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_038_rendered_connect_the_lines_000007.png",
+          "dataset": "data/babyvision_data/images/8ab4cb2d-2e2b-4e6c-ae49-2acb6da6e30a.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 24,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_038_rendered_connect_the_lines_000007.png",
+          "dataset": "data/babyvision_data/images/d1f6d0c5-488a-417a-9689-ec4e59c7ce64.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 32,
+          "dhash_distance": 31,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_039_rendered_find_the_same_000008.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_039_rendered_find_the_same_000008.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "abe713061f061615f35180f585e6c4dd72444619e8b14ce87609475c57ec825c",
+        "pixel_sha256": "5efa80bf483d12716ad1ba59ba5e5ec986bcafb7ad7cec919c08dce0144c263f",
+        "ahash": "3fff81c1c1c1c1ff",
+        "dhash": "608713132b2b2b03",
+        "phash": "2a87870e973a8f2a"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_039_rendered_find_the_same_000008.png",
+          "dataset": "data/babyvision_data/images/a450ddcb-8548-49ea-aee4-ff3bede26ef6.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 29,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_039_rendered_find_the_same_000008.png",
+          "dataset": "data/babyvision_data/images/40829b36-905b-4985-a87d-0624ad8b0be8.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 20,
+          "dhash_distance": 31,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_039_rendered_find_the_same_000008.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 18,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_040_rendered_connect_the_lines_000016.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_040_rendered_connect_the_lines_000016.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "349800554ed9915cc1107759ce3ffcf2d7246ff886210cdda254f5ee4a5dc77a",
+        "pixel_sha256": "36160c46e39c965e93ef7fca4aaea445d657eedee38d1ee898230ac5c28af240",
+        "ahash": "3f3f18812030ffff",
+        "dhash": "586873094775c000",
+        "phash": "0f1f9127639919a5"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_040_rendered_connect_the_lines_000016.png",
+          "dataset": "data/babyvision_data/images/24dab832-cf4c-41ae-a5b3-b5e3299c1497.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 22,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_040_rendered_connect_the_lines_000016.png",
+          "dataset": "data/babyvision_data/images/56962908-30ef-4d46-a8ca-2c304f4e4756.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 18,
+          "dhash_distance": 25,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_040_rendered_connect_the_lines_000016.png",
+          "dataset": "data/babyvision_data/images/3859be0d-c76b-48f1-9a76-f6193be8ccd5.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 37,
+          "dhash_distance": 34,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_041_rendered_find_the_same_000020.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_041_rendered_find_the_same_000020.png",
+        "width": 1250,
+        "height": 920,
+        "mode": "RGB",
+        "sha256": "3513bf92664fbec1dc9d8ae30959c83fc77fec47ed05ff064623e813b6eb631e",
+        "pixel_sha256": "ce4b7f48c15fe926fdfcfd7d5c29cd4aa2030e8ead941748ad5f03767245a8bd",
+        "ahash": "3fff81c1c1c1c1ff",
+        "dhash": "60c3132b23232b23",
+        "phash": "2a87870e963e8f2a"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_041_rendered_find_the_same_000020.png",
+          "dataset": "data/babyvision_data/images/a450ddcb-8548-49ea-aee4-ff3bede26ef6.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 27,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_041_rendered_find_the_same_000020.png",
+          "dataset": "data/babyvision_data/images/40829b36-905b-4985-a87d-0624ad8b0be8.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 20,
+          "dhash_distance": 35,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_041_rendered_find_the_same_000020.png",
+          "dataset": "data/babyvision_data/images/81be3996-0374-4529-8979-b5468c6adc36.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 12,
+          "dhash_distance": 19,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_042_rendered_connect_the_lines_000022.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_042_rendered_connect_the_lines_000022.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "3ef5eaafc901fe13a7e0cbd202638be23f96a252f5cea13794fbbdcfb4f246e1",
+        "pixel_sha256": "6f1d73b91d9f2363b7bcd64250257b1045c81c43e14590919898dede34a42ad8",
+        "ahash": "3f370ec00038d6ff",
+        "dhash": "c56458899370ac18",
+        "phash": "1f0785cce8129d37"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_042_rendered_connect_the_lines_000022.png",
+          "dataset": "data/babyvision_data/images/764860bf-1cc6-4eb6-9147-fe49d846e3f5.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 17,
+          "dhash_distance": 29,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_042_rendered_connect_the_lines_000022.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 28,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_042_rendered_connect_the_lines_000022.png",
+          "dataset": "data/babyvision_data/images/3981f844-c205-4f49-8603-c5c53a0d653c.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 29,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_043_rendered_connect_the_lines_000025.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_043_rendered_connect_the_lines_000025.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "3b1795f2672566958141e39f290bd4f17a4c0a27d3ca9f8fd36b91b2d2261ddb",
+        "pixel_sha256": "5d9fdaa5b9628ba48139441e8a4583905a6ce6350c4a1ea14ca89c51d8e4dcc9",
+        "ahash": "3f120008b915cfff",
+        "dhash": "6825451163259818",
+        "phash": "0e0f918f8d312f63"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_043_rendered_connect_the_lines_000025.png",
+          "dataset": "data/babyvision_data/images/74c6b0c3-8ba1-47f0-ab86-8abaf78f32b3.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 25,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_043_rendered_connect_the_lines_000025.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 21,
+          "dhash_distance": 23,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_043_rendered_connect_the_lines_000025.png",
+          "dataset": "data/babyvision_data/images/97827f5f-26ac-4b07-99c2-2841bca4fca3.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 26,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_044_rendered_connect_the_lines_000028.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_044_rendered_connect_the_lines_000028.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "227a497920e370c8f8bd90ddfb06a6a8eef99c7fe9544abe225630cf2a6b1f2a",
+        "pixel_sha256": "bb3bbf2dfc0ebbb8c2d359d0f979eff0487cefaa9de0052c9d7a4bffaa833ea8",
+        "ahash": "3f390f030790b9ff",
+        "dhash": "44632a160c256303",
+        "phash": "0e17cf46b119b493"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_044_rendered_connect_the_lines_000028.png",
+          "dataset": "data/babyvision_data/images/4ba898c8-9728-4260-b7c3-6ed9c9de5e49.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 24,
+          "dhash_distance": 25,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_044_rendered_connect_the_lines_000028.png",
+          "dataset": "data/babyvision_data/images/5b840d1f-79df-4e51-ac91-3451b8478e28.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 20,
+          "dhash_distance": 28,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_044_rendered_connect_the_lines_000028.png",
+          "dataset": "data/babyvision_data/images/3f6e844f-c32c-49ef-aa36-3052fa6fda82.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 24,
+          "dhash_distance": 22,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_045_rendered_connect_the_lines_000031.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_045_rendered_connect_the_lines_000031.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "3c973de5c1fc4ae9c84b4491e872a16738bdbb915dda0616dca458085f9fdc51",
+        "pixel_sha256": "c6929e684e65a5f2e129773522dc366a226b32ca9e1041ed1dccd63ddaefca83",
+        "ahash": "3f3e90110564ffff",
+        "dhash": "644c333319c9c604",
+        "phash": "0f0f8593398cf338"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_045_rendered_connect_the_lines_000031.png",
+          "dataset": "data/babyvision_data/images/3814869c-d600-431a-99de-beee1e2c46a5.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 29,
+          "dhash_distance": 29,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_045_rendered_connect_the_lines_000031.png",
+          "dataset": "data/babyvision_data/images/b9816827-1a10-4154-9ab6-d9058261a006.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 26,
+          "dhash_distance": 31,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_045_rendered_connect_the_lines_000031.png",
+          "dataset": "data/babyvision_data/images/571d04b9-a05f-4a8a-a6f9-3093532e057f.jpeg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 18,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_046_rendered_connect_the_lines_000034.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_046_rendered_connect_the_lines_000034.png",
+        "width": 1250,
+        "height": 850,
+        "mode": "RGB",
+        "sha256": "e65e4cf50e080d22c8239864c2c7bbbadee093c6949ac7a605640b95642b0dab",
+        "pixel_sha256": "363486431d00fd8496fd3714be35ff45d43b98c6d34a172fe7908d64fe049e7a",
+        "ahash": "3f5436891104ffff",
+        "dhash": "52956d6b2735c000",
+        "phash": "0f0f8108ab973ee6"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_046_rendered_connect_the_lines_000034.png",
+          "dataset": "data/babyvision_data/images/f63f93f6-51b2-4a72-9a96-c1ba5d06dc4b.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 23,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_046_rendered_connect_the_lines_000034.png",
+          "dataset": "data/babyvision_data/images/2c8e40ab-525c-4189-9eb5-4c5bd9b3099f.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 25,
+          "dhash_distance": 27,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_046_rendered_connect_the_lines_000034.png",
+          "dataset": "data/babyvision_data/images/93dd7d05-1484-4635-9f95-bef1aebcad00.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 29,
+          "dhash_distance": 24,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_047_ai_mirroring_patterns_000015.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_047_ai_mirroring_patterns_000015.png",
+        "width": 1408,
+        "height": 768,
+        "mode": "RGB",
+        "sha256": "b68f93440d50e1d8e8d3ad0b6f4670cf7496f24df16ac99185676d83de2899fb",
+        "pixel_sha256": "c2c47aa9fa2c73093bd28d4ed7d0760b34225ecebe728ba8b3a0141610276093",
+        "ahash": "dfcfffc3c3bf0001",
+        "dhash": "9e92ca969665455d",
+        "phash": "38b11b6c614ec763"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_047_ai_mirroring_patterns_000015.png",
+          "dataset": "data/babyvision_data/images/44971773-3deb-422c-8d1f-469c14e73ce0.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 20,
+          "dhash_distance": 31,
+          "phash_distance": 18,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_047_ai_mirroring_patterns_000015.png",
+          "dataset": "data/babyvision_data/images/77292d06-e047-41c3-a097-2d75fef67c2d.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 23,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_047_ai_mirroring_patterns_000015.png",
+          "dataset": "data/babyvision_data/images/b54c4748-8ef6-4d9a-92e5-ccd06687d426.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 17,
+          "dhash_distance": 25,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_048_ai_mirroring_patterns_000001.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_048_ai_mirroring_patterns_000001.png",
+        "width": 1408,
+        "height": 768,
+        "mode": "RGB",
+        "sha256": "cb074d0637552b8e6fad052ae12716deb06eb5d2ec416ce6a91f78ee6eb86e3c",
+        "pixel_sha256": "86fca4cb94993d4b98bf6c13ed29014f91906ce8f5e57af074a8935deb301a7d",
+        "ahash": "efcfffc3e3d00080",
+        "dhash": "9694121616215555",
+        "phash": "71b11b0ae42ecc8f"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_048_ai_mirroring_patterns_000001.png",
+          "dataset": "data/babyvision_data/images/0950579a-5d14-4ac8-b24a-2639291ae522.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 15,
+          "dhash_distance": 25,
+          "phash_distance": 14,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_048_ai_mirroring_patterns_000001.png",
+          "dataset": "data/babyvision_data/images/9898e0d9-d7b0-41c0-b3ab-f59c7a843563.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 18,
+          "dhash_distance": 27,
+          "phash_distance": 14,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_048_ai_mirroring_patterns_000001.png",
+          "dataset": "data/babyvision_data/images/b54c4748-8ef6-4d9a-92e5-ccd06687d426.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 20,
+          "dhash_distance": 20,
+          "phash_distance": 16,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_049_ai_mirroring_patterns_000002.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_049_ai_mirroring_patterns_000002.png",
+        "width": 1408,
+        "height": 768,
+        "mode": "RGB",
+        "sha256": "b43d08dde69a967486be5d42fd467aa75fc738c62ce5310704a8f1220a3dafde",
+        "pixel_sha256": "5c954d147b29e34babbe4f1f024c9c6a8f51b33c4248d108e262dc7c52e955e0",
+        "ahash": "e7e6e6ec90800090",
+        "dhash": "080c0c5924590924",
+        "phash": "76a3421b9ca36674"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_049_ai_mirroring_patterns_000002.png",
+          "dataset": "data/babyvision_data/images/0edfe18c-194d-4219-95bb-ba045cbe3f85.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 29,
+          "dhash_distance": 23,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_049_ai_mirroring_patterns_000002.png",
+          "dataset": "data/babyvision_data/images/0009e1a6-a625-4d52-a1fc-f3f2e634ef2a.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 23,
+          "dhash_distance": 16,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_049_ai_mirroring_patterns_000002.png",
+          "dataset": "data/babyvision_data/images/c2ce8a0b-bc0a-4fcc-8db0-3eb29f30fbdc.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 18,
+          "phash_distance": 22,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    },
+    {
+      "generated": {
+        "ref": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_050_ai_rotation_patterns_000009.png",
+        "source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases",
+        "name": "mixed_050_ai_rotation_patterns_000009.png",
+        "width": 1408,
+        "height": 768,
+        "mode": "RGB",
+        "sha256": "4e8e12ff89991a6f7281fa0d236268c0b0418c2ce68221fa2f0cdb6137b7d127",
+        "pixel_sha256": "97457cb9d7d9106ec4266456cf05abd89af1de15c3fee46f753c7efab78a966c",
+        "ahash": "fc80e0fffc80f0fc",
+        "dhash": "085644a255554755",
+        "phash": "6f15656b92c412d3"
+      },
+      "matches": [],
+      "nearest": [
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_050_ai_rotation_patterns_000009.png",
+          "dataset": "data/babyvision_data/images/a35448b7-cf97-4098-856b-a13455b823eb.png",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 27,
+          "dhash_distance": 22,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_050_ai_rotation_patterns_000009.png",
+          "dataset": "data/babyvision_data/images/d53bf4fe-d9bf-487e-a37c-1024ff293c68.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 30,
+          "dhash_distance": 27,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        },
+        {
+          "generated": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases/mixed_050_ai_rotation_patterns_000009.png",
+          "dataset": "data/babyvision_data/images/067d656a-b95f-47ce-a0c3-7e54cdf6dc40.jpg",
+          "match_type": "nearest",
+          "exact_byte": false,
+          "exact_pixel": false,
+          "ahash_distance": 19,
+          "dhash_distance": 29,
+          "phash_distance": 20,
+          "dataset_source": "data/babyvision_data/images",
+          "generated_source": "synthetic_outputs/gemini_wrong_hard_cases_mixed_20260524T032756Z/hard_cases"
+        }
+      ]
+    }
+  ]
+}

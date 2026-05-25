@@ -1,0 +1,38 @@
+{
+  "source_dataset": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z",
+  "source_eval": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z/eval_gemini_3_1_pro_high",
+  "source_task_id": 123,
+  "model": "gemini-3.1-pro-preview",
+  "judge_model": "local_exact",
+  "finish_reason": "STOP",
+  "type": "Visual Tracking",
+  "subtype": "Connect the lines",
+  "question": "Start at label C and follow its continuous line. Which numbered endpoint does it reach?\nThink about the question and give your final answer in \\boxed{Answer} format.",
+  "ground_truth": "6",
+  "model_result": "Based on a careful tracing of the continuous line starting from label **C**:\n\n1.  Start at the dot next to **C**.\n2.  Follow the line as it goes to the right and slightly upwards until it reaches a corner (vertex).\n3.  At this corner, the line bends and continues upwards and to the right, reaching the highest peak on the left side.\n4.  From this peak, the line bends downwards and to the right, going into a valley.\n5.  From the valley, it bends upwards and to the right again, reaching the highest peak on the right side.\n6.  Finally, from this top-right peak, the line bends downwards and to the right, leading directly to the endpoint numbered **4**.\n\n\\boxed{4}",
+  "extracted_answer": "4",
+  "local_exact_result": false,
+  "usage_metadata": {
+    "candidatesTokenCount": 165,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 165
+      }
+    ],
+    "promptTokenCount": 1121,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1080
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 41
+      }
+    ],
+    "thoughtsTokenCount": 7862,
+    "totalTokenCount": 9148,
+    "trafficType": "ON_DEMAND"
+  }
+}

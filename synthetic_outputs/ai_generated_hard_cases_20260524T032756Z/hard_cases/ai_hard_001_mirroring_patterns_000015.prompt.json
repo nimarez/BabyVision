@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-05-24T02:47:49.207050+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_weakness_candidates_20260524T023150Z/images/000015_mirror_pattern.png",
+  "case": {
+    "slug": "mirror_pattern",
+    "type": "Visual Pattern Recognition",
+    "subtype": "Mirroring Patterns",
+    "answer": "D",
+    "question": "Which option is the correct mirror completion?",
+    "prompt": "Create one BabyVision-style visual reasoning benchmark image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. Draw a left-half/right-half mirror completion puzzle with an irregular arrangement of small icons. One quadrant is blank. Below draw options A-D. Option D must complete the mirror symmetry; other options should be near misses with one misplaced icon."
+  },
+  "prompt": "Create one BabyVision-style visual reasoning benchmark image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. Draw a left-half/right-half mirror completion puzzle with an irregular arrangement of small icons. One quadrant is blank. Below draw options A-D. Option D must complete the mirror symmetry; other options should be near misses with one misplaced icon.",
+  "response_text": [
+    "**Developing Visual Puzzles**\n\nI'm currently focused on crafting a BabyVision-style visual reasoning puzzle. My aim is to produce a clean, printed worksheet aesthetic using only black ink on a white background, deliberately avoiding photorealism, watermarks, or any answer keys to maintain the integrity of the puzzle format.\n\n",
+    "**Crafting Logic Challenges**\n\nMy current focus is on designing a visual reasoning puzzle with a clean, worksheet-like appearance. I'm aiming for a black-and-white print aesthetic, specifically avoiding photorealism. The puzzle involves a mirror completion task with geometrically patterned sections and strategically placed distractors in the multiple-choice options.\n\n",
+    "**Verifying Current Output**\n\nI'm reviewing the output against the request, specifically checking the 'BabyVision' style elements and the mirror completion puzzle logic. The quadrant confirmations and option designs are under scrutiny.\n\n",
+    "**Confirming Visual Accuracy**\n\nI am assessing the visual output for adherence to the 'BabyVision' aesthetic and the mirror completion puzzle's logical structure. My focus is on the quadrant verification and the design of the provided answer options.\n\n"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-05-24T03:04:53.877580+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_weakness_candidates_20260524T030421Z/images/000001_mirror_quadrant_icons_dense.png",
+  "case": {
+    "slug": "mirror_quadrant_icons_dense",
+    "type": "Visual Pattern Recognition",
+    "subtype": "Mirroring Patterns",
+    "answer": "C",
+    "question": "Which option completes the missing quadrant by mirror symmetry?",
+    "prompt": "Create one BabyVision-style visual reasoning benchmark image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. Draw a 2x2 mirror-completion puzzle. Three quadrants are filled with 6-8 tiny geometric icons each, arranged around a vertical and horizontal mirror axis. The top-right quadrant is blank with a question mark. Below draw options A-D. Option C must be the only exact mirror completion. Distractors should be very close with one icon swapped or one position slightly wrong."
+  },
+  "prompt": "Create one BabyVision-style visual reasoning benchmark image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. Draw a 2x2 mirror-completion puzzle. Three quadrants are filled with 6-8 tiny geometric icons each, arranged around a vertical and horizontal mirror axis. The top-right quadrant is blank with a question mark. Below draw options A-D. Option C must be the only exact mirror completion. Distractors should be very close with one icon swapped or one position slightly wrong.",
+  "response_text": [
+    "**Developing Visual Reasoning Puzzles**\n\nI am currently focusing on the style requirements for generating a BabyVision-style printed worksheet. This involves the creation of crisp, clean geometric shapes and minimal labeling on a white background, ensuring a non-photorealistic aesthetic.\n\n",
+    "**Refining Puzzle Generation Rules**\n\nMy current focus is on establishing the precise rules for generating a 2x2 mirror-completion puzzle. This involves defining the requirements for icon placement to ensure accurate reflections across both vertical and horizontal axes, and crafting subtle yet distinct incorrect options for distractors.\n\n",
+    "**Evaluating Image Compliance**\n\nI am currently verifying that the generated image aligns precisely with the user's explicit specifications, particularly regarding the 'BabyVision-style' aesthetic and the accurate representation of a 2x2 mirror-completion puzzle, including the specified blank quadrant and presented options.\n\n",
+    "**Confirming Prompt Fidelity**\n\nI'm reviewing the generated output against your precise instructions, specifically focusing on the 'BabyVision-style' presentation and the accurate construction of the 2x2 mirror-completion puzzle, noting the blank quadrant and the provided options.\n\n"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-05-24T01:51:21.704238+00:00",
+  "generator": "tools/render_babyvision_weakness_candidates.py",
+  "output_image": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z/images/000148_count_3d_blocks.png",
+  "prompt": "Rendered isometric unit-cube counting puzzle with hidden support cubes.",
+  "type": "Spatial Perception",
+  "subtype": "Count 3D blocks",
+  "question": "How many unit cubes are in the stacked block structure, including hidden support cubes?",
+  "answer": "34",
+  "reasoning_trace": "Summing the 4 by 4 column heights [[1, 3, 1, 1], [2, 1, 4, 1], [4, 2, 4, 1], [3, 1, 4, 1]] gives 34 cubes.",
+  "parameters": {
+    "heights_back_to_front": [
+      [
+        1,
+        3,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        4,
+        1
+      ],
+      [
+        4,
+        2,
+        4,
+        1
+      ],
+      [
+        3,
+        1,
+        4,
+        1
+      ]
+    ],
+    "total": "34"
+  }
+}

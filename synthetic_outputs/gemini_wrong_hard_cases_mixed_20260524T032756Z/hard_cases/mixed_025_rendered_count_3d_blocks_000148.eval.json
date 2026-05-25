@@ -1,0 +1,38 @@
+{
+  "source_dataset": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z",
+  "source_eval": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z/eval_gemini_3_1_pro_high",
+  "source_task_id": 148,
+  "model": "gemini-3.1-pro-preview",
+  "judge_model": "local_exact",
+  "finish_reason": "STOP",
+  "type": "Spatial Perception",
+  "subtype": "Count 3D blocks",
+  "question": "How many unit cubes are in the stacked block structure, including hidden support cubes?\nThink about the question and give your final answer in \\boxed{Answer} format.",
+  "ground_truth": "34",
+  "model_result": "\\boxed{32}$",
+  "extracted_answer": "32",
+  "local_exact_result": false,
+  "usage_metadata": {
+    "candidatesTokenCount": 6,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6
+      }
+    ],
+    "promptTokenCount": 1113,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1073
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 40
+      }
+    ],
+    "thoughtsTokenCount": 7862,
+    "totalTokenCount": 8981,
+    "trafficType": "ON_DEMAND"
+  }
+}

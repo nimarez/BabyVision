@@ -1,0 +1,35 @@
+{
+  "source_dataset": "synthetic_outputs/ai_weakness_candidates_20260524T030421Z",
+  "source_task_id": 9,
+  "model": "gemini-3.1-pro-preview",
+  "finish_reason": "STOP",
+  "type": "Visual Pattern Recognition",
+  "subtype": "Rotation Patterns",
+  "question": "Which option is the next clock-hand pattern?\nThink about the question and give your final answer in \\boxed{Answer} format.",
+  "ground_truth": "D",
+  "model_result": "Based on the sequence of the first four images, we can determine the pattern for each element:\n\n1.  **Red Arrow:** Starts pointing Up (12 o'clock). In each subsequent image, it rotates **90° clockwise**.\n    *   Image 1: Up\n    *   Image 2: Right\n    *   Image 3: Down\n    *   Image 4: Left\n    *   *Next (Image 5): Up*\n\n2.  **Blue Arrow:** Starts pointing Right (3 o'clock). In each subsequent image, it rotates **45° counter-clockwise**.\n    *   Image 1: Right (3:00)\n    *   Image 2: Up-Right (1:30)\n    *   Image 3: Up (12:00)\n    *   Image 4: Up-Left (10:30)\n    *   *Next (Image 5): Left (9:00)*\n\n3.  **Yellow Triangle:** Starts at the Bottom (6 o'clock). In each subsequent image, it rotates **135° clockwise** (or 3 positions if there are 8 positions on the circle).\n    *   Image 1: Bottom (6:00)\n    *   Image 2: Top-Left (10:30)\n    *   Image 3: Right (3:00)\n    *   Image 4: Bottom-Left (7:30)\n    *   *Next (Image 5): Top (12:00)*\n\nCombining these patterns, the next image must have the red arrow pointing Up, the blue arrow pointing Left, and the yellow triangle at the Top. Option A matches this description perfectly.\n\n\\boxed{A}",
+  "extracted_answer": "A",
+  "usage_metadata": {
+    "candidatesTokenCount": 389,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "promptTokenCount": 1114,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1080
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 34
+      }
+    ],
+    "thoughtsTokenCount": 4433,
+    "totalTokenCount": 5936,
+    "trafficType": "ON_DEMAND"
+  }
+}

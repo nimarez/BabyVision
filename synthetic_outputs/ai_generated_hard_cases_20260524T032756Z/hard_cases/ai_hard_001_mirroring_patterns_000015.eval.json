@@ -1,0 +1,35 @@
+{
+  "source_dataset": "synthetic_outputs/ai_weakness_candidates_20260524T023150Z",
+  "source_task_id": 15,
+  "model": "gemini-3.1-pro-preview",
+  "finish_reason": "STOP",
+  "type": "Visual Pattern Recognition",
+  "subtype": "Mirroring Patterns",
+  "question": "Which option is the correct mirror completion?\nThink about the question and give your final answer in \\boxed{Answer} format.",
+  "ground_truth": "D",
+  "model_result": "Based on the visual pattern established in the bottom half of the image, the dashed vertical line acts as a mirror.\n1.  **Analyze the example (Quadrants 3 & 4):** The shapes in quadrant 3 (green star, purple diamond, orange pentagon) are reflected horizontally across the dashed line to create quadrant 4 (orange pentagon, purple diamond, green star). The left-to-right order is reversed.\n2.  **Analyze the target (Quadrant 1):** The shapes from left to right are a blue circle, a red triangle, and a yellow square.\n3.  **Determine the reflection:** Reflecting these shapes horizontally across the dashed line will reverse their order. The expected left-to-right order in quadrant 2 is: yellow square, red triangle, blue circle.\n4.  **Evaluate the options:**\n    *   **A:** Triangle, Circle, Square (Incorrect order)\n    *   **B:** Square, Triangle, Circle (Correct order)\n    *   **C:** Circle, Star, Triangle (Incorrect shapes)\n    *   **D:** Square, Circle, Triangle (Incorrect order)\n\nOption B is the only choice that correctly reverses the horizontal sequence of the shapes from Quadrant 1.\n\n\\boxed{B}",
+  "extracted_answer": "B",
+  "usage_metadata": {
+    "candidatesTokenCount": 272,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 272
+      }
+    ],
+    "promptTokenCount": 1112,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 32
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1080
+      }
+    ],
+    "thoughtsTokenCount": 15196,
+    "totalTokenCount": 16580,
+    "trafficType": "ON_DEMAND"
+  }
+}

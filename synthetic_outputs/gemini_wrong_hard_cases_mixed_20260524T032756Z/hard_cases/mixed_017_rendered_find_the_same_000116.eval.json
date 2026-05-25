@@ -1,0 +1,38 @@
+{
+  "source_dataset": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z",
+  "source_eval": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z/eval_gemini_3_1_pro_high",
+  "source_task_id": 116,
+  "model": "gemini-3.1-pro-preview",
+  "judge_model": "local_exact",
+  "finish_reason": "STOP",
+  "type": "Fine-grained Discrimination",
+  "subtype": "Find the same",
+  "question": "Which grid coordinate contains the icon exactly identical to the reference icon? Use (row,column).\nThink about the question and give your final answer in \\boxed{Answer} format.",
+  "ground_truth": "(3,6)",
+  "model_result": "\\boxed{(4,1)}",
+  "extracted_answer": "(4,1)",
+  "local_exact_result": false,
+  "usage_metadata": {
+    "candidatesTokenCount": 7,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 7
+      }
+    ],
+    "promptTokenCount": 1135,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 43
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 7862,
+    "totalTokenCount": 9004,
+    "trafficType": "ON_DEMAND"
+  }
+}

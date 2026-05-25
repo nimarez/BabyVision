@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-05-24T03:05:15.122735+00:00",
+  "generator": "tools/generate_ai_weakness_candidates.py",
+  "model": "gemini-3-pro-image-preview",
+  "project": "construction-takeoff-496319",
+  "location": "global",
+  "output_image": "synthetic_outputs/ai_weakness_candidates_20260524T030421Z/images/000002_mirror_left_right_symbols.png",
+  "case": {
+    "slug": "mirror_left_right_symbols",
+    "type": "Visual Pattern Recognition",
+    "subtype": "Mirroring Patterns",
+    "answer": "A",
+    "question": "Which option is the exact left-right mirror of the reference panel?",
+    "prompt": "Create one BabyVision-style visual reasoning benchmark image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. Draw a reference panel containing a small asymmetric arrangement of arrows, dots, triangles, and a crescent. Below draw four candidate panels A-D. Option A must be the exact horizontal mirror of the reference. Other options should rotate one symbol, miss one dot, or mirror only part of the panel."
+  },
+  "prompt": "Create one BabyVision-style visual reasoning benchmark image. Use a clean printed worksheet style on a white background, crisp geometric shapes, small labels, no photorealism, no watermark, and no explanatory answer key. It must be unambiguous and solvable from the image alone. Do not include the written question in the image. Draw a reference panel containing a small asymmetric arrangement of arrows, dots, triangles, and a crescent. Below draw four candidate panels A-D. Option A must be the exact horizontal mirror of the reference. Other options should rotate one symbol, miss one dot, or mirror only part of the panel.",
+  "response_text": [
+    "**Developing Visual Elements**\n\nMy focus is on creating a clean, printed worksheet aesthetic. I'm ensuring crisp geometric shapes and minimal labeling (A-D), avoiding photorealism and watermarks as per the BabyVision style.\n\n",
+    "**Generating Visual Puzzles**\n\nI am currently refining the visual elements for a reasoning task. My aim is to produce a clean, worksheet-like aesthetic using geometric shapes and concise labeling, strictly adhering to the BabyVision style by avoiding photorealism and extraneous details.\n\n",
+    "**Analyzing Image Elements**\n\nI am examining the generated image against the user's specifications. My current focus is on verifying that the visual elements accurately represent the 'BabyVision' aesthetic, specifically noting the clean layout and crisp shape definition. I'm also confirming the accurate labeling of reference and candidate panels and assessing the geometric transformations applied to each option relative to the reference.\n\n",
+    "**Confirming Aesthetic Fidelity**\n\nI am verifying that the generated image aligns with the 'BabyVision' aesthetic by scrutinizing its clean layout and crisp shapes. I'm also ensuring the accurate labeling of reference and candidate panels, and assessing the geometric transformations applied to each option compared to the reference.\n\n"
+  ]
+}

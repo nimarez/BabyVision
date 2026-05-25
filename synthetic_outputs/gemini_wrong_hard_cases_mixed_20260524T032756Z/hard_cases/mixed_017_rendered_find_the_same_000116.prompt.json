@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-05-24T01:51:21.177693+00:00",
+  "generator": "tools/render_babyvision_weakness_candidates.py",
+  "output_image": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z/images/000116_dense_find_same.png",
+  "prompt": "Rendered dense exact-match icon puzzle with one true match and many near-matches.",
+  "type": "Fine-grained Discrimination",
+  "subtype": "Find the same",
+  "question": "Which grid coordinate contains the icon exactly identical to the reference icon? Use (row,column).",
+  "answer": "(3,6)",
+  "reasoning_trace": "The only icon with the same notch, dot position, and tail direction is at row 3, column 6.",
+  "parameters": {
+    "rows": 7,
+    "cols": 9,
+    "target": "(3,6)",
+    "reference": {
+      "notch": "tr",
+      "dot": "upper_left",
+      "tail": "up_left"
+    }
+  }
+}

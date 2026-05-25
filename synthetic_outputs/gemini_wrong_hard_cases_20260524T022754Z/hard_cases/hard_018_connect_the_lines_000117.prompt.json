@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-05-24T01:51:21.192820+00:00",
+  "generator": "tools/render_babyvision_weakness_candidates.py",
+  "output_image": "synthetic_outputs/rendered_weakness_candidates_20260524T015111Z/images/000117_connect_lines.png",
+  "prompt": "Rendered line-tracking puzzle with six crossing continuous paths.",
+  "type": "Visual Tracking",
+  "subtype": "Connect the lines",
+  "question": "Start at label B and follow its continuous line. Which numbered endpoint does it reach?",
+  "answer": "1",
+  "reasoning_trace": "The generated mapping sends B to endpoint 1.",
+  "parameters": {
+    "mapping": {
+      "A": "4",
+      "B": "1",
+      "C": "2",
+      "D": "5",
+      "E": "3",
+      "F": "6"
+    },
+    "target_start": "B"
+  }
+}
