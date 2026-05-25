@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BabyVision Review</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <header class="brand-row">
+          <div>
+            <h1>BabyVision Review</h1>
+            <p id="datasetSummary">Loading datasets</p>
+          </div>
+        </header>
+
+        <label class="field-label" for="datasetSelect">Dataset</label>
+        <select id="datasetSelect"></select>
+
+        <div class="progress-grid" id="progressGrid">
+          <div><span class="metric" id="metricReviewed">0</span><span>reviewed</span></div>
+          <div><span class="metric" id="metricPromptFail">0</span><span>prompt fail</span></div>
+          <div><span class="metric" id="metricRubricFail">0</span><span>rubric fail</span></div>
+        </div>
+
+        <div class="filters">
+          <label class="field-label" for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="id, type, text">
+
+          <label class="field-label" for="typeFilter">Type</label>
+          <select id="typeFilter">
+            <option value="">All</option>
+          </select>
+
+          <label class="field-label" for="statusFilter">Status</label>
+          <select id="statusFilter">
+            <option value="">All</option>
+            <option value="unreviewed">Unreviewed</option>
+            <option value="prompt_fail">Prompt fail</option>
+            <option value="rubric_fail">Rubric fail</option>
+            <option value="needs_work">Needs work</option>
+            <option value="accepted">Accepted</option>
+          </select>
+        </div>
+
+        <ol class="case-list" id="caseList"></ol>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="caseMeta">No case selected</p>
+            <h2 id="caseTitle">Select a case</h2>
+          </div>
+          <div class="nav-actions">
+            <button id="prevButton" type="button">Prev</button>
+            <button id="nextButton" type="button">Next</button>
+          </div>
+        </header>
+
+        <section class="review-layout">
+          <div class="image-pane">
+            <div class="image-frame">
+              <img id="caseImage" alt="">
+            </div>
+          </div>
+
+          <div class="detail-pane">
+            <section class="section-block">
+              <div class="section-heading">
+                <h3>Prompt Adherence</h3>
+                <div class="segmented" data-field="prompt_adherence">
+                  <button type="button" data-value="pass">Pass</button>
+                  <button type="button" data-value="fail">Fail</button>
+                  <button type="button" data-value="unsure">Unsure</button>
+                </div>
+              </div>
+              <div class="text-columns">
+                <div>
+                  <h4>Generation Prompt</h4>
+                  <pre id="generationPrompt"></pre>
+                </div>
+                <div>
+                  <h4>Generation Trace</h4>
+                  <pre id="generationTrace"></pre>
+                </div>
+              </div>
+              <textarea id="promptNotes" rows="3" placeholder="Prompt adherence notes"></textarea>
+            </section>
+
+            <section class="section-block">
+              <div class="section-heading">
+                <h3>Answer And Rubric</h3>
+                <div class="segmented" data-field="answer_rubric">
+                  <button type="button" data-value="pass">Pass</button>
+                  <button type="button" data-value="fail">Fail</button>
+                  <button type="button" data-value="unsure">Unsure</button>
+                </div>
+              </div>
+
+              <div class="qa-grid">
+                <div>
+                  <h4>Question</h4>
+                  <pre id="questionText"></pre>
+                </div>
+                <div>
+                  <h4>Ground Truth</h4>
+                  <div class="answer-line" id="groundTruth"></div>
+                </div>
+                <div>
+                  <h4>Model Answer</h4>
+                  <div class="answer-line wrong" id="modelAnswer"></div>
+                </div>
+              </div>
+
+              <h4>Model Rationale</h4>
+              <pre id="modelRationale"></pre>
+
+              <div class="correction-grid">
+                <label>
+                  Corrected answer
+                  <input id="correctedAnswer" type="text">
+                </label>
+                <label>
+                  Severity
+                  <select id="severitySelect">
+                    <option value="">None</option>
+                    <option value="minor">Minor</option>
+                    <option value="major">Major</option>
+                    <option value="blocking">Blocking</option>
+                  </select>
+                </label>
+              </div>
+              <label>
+                Corrected question
+                <textarea id="correctedQuestion" rows="2"></textarea>
+              </label>
+              <textarea id="rubricNotes" rows="3" placeholder="Answer or rubric notes"></textarea>
+            </section>
+
+            <footer class="savebar">
+              <input id="reviewerInput" type="text" placeholder="reviewer">
+              <span id="saveState">Not saved</span>
+              <button id="saveButton" type="button">Save Review</button>
+            </footer>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
